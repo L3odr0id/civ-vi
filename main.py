@@ -1,6 +1,9 @@
 import json
 
-INITIAL_RATING = 228
+from games import get_history, Game
+from player import Player
+from players_storage import PlayersStorage
+
 NICKNAMES = [
     'Neodim',
     'George_Best_7',
@@ -17,89 +20,7 @@ NICKNAMES = [
 ]
 
 K = 20
-
-
-class Player:
-    def __init__(self, name: str):
-        self.name = name
-        self.rating = INITIAL_RATING
-
-    def __lt__(self, other):
-        return self.rating > other.rating
-
-    def get_serializable(self):
-        d = dict()
-        d['name'] = self.name
-        d['rating'] = self.rating
-        return d
-
-
-class Team:
-    def __init__(self):
-        self.players = []
-
-    def print(self):
-        print('A team with ' + str(len(self.players)) + ' players:')
-        for i in range(1, len(self.players) + 1):
-            print(str(i) + ' ' + self.players[i - 1].name)
-
-    def get_average_rating(self):
-        sum = 0
-        for player in self.players:
-            sum += player.rating
-        return sum / len(self.players)
-
-    def get_serializable(self):
-        res = []
-        for player in self.players:
-            res.append(player.name)
-        return res
-
-
-class Game:
-    def __init__(self, turns:int, end:str):
-        self.teams = []
-        self.turns = turns
-        self.end = end
-
-    def print(self):
-        print('A game with ' + str(len(self.teams)) + ' teams')
-        for team in self.teams:
-            team.print()
-        print()
-
-    def get_serializable(self):
-        teams = []
-        for team in self.teams:
-            teams.append(team.get_serializable())
-        res = dict()
-        res['teams'] = teams
-        res['turns'] = self.turns
-        res['reason'] = self.end
-        return res
-
-
-class PlayersStorage:
-    def __init__(self):
-        self.players = []
-
-    def player(self, name: str):
-        for player in self.players:
-            if player.name == name:
-                return player
-
-    def sort(self):
-        self.players.sort()
-
-    def print(self):
-        for i in range(len(self.players)):
-            print(str(i + 1) + ' ' + self.players[i].name + ' ' + str(self.players[i].rating))
-
-    def get_serializable(self):
-        res = []
-        for p in self.players:
-            res.append(p.get_serializable())
-        return res
+Guaranteed_score = round(K / 2.5)
 
 
 def get_players():
@@ -107,143 +28,6 @@ def get_players():
     for nick in NICKNAMES:
         res.players.append(Player(nick))
     return res
-
-
-def get_first_game(ps: PlayersStorage):
-    game = Game(turns=144, end='Суп ушёл варить пельмени')
-
-    team1 = Team()
-    team1.players.append(ps.player('George_Best_7'))
-    team1.players.append(ps.player('Leodroid'))
-    team1.players.append(ps.player('Veldy'))
-
-    team2 = Team()
-    team2.players.append(ps.player('Neodim'))
-    team2.players.append(ps.player('SaltySoup'))
-    team2.players.append(ps.player('The_Losst'))
-
-    game.teams.append(team1)
-    game.teams.append(team2)
-
-    return game
-
-
-def get_second_game(ps: PlayersStorage):
-    game = Game(turns=148, end='Культурная')
-    team1 = Team()
-    team1.players.append(ps.player('George_Best_7'))
-    team2 = Team()
-    team2.players.append(ps.player('Neodim'))
-    team3 = Team()
-    team3.players.append(ps.player('Leodroid'))
-    team4 = Team()
-    team4.players.append(ps.player('MaxBelol'))
-
-    game.teams.append(team1)
-    game.teams.append(team2)
-    game.teams.append(team3)
-    game.teams.append(team4)
-
-    return game
-
-
-def get_third_game(ps: PlayersStorage):
-    game = Game(turns=236, end='Дипломатическая')
-    team0 = Team()
-    team0.players.append(ps.player('George_Best_7'))
-    team1 = Team()
-    team1.players.append(ps.player('Leodroid'))
-    team2 = Team()
-    team2.players.append(ps.player('TheDavidGame'))
-    team3 = Team()
-    team3.players.append(ps.player('TinyClayMan'))
-    team4 = Team()
-    team4.players.append(ps.player('Neodim'))
-    team5 = Team()
-    team5.players.append(ps.player('The_Losst'))
-
-    game.teams.append(team0)
-    game.teams.append(team1)
-    game.teams.append(team2)
-    game.teams.append(team3)
-    game.teams.append(team4)
-    game.teams.append(team5)
-
-    return game
-
-
-def get_fourth_game(ps: PlayersStorage):
-    game = Game(turns=215, end='Религиозная')
-    team0 = Team()
-    team0.players.append(ps.player('Ortreke'))
-    team1 = Team()
-    team1.players.append(ps.player('Neodim'))
-    team2 = Team()
-    team2.players.append(ps.player('Leodroid'))
-    team3 = Team()
-    team3.players.append(ps.player('Cvytik'))
-    team4 = Team()
-    team4.players.append(ps.player('TinyClayMan'))
-    team5 = Team()
-    team5.players.append(ps.player('George_Best_7'))
-
-    game.teams.append(team0)
-    game.teams.append(team1)
-    game.teams.append(team2)
-    game.teams.append(team3)
-    game.teams.append(team4)
-    game.teams.append(team5)
-
-    return game
-
-
-def get_fifth_game(ps: PlayersStorage):
-    game = Game(turns=192, end='Религиозная')
-    team0 = Team()
-    team0.players.append(ps.player('George_Best_7'))
-    team0.players.append(ps.player('MaxBelol'))
-    team0.players.append(ps.player('Neodim'))
-    team1 = Team()
-    team1.players.append(ps.player('Leodroid'))
-    team1.players.append(ps.player('TinyClayMan'))
-
-    game.teams.append(team0)
-    game.teams.append(team1)
-
-    return game
-
-
-def get_sixth_game(ps: PlayersStorage):
-    game = Game(turns=182, end='Дипломатическая')
-    team0 = Team()
-    team0.players.append(ps.player('Neodim'))
-    team0.players.append(ps.player('Ortreke'))
-    team0.players.append(ps.player('SaltySoup'))
-    team0.players.append(ps.player('StillWiseOut'))
-    team0.players.append(ps.player('The_Losst'))
-    team1 = Team()
-    team1.players.append(ps.player('Cvytik'))
-    team1.players.append(ps.player('George_Best_7'))
-    team1.players.append(ps.player('Leodroid'))
-    team1.players.append(ps.player('MaxBelol'))
-    team1.players.append(ps.player('TinyClayMan'))
-
-    game.teams.append(team0)
-    game.teams.append(team1)
-
-    return game
-
-
-def get_history(ps: PlayersStorage):
-    games = [
-        get_first_game(ps),
-        get_second_game(ps),
-        get_third_game(ps),
-        get_fourth_game(ps),
-        get_fifth_game(ps),
-        get_sixth_game(ps),
-    ]
-    return games
 
 
 def get_elo_change(rating1: int, rating2: int, win: bool):
@@ -278,13 +62,28 @@ def calc_scores(game: Game):
     # Применим изменения
     for i in range(len(avgs)):
         for player in game.teams[i].players:
-            player.rating += avgs[i]
+            # Подсчёт статистики
+            player.games_count += 1
+            if i == 0:
+                # Выигрыш партии
+                if len(game.teams[0].players) == 1:
+                    player.personal_wins += 1
+                else:
+                    player.team_wins += 1
+            change = round(avgs[i] + Guaranteed_score)  # Изменение рейтинга
+
+            if player.highest_score_take[0] < change:
+                player.highest_score_take = [change, game.index]
+            if player.highest_score_loss[0] > change:
+                player.highest_score_loss = [change, game.index]
+
+            # Изменить рейтинг
+            player.rating += change
             player.rating = round(player.rating)
 
-    # Немного поднять рейтинг всем
-    for i in range(len(avgs)):
-        for player in game.teams[i].players:
-            player.rating += round(K / 2.5)
+            # Статистика пикового значения очков
+            player.peak_score = max(player.rating, player.peak_score)
+            player.changes_history.append([game.index, change])
 
 
 def get_games_serializable(games: list):
@@ -305,12 +104,18 @@ def main():
         calc_scores(games[i])
         print('Результаты партии ' + str(i + 1))
         ps.sort()
+        # Наивысшую/Низшую и изменение позиции
+        for j in range(len(ps.players)):
+            ps.players[j].top_position = min(ps.players[j].top_position, j + 1)
+            ps.players[j].lowest_position = max(ps.players[j].lowest_position, j + 1)
+            ps.players[j].change_position = ps.players[j].previous_position - j - 1
+            ps.players[j].previous_position = j + 1
         ps.print()
         print()
 
     res_json = dict()
     res_json['users'] = ps.get_serializable()
-    res_json['games'] = get_games_serializable(games)
+    # res_json['games'] = get_games_serializable(games)
     # data = json.dumps(res_json) - хуйня
     # print(data)
     with open('data.json', 'w', encoding='utf-8') as f:
