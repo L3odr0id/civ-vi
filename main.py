@@ -17,6 +17,8 @@ NICKNAMES = [
     'Cvytik',
     'Veldy',
     'TheDavidGame',
+    'Kris',
+    'Losyashboi'
 ]
 
 K = 20

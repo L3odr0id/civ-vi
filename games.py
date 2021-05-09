@@ -10,6 +10,7 @@ def get_history(ps: PlayersStorage):
         get_game_4(ps),
         get_game_5(ps),
         get_game_6(ps),
+        get_game_7(ps),
     ]
     return games
 
@@ -166,5 +167,33 @@ def get_game_6(ps: PlayersStorage):
 
     game.teams.append(team0)
     game.teams.append(team1)
+
+    return game
+
+
+def get_game_7(ps: PlayersStorage):
+    game = Game(index=7, turns=241, end='Дипломатическая')
+    team0 = Team()
+    team0.players.append(ps.player('George_Best_7'))
+    team1 = Team()
+    team1.players.append(ps.player('Neodim'))
+    team2 = Team()
+    team2.players.append(ps.player('TinyClayMan'))
+    team3 = Team()
+    team3.players.append(ps.player('MaxBelol'))
+    team4 = Team()
+    team4.players.append(ps.player('Leodroid'))
+    team5 = Team()
+    team5.players.append(ps.player('Kris'))
+    team6 = Team()
+    team6.players.append(ps.player('Losyashboi'))
+
+    game.teams.append(team0)
+    game.teams.append(team1)
+    game.teams.append(team2)
+    game.teams.append(team3)
+    game.teams.append(team4)
+    game.teams.append(team5)
+    game.teams.append(team6)
 
     return game

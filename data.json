@@ -2,11 +2,11 @@
     "users": [
         {
             "name": "George_Best_7",
-            "rating": 287,
-            "count": 6,
-            "personal_wins": 2,
+            "rating": 303,
+            "count": 7,
+            "personal_wins": 3,
             "team_wins": 2,
-            "total_wins": 4,
+            "total_wins": 5,
             "highest_score_take": 16,
             "highest_score_game": 3,
             "lowest_score_take": -1,
@@ -35,18 +35,22 @@
                 [
                     6,
                     3
+                ],
+                [
+                    7,
+                    16
                 ]
             ],
             "top_position": 1,
             "lowest_position": 1,
-            "average": 9.83,
-            "win_rate": 0.67,
+            "average": 10.71,
+            "win_rate": 0.71,
             "change_position": 0
         },
         {
             "name": "Neodim",
-            "rating": 284,
-            "count": 6,
+            "rating": 297,
+            "count": 7,
             "personal_wins": 0,
             "team_wins": 2,
             "total_wins": 2,
@@ -78,18 +82,22 @@
                 [
                     6,
                     13
+                ],
+                [
+                    7,
+                    13
                 ]
             ],
             "top_position": 2,
             "lowest_position": 4,
-            "average": 9.33,
-            "win_rate": 0.33,
-            "change_position": 1
+            "average": 9.86,
+            "win_rate": 0.29,
+            "change_position": 0
         },
         {
             "name": "Leodroid",
-            "rating": 274,
-            "count": 6,
+            "rating": 279,
+            "count": 7,
             "personal_wins": 0,
             "team_wins": 1,
             "total_wins": 1,
@@ -121,13 +129,17 @@
                 [
                     6,
                     3
+                ],
+                [
+                    7,
+                    5
                 ]
             ],
             "top_position": 2,
             "lowest_position": 3,
-            "average": 7.67,
-            "win_rate": 0.17,
-            "change_position": -1
+            "average": 7.29,
+            "win_rate": 0.14,
+            "change_position": 0
         },
         {
             "name": "Ortreke",
@@ -157,9 +169,48 @@
             "change_position": 0
         },
         {
+            "name": "TinyClayMan",
+            "rating": 255,
+            "count": 5,
+            "personal_wins": 0,
+            "team_wins": 0,
+            "total_wins": 0,
+            "highest_score_take": 11,
+            "highest_score_game": 7,
+            "lowest_score_take": 3,
+            "lowest_score_game": 4,
+            "changes": [
+                [
+                    3,
+                    7
+                ],
+                [
+                    4,
+                    3
+                ],
+                [
+                    5,
+                    3
+                ],
+                [
+                    6,
+                    3
+                ],
+                [
+                    7,
+                    11
+                ]
+            ],
+            "top_position": 5,
+            "lowest_position": 9,
+            "average": 5.4,
+            "win_rate": 0.0,
+            "change_position": 1
+        },
+        {
             "name": "MaxBelol",
-            "rating": 245,
-            "count": 3,
+            "rating": 253,
+            "count": 4,
             "personal_wins": 0,
             "team_wins": 1,
             "total_wins": 1,
@@ -179,48 +230,17 @@
                 [
                     6,
                     3
+                ],
+                [
+                    7,
+                    8
                 ]
             ],
             "top_position": 5,
             "lowest_position": 11,
-            "average": 5.67,
-            "win_rate": 0.33,
-            "change_position": 0
-        },
-        {
-            "name": "TinyClayMan",
-            "rating": 244,
-            "count": 4,
-            "personal_wins": 0,
-            "team_wins": 0,
-            "total_wins": 0,
-            "highest_score_take": 7,
-            "highest_score_game": 3,
-            "lowest_score_take": 3,
-            "lowest_score_game": 4,
-            "changes": [
-                [
-                    3,
-                    7
-                ],
-                [
-                    4,
-                    3
-                ],
-                [
-                    5,
-                    3
-                ],
-                [
-                    6,
-                    3
-                ]
-            ],
-            "top_position": 6,
-            "lowest_position": 9,
-            "average": 4.0,
-            "win_rate": 0.0,
-            "change_position": 1
+            "average": 6.25,
+            "win_rate": 0.25,
+            "change_position": -1
         },
         {
             "name": "The_Losst",
@@ -251,7 +271,7 @@
             "lowest_position": 10,
             "average": 5.33,
             "win_rate": 0.33,
-            "change_position": 3
+            "change_position": 0
         },
         {
             "name": "SaltySoup",
@@ -278,7 +298,7 @@
             "lowest_position": 11,
             "average": 8.0,
             "win_rate": 0.5,
-            "change_position": 3
+            "change_position": 0
         },
         {
             "name": "Veldy",
@@ -301,7 +321,7 @@
             "lowest_position": 9,
             "average": 13.0,
             "win_rate": 1.0,
-            "change_position": -3
+            "change_position": 0
         },
         {
             "name": "StillWiseOut",
@@ -324,7 +344,7 @@
             "lowest_position": 12,
             "average": 13.0,
             "win_rate": 1.0,
-            "change_position": 2
+            "change_position": 0
         },
         {
             "name": "TheDavidGame",
@@ -347,7 +367,7 @@
             "lowest_position": 12,
             "average": 10.0,
             "win_rate": 0.0,
-            "change_position": -3
+            "change_position": 0
         },
         {
             "name": "Cvytik",
@@ -374,7 +394,53 @@
             "lowest_position": 12,
             "average": 5.0,
             "win_rate": 0.0,
-            "change_position": -3
+            "change_position": 0
+        },
+        {
+            "name": "Kris",
+            "rating": 231,
+            "count": 1,
+            "personal_wins": 0,
+            "team_wins": 0,
+            "total_wins": 0,
+            "highest_score_take": 3,
+            "highest_score_game": 7,
+            "lowest_score_take": 3,
+            "lowest_score_game": 7,
+            "changes": [
+                [
+                    7,
+                    3
+                ]
+            ],
+            "top_position": 13,
+            "lowest_position": 13,
+            "average": 3.0,
+            "win_rate": 0.0,
+            "change_position": 0
+        },
+        {
+            "name": "Losyashboi",
+            "rating": 228,
+            "count": 1,
+            "personal_wins": 0,
+            "team_wins": 0,
+            "total_wins": 0,
+            "highest_score_take": 0,
+            "highest_score_game": 7,
+            "lowest_score_take": 0,
+            "lowest_score_game": 7,
+            "changes": [
+                [
+                    7,
+                    0
+                ]
+            ],
+            "top_position": 14,
+            "lowest_position": 14,
+            "average": 0.0,
+            "win_rate": 0.0,
+            "change_position": 0
         }
     ]
 }
