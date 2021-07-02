@@ -2,20 +2,21 @@ INITIAL_RATING = 228
 
 
 class Player:
-    def __init__(self, name: str):
-        self.name = name  # Никнейм
+    def __init__(self, index: int, name: str):
+        self.index = index  # ID игрока
+        self.name = name    # Никнейм
         self.rating = INITIAL_RATING  # Рейтинг
-        self.games_count = 0  # Кол-во игр
+        self.games_count = 0    # Кол-во игр
         self.personal_wins = 0  # Личных побед
-        self.team_wins = 0  # Командных побед
+        self.team_wins = 0      # Командных побед
         self.highest_score_take = [-INITIAL_RATING, -1]  # Наибольшее кол-во очков за партию
         self.highest_score_loss = [INITIAL_RATING, -1]  # Наименьшее кол-во очков за игру
         self.peak_score = INITIAL_RATING  # Пиковый рейтинг
-        self.changes_history = []  # История изменения рейтинга [индекс игры, изменение]
-        self.top_position = 228  # Наивысшая позиция
-        self.lowest_position = -1  # Низшая позиция
+        self.changes_history = []   # История изменения рейтинга [индекс игры, изменение]
+        self.top_position = 228     # Наивысшая позиция
+        self.lowest_position = -1   # Низшая позиция
         self.previous_position = 0  # Позиция в результате прошлой партии
-        self.change_position = 0  # Позиция в результате прошлой партии
+        self.change_position = 0    # Позиция в результате прошлой партии
 
     def __lt__(self, other):
         return self.rating > other.rating

@@ -2,34 +2,10 @@ import json
 
 from games import get_history, Game
 from player import Player
-from players_storage import PlayersStorage
-
-NICKNAMES = [
-    'Neodim',
-    'George_Best_7',
-    'Leodroid',
-    'Ortreke',
-    'The_Losst',
-    'TinyClayMan',
-    'SaltySoup',
-    'MaxBelol',
-    'StillWiseOut',
-    'Cvytik',
-    'Veldy',
-    'TheDavidGame',
-    'Kris',
-    'Losyashboi'
-]
+from players_storage import PlayersStorage, playerStorage
 
 K = 20
 Guaranteed_score = round(K / 2.5)
-
-
-def get_players():
-    res = PlayersStorage()
-    for nick in NICKNAMES:
-        res.players.append(Player(nick))
-    return res
 
 
 def get_elo_change(rating1: int, rating2: int, win: bool):
@@ -63,12 +39,13 @@ def calc_scores(game: Game):
 
     # Применим изменения
     for i in range(len(avgs)):
-        for player in game.teams[i].players:
+        for meta in game.teams[i].get_players():
+            player = meta.player
             # Подсчёт статистики
             player.games_count += 1
             if i == 0:
                 # Выигрыш партии
-                if len(game.teams[0].players) == 1:
+                if len(game.teams[0].get_players()) == 1:
                     player.personal_wins += 1
                 else:
                     player.team_wins += 1
@@ -96,30 +73,27 @@ def get_games_serializable(games: list):
 
 
 def main():
-    ps = get_players()
-    games = get_history(ps)
+    games = get_history()
 
-    ps.print()
+    playerStorage.print()
     print()
 
     for i in range(len(games)):
         calc_scores(games[i])
         print('Результаты партии ' + str(i + 1))
-        ps.sort()
+        playerStorage.sort()
         # Наивысшую/Низшую и изменение позиции
-        for j in range(len(ps.players)):
-            ps.players[j].top_position = min(ps.players[j].top_position, j + 1)
-            ps.players[j].lowest_position = max(ps.players[j].lowest_position, j + 1)
-            ps.players[j].change_position = ps.players[j].previous_position - j - 1
-            ps.players[j].previous_position = j + 1
-        ps.print()
+        for j in range(len(playerStorage.players)):
+            playerStorage.players[j].top_position = min(playerStorage.players[j].top_position, j + 1)
+            playerStorage.players[j].lowest_position = max(playerStorage.players[j].lowest_position, j + 1)
+            playerStorage.players[j].change_position = playerStorage.players[j].previous_position - j - 1
+            playerStorage.players[j].previous_position = j + 1
+        playerStorage.print()
         print()
 
     res_json = dict()
-    res_json['users'] = ps.get_serializable()
-    # res_json['games'] = get_games_serializable(games)
-    # data = json.dumps(res_json) - хуйня
-    # print(data)
+    res_json['users'] = playerStorage.get_serializable()
+
     with open('data.json', 'w', encoding='utf-8') as f:
         json.dump(res_json, f, ensure_ascii=False, indent=4)
     # for game in games:
