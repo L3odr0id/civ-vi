@@ -1,8 +1,9 @@
 class Leader:
     def __init__(self, name: str, nation: str, index: int):
         self.name = name
-        self.nation = nation
+        self.nationName = nation
         self.index = index
+        self.nation = Nation(0, '')
 
 
 class LeadersStorage:
@@ -13,6 +14,16 @@ class LeadersStorage:
         for i in self.leaders:
             if i.index == index:
                 return i
+
+
+class Nation:
+    def __init__(self, index: int, name: str):
+        self.index = index
+        self.name = name
+        self.__leaders = []
+
+    def add_leader(self, leader: Leader):
+        self.__leaders.append(leader)
 
 
 Leaders_list = [

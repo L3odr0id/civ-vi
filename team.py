@@ -22,7 +22,7 @@ class Team:
         print('A team with ' + str(len(self.__players)) + ' players:')
         for i in range(len(self.__players)):
             print(str(i + 1) + ' ' + self.__players[i].player.name + ' ' + self.__players[i].leader.name + '(' +
-                  self.__players[i].leader.nation + ')')
+                  self.__players[i].leader.nationName + ')')
 
     def add_player(self, p: Player, n: Leader):
         self.__players.append(_MetaPlayer(p, n))

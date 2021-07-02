@@ -18,9 +18,6 @@ NICKNAMES = [
 ]
 
 
-
-
-
 class PlayersStorage:
     def __init__(self):
         self.players = []

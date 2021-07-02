@@ -47,6 +47,7 @@ class Game:
                     return True
         return False
 
+
 # Игроки
 _George_Best_7 = playerStorage.player('George_Best_7')
 _Leodroid = playerStorage.player('Leodroid')
@@ -67,27 +68,27 @@ _Losyashboi = playerStorage.player('Losyashboi')
 _Friedrich_Barbarossa = leadersStorage.leader(46)
 _Trayan = leadersStorage.leader(42)
 _Peter_the_Great = leadersStorage.leader(28)
-_Mansa_Musa = leadersStorage.leader(23) # Мали
+_Mansa_Musa = leadersStorage.leader(23)  # Мали
 _Hojo_Tokimune = leadersStorage.leader(49)
 _Rusvelt_Progressive = leadersStorage.leader(39)
-_Pedru_II = leadersStorage.leader(31) # Бразилия
-_Chaka = leadersStorage.leader(53) # Зулусы
-_Yadviga = leadersStorage.leader(57) # Польша
+_Pedru_II = leadersStorage.leader(31)  # Бразилия
+_Chaka = leadersStorage.leader(53)  # Зулусы
+_Yadviga = leadersStorage.leader(57)  # Польша
 _Cleopatra = leadersStorage.leader(18)
 _Rusvelt_Vsadnik = leadersStorage.leader(40)
-_Amanitore = leadersStorage.leader(3) # Нубия
+_Amanitore = leadersStorage.leader(3)  # Нубия
 _Alieanora_England = leadersStorage.leader(1)
-_Gilgamesh = leadersStorage.leader(9) # Шумеры
+_Gilgamesh = leadersStorage.leader(9)  # Шумеры
 _Vasilii_II = leadersStorage.leader(5)
-_Chingishan = leadersStorage.leader(55) # Монголия
-_Pochatok = leadersStorage.leader(30) # Инки
-_Perikl = leadersStorage.leader(32) # Греция
-_Saladin = leadersStorage.leader(34) # Аравия
-_Ekatetina_Medichi_Velikolepnaya = leadersStorage.leader(14) # Франция
-_Robert_Brus = leadersStorage.leader(33) # Шотландия
-_Ambiotriks = leadersStorage.leader(4) # Галлия
-_Hubilai_Mongol = leadersStorage.leader(50) # Монголия
-_Vilgelmina = leadersStorage.leader(7) # Нидерланды
+_Chingishan = leadersStorage.leader(55)  # Монголия
+_Pochatok = leadersStorage.leader(30)  # Инки
+_Perikl = leadersStorage.leader(32)  # Греция
+_Saladin = leadersStorage.leader(34)  # Аравия
+_Ekatetina_Medichi_Velikolepnaya = leadersStorage.leader(14)  # Франция
+_Robert_Brus = leadersStorage.leader(33)  # Шотландия
+_Ambiotriks = leadersStorage.leader(4)  # Галлия
+_Hubilai_Mongol = leadersStorage.leader(50)  # Монголия
+_Vilgelmina = leadersStorage.leader(7)  # Нидерланды
 _Wilfried_Lorie = leadersStorage.leader(44)
 _Simon_Bolivar = leadersStorage.leader(35)
 _viktoria = leadersStorage.leader(6)
@@ -158,6 +159,7 @@ def get_game_3():
 
     game.teams = [team0, team1, team2, team3, team4, team5]
     return game
+
 
 def get_game_4():
     game = Game(index=4, turns=215, end='Религиозная')
@@ -249,5 +251,5 @@ def get_game_8():
     team3 = Team()
     team3.add_player(_TinyClayMan, _Juan_III)
 
-    game.teams = [team0, team1, team2, team3,]
+    game.teams = [team0, team1, team2, team3, ]
     return game
