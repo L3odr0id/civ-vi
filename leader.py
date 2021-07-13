@@ -49,6 +49,10 @@ class Nation:
         d = dict()
         d['index'] = self.index
         d['name'] = self.name
+        arr = []
+        for i in self.games_info:
+            arr.append(i.get_serializable())
+        d['games_info'] = arr
         return d
 
 

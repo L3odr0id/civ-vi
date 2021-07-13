@@ -17,6 +17,7 @@ class Player:
         self.lowest_position = -1   # Низшая позиция
         self.previous_position = 0  # Позиция в результате прошлой партии
         self.change_position = 0    # Позиция в результате прошлой партии
+        self.games_info = []
 
     def __lt__(self, other):
         return self.rating > other.rating
@@ -33,13 +34,17 @@ class Player:
         d['highest_score_game'] = self.highest_score_take[1]
         d['lowest_score_take'] = self.highest_score_loss[0]
         d['lowest_score_game'] = self.highest_score_loss[1]
-        # d['peak_score'] = self.peak_score
+        d['peak_score'] = self.peak_score
         d['changes'] = self.changes_history
         d['top_position'] = self.top_position
         d['lowest_position'] = self.lowest_position
         d['average'] = self.get_average()
         d['win_rate'] = self.get_win_rate()
         d['change_position'] = self.change_position
+        arr = []
+        for i in self.games_info:
+            arr.append(i.get_serializable())
+        d['games_info'] = arr
         return d
 
     def get_wins_count(self):

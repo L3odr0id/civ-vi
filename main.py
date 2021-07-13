@@ -1,5 +1,6 @@
 import json
 from calc_scores import calc_scores
+from firebase import pushToFirebase
 from games import get_history, get_games_serializable
 from leader import leadersStorage
 from nations import nations_storage
@@ -23,12 +24,12 @@ def main():
         # print()
 
     res_json = dict()
-    res_json['users'] = playerStorage.get_serializable()
+    res_json['players'] = playerStorage.get_serializable()
     res_json['games'] = get_games_serializable(games)
     res_json['leaders'] = leadersStorage.get_serializable()
     res_json['nations'] = nations_storage.get_serializable()
 
-    # pushToFirebase(res_json)
+    pushToFirebase(res_json)
 
     with open('data.json', 'w', encoding='utf-8') as f:
         json.dump(res_json, f, ensure_ascii=False, indent=4)

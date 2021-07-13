@@ -67,6 +67,7 @@ def calc_scores(game: Game):
                                            'rating_change': change})
 
             # для лидера и нации добавляем запись об игре
-            game_info = GameInfo(game.index, player.index, i == 0, change, i + 1)
+            game_info = GameInfo(game.index, player.index, leader.index, leader.nation.index, i == 0, change, i + 1)
+            player.games_info.append(game_info)
             leader.games_info.append(game_info)
             leader.nation.games_info.append(game_info)
