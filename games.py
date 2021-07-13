@@ -17,6 +17,13 @@ def get_history():
     return games
 
 
+def get_games_serializable(games: list):
+    d = dict()
+    for game in games:
+        d[game.index] = game.get_serializable()
+    return d
+
+
 class Game:
     def __init__(self, index: int, turns: int, end: str):
         self.teams = []  # Команды

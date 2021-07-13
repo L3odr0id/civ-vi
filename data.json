@@ -12,38 +12,38 @@
             "lowest_score_take": -1,
             "lowest_score_game": 4,
             "changes": [
-                [
-                    1,
-                    13
-                ],
-                [
-                    2,
-                    15
-                ],
-                [
-                    3,
-                    16
-                ],
-                [
-                    4,
-                    -1
-                ],
-                [
-                    5,
-                    13
-                ],
-                [
-                    6,
-                    3
-                ],
-                [
-                    7,
-                    16
-                ],
-                [
-                    8,
-                    14
-                ]
+                {
+                    "game_index": 1,
+                    "rating_change": 13
+                },
+                {
+                    "game_index": 2,
+                    "rating_change": 15
+                },
+                {
+                    "game_index": 3,
+                    "rating_change": 16
+                },
+                {
+                    "game_index": 4,
+                    "rating_change": -1
+                },
+                {
+                    "game_index": 5,
+                    "rating_change": 13
+                },
+                {
+                    "game_index": 6,
+                    "rating_change": 3
+                },
+                {
+                    "game_index": 7,
+                    "rating_change": 16
+                },
+                {
+                    "game_index": 8,
+                    "rating_change": 14
+                }
             ],
             "top_position": 1,
             "lowest_position": 1,
@@ -63,34 +63,34 @@
             "lowest_score_take": 3,
             "lowest_score_game": 1,
             "changes": [
-                [
-                    1,
-                    3
-                ],
-                [
-                    2,
-                    11
-                ],
-                [
-                    3,
-                    3
-                ],
-                [
-                    4,
-                    13
-                ],
-                [
-                    5,
-                    13
-                ],
-                [
-                    6,
-                    13
-                ],
-                [
-                    7,
-                    13
-                ]
+                {
+                    "game_index": 1,
+                    "rating_change": 3
+                },
+                {
+                    "game_index": 2,
+                    "rating_change": 11
+                },
+                {
+                    "game_index": 3,
+                    "rating_change": 3
+                },
+                {
+                    "game_index": 4,
+                    "rating_change": 13
+                },
+                {
+                    "game_index": 5,
+                    "rating_change": 13
+                },
+                {
+                    "game_index": 6,
+                    "rating_change": 13
+                },
+                {
+                    "game_index": 7,
+                    "rating_change": 13
+                }
             ],
             "top_position": 2,
             "lowest_position": 4,
@@ -110,38 +110,38 @@
             "lowest_score_take": 3,
             "lowest_score_game": 5,
             "changes": [
-                [
-                    1,
-                    13
-                ],
-                [
-                    2,
-                    5
-                ],
-                [
-                    3,
-                    13
-                ],
-                [
-                    4,
-                    9
-                ],
-                [
-                    5,
-                    3
-                ],
-                [
-                    6,
-                    3
-                ],
-                [
-                    7,
-                    5
-                ],
-                [
-                    8,
-                    10
-                ]
+                {
+                    "game_index": 1,
+                    "rating_change": 13
+                },
+                {
+                    "game_index": 2,
+                    "rating_change": 5
+                },
+                {
+                    "game_index": 3,
+                    "rating_change": 13
+                },
+                {
+                    "game_index": 4,
+                    "rating_change": 9
+                },
+                {
+                    "game_index": 5,
+                    "rating_change": 3
+                },
+                {
+                    "game_index": 6,
+                    "rating_change": 3
+                },
+                {
+                    "game_index": 7,
+                    "rating_change": 5
+                },
+                {
+                    "game_index": 8,
+                    "rating_change": 10
+                }
             ],
             "top_position": 2,
             "lowest_position": 3,
@@ -161,14 +161,14 @@
             "lowest_score_take": 13,
             "lowest_score_game": 6,
             "changes": [
-                [
-                    4,
-                    17
-                ],
-                [
-                    6,
-                    13
-                ]
+                {
+                    "game_index": 4,
+                    "rating_change": 17
+                },
+                {
+                    "game_index": 6,
+                    "rating_change": 13
+                }
             ],
             "top_position": 4,
             "lowest_position": 10,
@@ -188,30 +188,30 @@
             "lowest_score_take": 1,
             "lowest_score_game": 8,
             "changes": [
-                [
-                    3,
-                    7
-                ],
-                [
-                    4,
-                    3
-                ],
-                [
-                    5,
-                    3
-                ],
-                [
-                    6,
-                    3
-                ],
-                [
-                    7,
-                    11
-                ],
-                [
-                    8,
-                    1
-                ]
+                {
+                    "game_index": 3,
+                    "rating_change": 7
+                },
+                {
+                    "game_index": 4,
+                    "rating_change": 3
+                },
+                {
+                    "game_index": 5,
+                    "rating_change": 3
+                },
+                {
+                    "game_index": 6,
+                    "rating_change": 3
+                },
+                {
+                    "game_index": 7,
+                    "rating_change": 11
+                },
+                {
+                    "game_index": 8,
+                    "rating_change": 1
+                }
             ],
             "top_position": 5,
             "lowest_position": 9,
@@ -231,22 +231,22 @@
             "lowest_score_take": 1,
             "lowest_score_game": 2,
             "changes": [
-                [
-                    2,
-                    1
-                ],
-                [
-                    5,
-                    13
-                ],
-                [
-                    6,
-                    3
-                ],
-                [
-                    7,
-                    8
-                ]
+                {
+                    "game_index": 2,
+                    "rating_change": 1
+                },
+                {
+                    "game_index": 5,
+                    "rating_change": 13
+                },
+                {
+                    "game_index": 6,
+                    "rating_change": 3
+                },
+                {
+                    "game_index": 7,
+                    "rating_change": 8
+                }
             ],
             "top_position": 5,
             "lowest_position": 11,
@@ -266,18 +266,18 @@
             "lowest_score_take": 0,
             "lowest_score_game": 3,
             "changes": [
-                [
-                    1,
-                    3
-                ],
-                [
-                    3,
-                    0
-                ],
-                [
-                    6,
-                    13
-                ]
+                {
+                    "game_index": 1,
+                    "rating_change": 3
+                },
+                {
+                    "game_index": 3,
+                    "rating_change": 0
+                },
+                {
+                    "game_index": 6,
+                    "rating_change": 13
+                }
             ],
             "top_position": 5,
             "lowest_position": 10,
@@ -297,14 +297,14 @@
             "lowest_score_take": 3,
             "lowest_score_game": 1,
             "changes": [
-                [
-                    1,
-                    3
-                ],
-                [
-                    6,
-                    13
-                ]
+                {
+                    "game_index": 1,
+                    "rating_change": 3
+                },
+                {
+                    "game_index": 6,
+                    "rating_change": 13
+                }
             ],
             "top_position": 6,
             "lowest_position": 11,
@@ -324,10 +324,10 @@
             "lowest_score_take": 13,
             "lowest_score_game": 1,
             "changes": [
-                [
-                    1,
-                    13
-                ]
+                {
+                    "game_index": 1,
+                    "rating_change": 13
+                }
             ],
             "top_position": 3,
             "lowest_position": 9,
@@ -347,10 +347,10 @@
             "lowest_score_take": 13,
             "lowest_score_game": 6,
             "changes": [
-                [
-                    6,
-                    13
-                ]
+                {
+                    "game_index": 6,
+                    "rating_change": 13
+                }
             ],
             "top_position": 10,
             "lowest_position": 12,
@@ -370,10 +370,10 @@
             "lowest_score_take": 10,
             "lowest_score_game": 3,
             "changes": [
-                [
-                    3,
-                    10
-                ]
+                {
+                    "game_index": 3,
+                    "rating_change": 10
+                }
             ],
             "top_position": 5,
             "lowest_position": 12,
@@ -393,14 +393,14 @@
             "lowest_score_take": 3,
             "lowest_score_game": 6,
             "changes": [
-                [
-                    4,
-                    7
-                ],
-                [
-                    6,
-                    3
-                ]
+                {
+                    "game_index": 4,
+                    "rating_change": 7
+                },
+                {
+                    "game_index": 6,
+                    "rating_change": 3
+                }
             ],
             "top_position": 8,
             "lowest_position": 12,
@@ -420,14 +420,14 @@
             "lowest_score_take": 0,
             "lowest_score_game": 7,
             "changes": [
-                [
-                    7,
-                    0
-                ],
-                [
-                    8,
-                    7
-                ]
+                {
+                    "game_index": 7,
+                    "rating_change": 0
+                },
+                {
+                    "game_index": 8,
+                    "rating_change": 7
+                }
             ],
             "top_position": 13,
             "lowest_position": 14,
@@ -447,16 +447,1318 @@
             "lowest_score_take": 3,
             "lowest_score_game": 7,
             "changes": [
-                [
-                    7,
-                    3
-                ]
+                {
+                    "game_index": 7,
+                    "rating_change": 3
+                }
             ],
             "top_position": 13,
             "lowest_position": 14,
             "average": 3.0,
             "win_rate": 0.0,
             "change_position": -1
+        }
+    },
+    "games": {
+        "1": {
+            "teams": [
+                [
+                    {
+                        "player_id": 1,
+                        "leader_id": 46
+                    },
+                    {
+                        "player_id": 2,
+                        "leader_id": 42
+                    },
+                    {
+                        "player_id": 10,
+                        "leader_id": 28
+                    }
+                ],
+                [
+                    {
+                        "player_id": 0,
+                        "leader_id": 23
+                    },
+                    {
+                        "player_id": 6,
+                        "leader_id": 49
+                    },
+                    {
+                        "player_id": 4,
+                        "leader_id": 39
+                    }
+                ]
+            ],
+            "turns": 144,
+            "reason": "Суп ушёл варить пельмени"
+        },
+        "2": {
+            "teams": [
+                [
+                    {
+                        "player_id": 1,
+                        "leader_id": 31
+                    }
+                ],
+                [
+                    {
+                        "player_id": 0,
+                        "leader_id": 28
+                    }
+                ],
+                [
+                    {
+                        "player_id": 2,
+                        "leader_id": 53
+                    }
+                ],
+                [
+                    {
+                        "player_id": 7,
+                        "leader_id": 57
+                    }
+                ]
+            ],
+            "turns": 148,
+            "reason": "Культурная"
+        },
+        "3": {
+            "teams": [
+                [
+                    {
+                        "player_id": 1,
+                        "leader_id": 40
+                    }
+                ],
+                [
+                    {
+                        "player_id": 2,
+                        "leader_id": 18
+                    }
+                ],
+                [
+                    {
+                        "player_id": 11,
+                        "leader_id": 3
+                    }
+                ],
+                [
+                    {
+                        "player_id": 5,
+                        "leader_id": 1
+                    }
+                ],
+                [
+                    {
+                        "player_id": 0,
+                        "leader_id": 28
+                    }
+                ],
+                [
+                    {
+                        "player_id": 4,
+                        "leader_id": 9
+                    }
+                ]
+            ],
+            "turns": 236,
+            "reason": "Дипломатическая"
+        },
+        "4": {
+            "teams": [
+                [
+                    {
+                        "player_id": 3,
+                        "leader_id": 30
+                    }
+                ],
+                [
+                    {
+                        "player_id": 0,
+                        "leader_id": 5
+                    }
+                ],
+                [
+                    {
+                        "player_id": 2,
+                        "leader_id": 55
+                    }
+                ],
+                [
+                    {
+                        "player_id": 9,
+                        "leader_id": 32
+                    }
+                ],
+                [
+                    {
+                        "player_id": 5,
+                        "leader_id": 34
+                    }
+                ],
+                [
+                    {
+                        "player_id": 1,
+                        "leader_id": 14
+                    }
+                ]
+            ],
+            "turns": 215,
+            "reason": "Религиозная"
+        },
+        "5": {
+            "teams": [
+                [
+                    {
+                        "player_id": 1,
+                        "leader_id": 57
+                    },
+                    {
+                        "player_id": 7,
+                        "leader_id": 33
+                    },
+                    {
+                        "player_id": 0,
+                        "leader_id": 28
+                    }
+                ],
+                [
+                    {
+                        "player_id": 2,
+                        "leader_id": 4
+                    },
+                    {
+                        "player_id": 5,
+                        "leader_id": 50
+                    }
+                ]
+            ],
+            "turns": 192,
+            "reason": "Религиозная"
+        },
+        "6": {
+            "teams": [
+                [
+                    {
+                        "player_id": 0,
+                        "leader_id": 28
+                    },
+                    {
+                        "player_id": 3,
+                        "leader_id": 27
+                    },
+                    {
+                        "player_id": 6,
+                        "leader_id": 46
+                    },
+                    {
+                        "player_id": 8,
+                        "leader_id": 13
+                    },
+                    {
+                        "player_id": 4,
+                        "leader_id": 16
+                    }
+                ],
+                [
+                    {
+                        "player_id": 9,
+                        "leader_id": 7
+                    },
+                    {
+                        "player_id": 1,
+                        "leader_id": 44
+                    },
+                    {
+                        "player_id": 2,
+                        "leader_id": 49
+                    },
+                    {
+                        "player_id": 7,
+                        "leader_id": 35
+                    },
+                    {
+                        "player_id": 5,
+                        "leader_id": 6
+                    }
+                ]
+            ],
+            "turns": 182,
+            "reason": "Дипломатическая"
+        },
+        "7": {
+            "teams": [
+                [
+                    {
+                        "player_id": 1,
+                        "leader_id": 47
+                    }
+                ],
+                [
+                    {
+                        "player_id": 0,
+                        "leader_id": 28
+                    }
+                ],
+                [
+                    {
+                        "player_id": 5,
+                        "leader_id": 24
+                    }
+                ],
+                [
+                    {
+                        "player_id": 7,
+                        "leader_id": 20
+                    }
+                ],
+                [
+                    {
+                        "player_id": 2,
+                        "leader_id": 38
+                    }
+                ],
+                [
+                    {
+                        "player_id": 12,
+                        "leader_id": 46
+                    }
+                ],
+                [
+                    {
+                        "player_id": 13,
+                        "leader_id": 16
+                    }
+                ]
+            ],
+            "turns": 241,
+            "reason": "Дипломатическая"
+        },
+        "8": {
+            "teams": [
+                [
+                    {
+                        "player_id": 1,
+                        "leader_id": 52
+                    }
+                ],
+                [
+                    {
+                        "player_id": 2,
+                        "leader_id": 56
+                    }
+                ],
+                [
+                    {
+                        "player_id": 13,
+                        "leader_id": 49
+                    }
+                ],
+                [
+                    {
+                        "player_id": 5,
+                        "leader_id": 15
+                    }
+                ]
+            ],
+            "turns": 220,
+            "reason": "Дипломатическая"
+        }
+    },
+    "leaders": {
+        "0": {
+            "index": 0,
+            "name": "Александр",
+            "nation_name": "Македония",
+            "nation_id": 0,
+            "games_info": []
+        },
+        "1": {
+            "index": 1,
+            "name": "Алиенора Аквитанская (Англия)",
+            "nation_name": "Англия",
+            "nation_id": 1,
+            "games_info": [
+                {
+                    "game_index": 3,
+                    "player_index": 5,
+                    "is_win": false,
+                    "score_change": 7,
+                    "place": 4
+                }
+            ]
+        },
+        "2": {
+            "index": 2,
+            "name": "Алиенора Аквитанская (Франция)",
+            "nation_name": "Франция",
+            "nation_id": 2,
+            "games_info": []
+        },
+        "3": {
+            "index": 3,
+            "name": "Аманиторе",
+            "nation_name": "Нубия",
+            "nation_id": 3,
+            "games_info": [
+                {
+                    "game_index": 3,
+                    "player_index": 11,
+                    "is_win": false,
+                    "score_change": 10,
+                    "place": 3
+                }
+            ]
+        },
+        "4": {
+            "index": 4,
+            "name": "Амбиорикс",
+            "nation_name": "Галлия",
+            "nation_id": 4,
+            "games_info": [
+                {
+                    "game_index": 5,
+                    "player_index": 2,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2
+                }
+            ]
+        },
+        "5": {
+            "index": 5,
+            "name": "Василий II",
+            "nation_name": "Византия (Россия 2)",
+            "nation_id": 5,
+            "games_info": [
+                {
+                    "game_index": 4,
+                    "player_index": 0,
+                    "is_win": false,
+                    "score_change": 13,
+                    "place": 2
+                }
+            ]
+        },
+        "6": {
+            "index": 6,
+            "name": "Виктория",
+            "nation_name": "Англия",
+            "nation_id": 1,
+            "games_info": [
+                {
+                    "game_index": 6,
+                    "player_index": 5,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2
+                }
+            ]
+        },
+        "7": {
+            "index": 7,
+            "name": "Вильгельмина",
+            "nation_name": "Нидерланды",
+            "nation_id": 6,
+            "games_info": [
+                {
+                    "game_index": 6,
+                    "player_index": 9,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2
+                }
+            ]
+        },
+        "8": {
+            "index": 8,
+            "name": "Ганди",
+            "nation_name": "Индия",
+            "nation_id": 7,
+            "games_info": []
+        },
+        "9": {
+            "index": 9,
+            "name": "Гильгамеш",
+            "nation_name": "Шумер",
+            "nation_id": 8,
+            "games_info": [
+                {
+                    "game_index": 3,
+                    "player_index": 4,
+                    "is_win": false,
+                    "score_change": 0,
+                    "place": 6
+                }
+            ]
+        },
+        "10": {
+            "index": 10,
+            "name": "Горго",
+            "nation_name": "Греция",
+            "nation_id": 9,
+            "games_info": []
+        },
+        "11": {
+            "index": 11,
+            "name": "Джайаварман VII",
+            "nation_name": "Кхмеры",
+            "nation_id": 10,
+            "games_info": []
+        },
+        "12": {
+            "index": 12,
+            "name": "Джон Кэртин",
+            "nation_name": "Австралия",
+            "nation_id": 11,
+            "games_info": []
+        },
+        "13": {
+            "index": 13,
+            "name": "Дидона",
+            "nation_name": "Финикия",
+            "nation_id": 12,
+            "games_info": [
+                {
+                    "game_index": 6,
+                    "player_index": 8,
+                    "is_win": true,
+                    "score_change": 13,
+                    "place": 1
+                }
+            ]
+        },
+        "14": {
+            "index": 14,
+            "name": "Екатерина Медичи (Великолепная)",
+            "nation_name": "Франция",
+            "nation_id": 2,
+            "games_info": [
+                {
+                    "game_index": 4,
+                    "player_index": 1,
+                    "is_win": false,
+                    "score_change": -1,
+                    "place": 6
+                }
+            ]
+        },
+        "15": {
+            "index": 15,
+            "name": "Жуан III",
+            "nation_name": "Португалия",
+            "nation_id": 13,
+            "games_info": [
+                {
+                    "game_index": 8,
+                    "player_index": 5,
+                    "is_win": false,
+                    "score_change": 1,
+                    "place": 4
+                }
+            ]
+        },
+        "16": {
+            "index": 16,
+            "name": "Иш-Вак-Чан-Ахав",
+            "nation_name": "Майя",
+            "nation_id": 14,
+            "games_info": [
+                {
+                    "game_index": 6,
+                    "player_index": 4,
+                    "is_win": true,
+                    "score_change": 13,
+                    "place": 1
+                },
+                {
+                    "game_index": 7,
+                    "player_index": 13,
+                    "is_win": false,
+                    "score_change": 0,
+                    "place": 7
+                }
+            ]
+        },
+        "17": {
+            "index": 17,
+            "name": "Кир II",
+            "nation_name": "Персия",
+            "nation_id": 15,
+            "games_info": []
+        },
+        "18": {
+            "index": 18,
+            "name": "Клеопатра",
+            "nation_name": "Египет",
+            "nation_id": 16,
+            "games_info": [
+                {
+                    "game_index": 3,
+                    "player_index": 2,
+                    "is_win": false,
+                    "score_change": 13,
+                    "place": 2
+                }
+            ]
+        },
+        "19": {
+            "index": 19,
+            "name": "Константин Острожский",
+            "nation_name": "Волынь",
+            "nation_id": 17,
+            "games_info": []
+        },
+        "20": {
+            "index": 20,
+            "name": "Кристина",
+            "nation_name": "Швеция",
+            "nation_id": 18,
+            "games_info": [
+                {
+                    "game_index": 7,
+                    "player_index": 7,
+                    "is_win": false,
+                    "score_change": 8,
+                    "place": 4
+                }
+            ]
+        },
+        "21": {
+            "index": 21,
+            "name": "Купе",
+            "nation_name": "Маори",
+            "nation_id": 19,
+            "games_info": []
+        },
+        "22": {
+            "index": 22,
+            "name": "Лаутаро",
+            "nation_name": "Мапуче",
+            "nation_id": 20,
+            "games_info": []
+        },
+        "23": {
+            "index": 23,
+            "name": "Манса Муса",
+            "nation_name": "Мали",
+            "nation_id": 21,
+            "games_info": [
+                {
+                    "game_index": 1,
+                    "player_index": 0,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2
+                }
+            ]
+        },
+        "24": {
+            "index": 24,
+            "name": "Матьяш I",
+            "nation_name": "Венгрия",
+            "nation_id": 22,
+            "games_info": [
+                {
+                    "game_index": 7,
+                    "player_index": 5,
+                    "is_win": false,
+                    "score_change": 11,
+                    "place": 3
+                }
+            ]
+        },
+        "25": {
+            "index": 25,
+            "name": "Мвемба а Нзинга",
+            "nation_name": "Конго",
+            "nation_id": 23,
+            "games_info": []
+        },
+        "26": {
+            "index": 26,
+            "name": "Менелик II",
+            "nation_name": "Эфиопия",
+            "nation_id": 24,
+            "games_info": []
+        },
+        "27": {
+            "index": 27,
+            "name": "Монтесума",
+            "nation_name": "Ацтеки",
+            "nation_id": 25,
+            "games_info": [
+                {
+                    "game_index": 6,
+                    "player_index": 3,
+                    "is_win": true,
+                    "score_change": 13,
+                    "place": 1
+                }
+            ]
+        },
+        "28": {
+            "index": 28,
+            "name": "Пётр Великий",
+            "nation_name": "Россия",
+            "nation_id": 26,
+            "games_info": [
+                {
+                    "game_index": 1,
+                    "player_index": 10,
+                    "is_win": true,
+                    "score_change": 13,
+                    "place": 1
+                },
+                {
+                    "game_index": 2,
+                    "player_index": 0,
+                    "is_win": false,
+                    "score_change": 11,
+                    "place": 2
+                },
+                {
+                    "game_index": 3,
+                    "player_index": 0,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 5
+                },
+                {
+                    "game_index": 5,
+                    "player_index": 0,
+                    "is_win": true,
+                    "score_change": 13,
+                    "place": 1
+                },
+                {
+                    "game_index": 6,
+                    "player_index": 0,
+                    "is_win": true,
+                    "score_change": 13,
+                    "place": 1
+                },
+                {
+                    "game_index": 7,
+                    "player_index": 0,
+                    "is_win": false,
+                    "score_change": 13,
+                    "place": 2
+                }
+            ]
+        },
+        "29": {
+            "index": 29,
+            "name": "Паундмейкер",
+            "nation_name": "Кри",
+            "nation_id": 27,
+            "games_info": []
+        },
+        "30": {
+            "index": 30,
+            "name": "Пачакутек",
+            "nation_name": "Инки",
+            "nation_id": 28,
+            "games_info": [
+                {
+                    "game_index": 4,
+                    "player_index": 3,
+                    "is_win": true,
+                    "score_change": 17,
+                    "place": 1
+                }
+            ]
+        },
+        "31": {
+            "index": 31,
+            "name": "Педру II",
+            "nation_name": "Бразилия",
+            "nation_id": 29,
+            "games_info": [
+                {
+                    "game_index": 2,
+                    "player_index": 1,
+                    "is_win": true,
+                    "score_change": 15,
+                    "place": 1
+                }
+            ]
+        },
+        "32": {
+            "index": 32,
+            "name": "Перикл",
+            "nation_name": "Греция",
+            "nation_id": 9,
+            "games_info": [
+                {
+                    "game_index": 4,
+                    "player_index": 9,
+                    "is_win": false,
+                    "score_change": 7,
+                    "place": 4
+                }
+            ]
+        },
+        "33": {
+            "index": 33,
+            "name": "Роберт Брюс",
+            "nation_name": "Шотландия",
+            "nation_id": 30,
+            "games_info": [
+                {
+                    "game_index": 5,
+                    "player_index": 7,
+                    "is_win": true,
+                    "score_change": 13,
+                    "place": 1
+                }
+            ]
+        },
+        "34": {
+            "index": 34,
+            "name": "Саладин",
+            "nation_name": "Аравия",
+            "nation_id": 31,
+            "games_info": [
+                {
+                    "game_index": 4,
+                    "player_index": 5,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 5
+                }
+            ]
+        },
+        "35": {
+            "index": 35,
+            "name": "Симон Боливар",
+            "nation_name": "Колумбия",
+            "nation_id": 32,
+            "games_info": [
+                {
+                    "game_index": 6,
+                    "player_index": 7,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2
+                }
+            ]
+        },
+        "36": {
+            "index": 36,
+            "name": "Сондок",
+            "nation_name": "Корея",
+            "nation_id": 33,
+            "games_info": []
+        },
+        "37": {
+            "index": 37,
+            "name": "Сулейман",
+            "nation_name": "Османы",
+            "nation_id": 34,
+            "games_info": []
+        },
+        "38": {
+            "index": 38,
+            "name": "Тамара",
+            "nation_name": "Грузия",
+            "nation_id": 35,
+            "games_info": [
+                {
+                    "game_index": 7,
+                    "player_index": 2,
+                    "is_win": false,
+                    "score_change": 5,
+                    "place": 5
+                }
+            ]
+        },
+        "39": {
+            "index": 39,
+            "name": "Теодор Рузвельт (Прогрессивист)",
+            "nation_name": "США",
+            "nation_id": 36,
+            "games_info": [
+                {
+                    "game_index": 1,
+                    "player_index": 4,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2
+                }
+            ]
+        },
+        "40": {
+            "index": 40,
+            "name": "Теодор Рузвельт (Мужественный всадник)",
+            "nation_name": "США",
+            "nation_id": 36,
+            "games_info": [
+                {
+                    "game_index": 3,
+                    "player_index": 1,
+                    "is_win": true,
+                    "score_change": 16,
+                    "place": 1
+                }
+            ]
+        },
+        "41": {
+            "index": 41,
+            "name": "Томирис",
+            "nation_name": "Скифия",
+            "nation_id": 37,
+            "games_info": []
+        },
+        "42": {
+            "index": 42,
+            "name": "Траян",
+            "nation_name": "Рим",
+            "nation_id": 38,
+            "games_info": [
+                {
+                    "game_index": 1,
+                    "player_index": 2,
+                    "is_win": true,
+                    "score_change": 13,
+                    "place": 1
+                }
+            ]
+        },
+        "43": {
+            "index": 43,
+            "name": "Трибхувана",
+            "nation_name": "Индонезия",
+            "nation_id": 39,
+            "games_info": []
+        },
+        "44": {
+            "index": 44,
+            "name": "Уилфрид Лорье",
+            "nation_name": "Канада",
+            "nation_id": 40,
+            "games_info": [
+                {
+                    "game_index": 6,
+                    "player_index": 1,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2
+                }
+            ]
+        },
+        "45": {
+            "index": 45,
+            "name": "Филипп II",
+            "nation_name": "Испания",
+            "nation_id": 41,
+            "games_info": []
+        },
+        "46": {
+            "index": 46,
+            "name": "Фридрих Барбаросса",
+            "nation_name": "Германия",
+            "nation_id": 42,
+            "games_info": [
+                {
+                    "game_index": 1,
+                    "player_index": 1,
+                    "is_win": true,
+                    "score_change": 13,
+                    "place": 1
+                },
+                {
+                    "game_index": 6,
+                    "player_index": 6,
+                    "is_win": true,
+                    "score_change": 13,
+                    "place": 1
+                },
+                {
+                    "game_index": 7,
+                    "player_index": 12,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 6
+                }
+            ]
+        },
+        "47": {
+            "index": 47,
+            "name": "Хаммурапи",
+            "nation_name": "Вавилон",
+            "nation_id": 43,
+            "games_info": [
+                {
+                    "game_index": 7,
+                    "player_index": 1,
+                    "is_win": true,
+                    "score_change": 16,
+                    "place": 1
+                }
+            ]
+        },
+        "48": {
+            "index": 48,
+            "name": "Харальд Суровый",
+            "nation_name": "Норвегия",
+            "nation_id": 44,
+            "games_info": []
+        },
+        "49": {
+            "index": 49,
+            "name": "Ходзё Токимунэ",
+            "nation_name": "Япония",
+            "nation_id": 45,
+            "games_info": [
+                {
+                    "game_index": 1,
+                    "player_index": 6,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2
+                },
+                {
+                    "game_index": 6,
+                    "player_index": 2,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2
+                },
+                {
+                    "game_index": 8,
+                    "player_index": 13,
+                    "is_win": false,
+                    "score_change": 7,
+                    "place": 3
+                }
+            ]
+        },
+        "50": {
+            "index": 50,
+            "name": "Хубилай (Монголия)",
+            "nation_name": "Монголия",
+            "nation_id": 46,
+            "games_info": [
+                {
+                    "game_index": 5,
+                    "player_index": 5,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2
+                }
+            ]
+        },
+        "51": {
+            "index": 51,
+            "name": "Хубилай (Китай)",
+            "nation_name": "Китай",
+            "nation_id": 47,
+            "games_info": []
+        },
+        "52": {
+            "index": 52,
+            "name": "Цинь Шихуанди",
+            "nation_name": "Китай",
+            "nation_id": 47,
+            "games_info": [
+                {
+                    "game_index": 8,
+                    "player_index": 1,
+                    "is_win": true,
+                    "score_change": 14,
+                    "place": 1
+                }
+            ]
+        },
+        "53": {
+            "index": 53,
+            "name": "Чака",
+            "nation_name": "Зулусы",
+            "nation_id": 48,
+            "games_info": [
+                {
+                    "game_index": 2,
+                    "player_index": 2,
+                    "is_win": false,
+                    "score_change": 5,
+                    "place": 3
+                }
+            ]
+        },
+        "54": {
+            "index": 54,
+            "name": "Чандрагупта",
+            "nation_name": "Индия",
+            "nation_id": 7,
+            "games_info": []
+        },
+        "55": {
+            "index": 55,
+            "name": "Чингисхан",
+            "nation_name": "Монголия",
+            "nation_id": 46,
+            "games_info": [
+                {
+                    "game_index": 4,
+                    "player_index": 2,
+                    "is_win": false,
+                    "score_change": 9,
+                    "place": 3
+                }
+            ]
+        },
+        "56": {
+            "index": 56,
+            "name": "Чьеу Тхи Чинь",
+            "nation_name": "Вьетнам",
+            "nation_id": 49,
+            "games_info": [
+                {
+                    "game_index": 8,
+                    "player_index": 2,
+                    "is_win": false,
+                    "score_change": 10,
+                    "place": 2
+                }
+            ]
+        },
+        "57": {
+            "index": 57,
+            "name": "Ядвига",
+            "nation_name": "Польша",
+            "nation_id": 50,
+            "games_info": [
+                {
+                    "game_index": 2,
+                    "player_index": 7,
+                    "is_win": false,
+                    "score_change": 1,
+                    "place": 4
+                },
+                {
+                    "game_index": 5,
+                    "player_index": 1,
+                    "is_win": true,
+                    "score_change": 13,
+                    "place": 1
+                }
+            ]
+        },
+        "58": {
+            "index": 58,
+            "name": "Екатерина Медичи (Чёрная королева)",
+            "nation_name": "Франция",
+            "nation_id": 2,
+            "games_info": []
+        }
+    },
+    "nations": {
+        "0": {
+            "index": 0,
+            "name": "Македония"
+        },
+        "1": {
+            "index": 1,
+            "name": "Англия"
+        },
+        "2": {
+            "index": 2,
+            "name": "Франция"
+        },
+        "3": {
+            "index": 3,
+            "name": "Нубия"
+        },
+        "4": {
+            "index": 4,
+            "name": "Галлия"
+        },
+        "5": {
+            "index": 5,
+            "name": "Византия (Россия 2)"
+        },
+        "6": {
+            "index": 6,
+            "name": "Нидерланды"
+        },
+        "7": {
+            "index": 7,
+            "name": "Индия"
+        },
+        "8": {
+            "index": 8,
+            "name": "Шумер"
+        },
+        "9": {
+            "index": 9,
+            "name": "Греция"
+        },
+        "10": {
+            "index": 10,
+            "name": "Кхмеры"
+        },
+        "11": {
+            "index": 11,
+            "name": "Австралия"
+        },
+        "12": {
+            "index": 12,
+            "name": "Финикия"
+        },
+        "13": {
+            "index": 13,
+            "name": "Португалия"
+        },
+        "14": {
+            "index": 14,
+            "name": "Майя"
+        },
+        "15": {
+            "index": 15,
+            "name": "Персия"
+        },
+        "16": {
+            "index": 16,
+            "name": "Египет"
+        },
+        "17": {
+            "index": 17,
+            "name": "Волынь"
+        },
+        "18": {
+            "index": 18,
+            "name": "Швеция"
+        },
+        "19": {
+            "index": 19,
+            "name": "Маори"
+        },
+        "20": {
+            "index": 20,
+            "name": "Мапуче"
+        },
+        "21": {
+            "index": 21,
+            "name": "Мали"
+        },
+        "22": {
+            "index": 22,
+            "name": "Венгрия"
+        },
+        "23": {
+            "index": 23,
+            "name": "Конго"
+        },
+        "24": {
+            "index": 24,
+            "name": "Эфиопия"
+        },
+        "25": {
+            "index": 25,
+            "name": "Ацтеки"
+        },
+        "26": {
+            "index": 26,
+            "name": "Россия"
+        },
+        "27": {
+            "index": 27,
+            "name": "Кри"
+        },
+        "28": {
+            "index": 28,
+            "name": "Инки"
+        },
+        "29": {
+            "index": 29,
+            "name": "Бразилия"
+        },
+        "30": {
+            "index": 30,
+            "name": "Шотландия"
+        },
+        "31": {
+            "index": 31,
+            "name": "Аравия"
+        },
+        "32": {
+            "index": 32,
+            "name": "Колумбия"
+        },
+        "33": {
+            "index": 33,
+            "name": "Корея"
+        },
+        "34": {
+            "index": 34,
+            "name": "Османы"
+        },
+        "35": {
+            "index": 35,
+            "name": "Грузия"
+        },
+        "36": {
+            "index": 36,
+            "name": "США"
+        },
+        "37": {
+            "index": 37,
+            "name": "Скифия"
+        },
+        "38": {
+            "index": 38,
+            "name": "Рим"
+        },
+        "39": {
+            "index": 39,
+            "name": "Индонезия"
+        },
+        "40": {
+            "index": 40,
+            "name": "Канада"
+        },
+        "41": {
+            "index": 41,
+            "name": "Испания"
+        },
+        "42": {
+            "index": 42,
+            "name": "Германия"
+        },
+        "43": {
+            "index": 43,
+            "name": "Вавилон"
+        },
+        "44": {
+            "index": 44,
+            "name": "Норвегия"
+        },
+        "45": {
+            "index": 45,
+            "name": "Япония"
+        },
+        "46": {
+            "index": 46,
+            "name": "Монголия"
+        },
+        "47": {
+            "index": 47,
+            "name": "Китай"
+        },
+        "48": {
+            "index": 48,
+            "name": "Зулусы"
+        },
+        "49": {
+            "index": 49,
+            "name": "Вьетнам"
+        },
+        "50": {
+            "index": 50,
+            "name": "Польша"
         }
     }
 }

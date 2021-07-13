@@ -40,6 +40,12 @@ class NationsStorage:
     def get_nations(self):
         return self.__nations
 
+    def get_serializable(self):
+        d = dict()
+        for i in self.__nations:
+            d[i.index] = i.get_serializable()
+        return d
+
 
 nations_storage = NationsStorage()
 nations_storage.resolve_leaders_and_nations(leadersStorage)

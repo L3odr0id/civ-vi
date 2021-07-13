@@ -55,5 +55,5 @@ class Player:
             return 0
         res = 0
         for i in self.changes_history:
-            res += i[1]
+            res += i['rating_change']
         return round(res / self.games_count, 2)
