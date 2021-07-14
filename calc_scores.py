@@ -63,7 +63,7 @@ def calc_scores(game: Game):
             player.peak_score = max(player.rating, player.peak_score)
 
             # история изменений
-            player.changes_history.append({'game_index': game.index,
+            player.changes_history.append({'game_id': game.index,
                                            'rating_change': change})
 
             # для лидера и нации добавляем запись об игре

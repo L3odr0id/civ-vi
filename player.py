@@ -24,6 +24,7 @@ class Player:
 
     def get_serializable(self):
         d = dict()
+        d['player_id'] = self.index
         d['name'] = self.name
         d['rating'] = self.rating
         d['count'] = self.games_count

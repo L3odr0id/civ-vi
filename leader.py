@@ -8,7 +8,7 @@ class Leader:
 
     def get_serializable(self):
         d = dict()
-        d['index'] = self.index
+        d['leader_id'] = self.index
         d['name'] = self.name
         d['nation_name'] = self.nationName
         d['nation_id'] = self.nation.index
@@ -47,7 +47,7 @@ class Nation:
 
     def get_serializable(self):
         d = dict()
-        d['index'] = self.index
+        d['nation_id'] = self.index
         d['name'] = self.name
         arr = []
         for i in self.games_info:

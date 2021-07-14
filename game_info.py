@@ -11,11 +11,11 @@ class GameInfo:
 
     def get_serializable(self):
         d = dict()
-        d['game_index'] = self.game_index
-        d['player_index'] = self.player_index
+        d['game_id'] = self.game_index
+        d['player_id'] = self.player_index
         d['is_win'] = self.isWin
         d['score_change'] = self.scoreChange
         d['place'] = self.place
-        d['leader_index'] = self.leader_index
-        d['nation_index'] = self.nation_index
+        d['leader_id'] = self.leader_index
+        d['nation_id'] = self.nation_index
         return d

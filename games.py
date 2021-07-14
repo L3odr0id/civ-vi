@@ -42,6 +42,7 @@ class Game:
         for team in self.teams:
             teams.append(team.get_serializable())
         res = dict()
+        res['game_id'] = self.index
         res['teams'] = teams
         res['turns'] = self.turns
         res['reason'] = self.end

@@ -6,6 +6,7 @@
 ### Описание ключей:
 **Players**
 
+player_id = уникальный id игрока <br>
 name = Ник игрока <br>
 rating = Рейтинг <br>
 count = Кол-во сыграных партий <br>
@@ -16,7 +17,7 @@ highest_score_take = Максимальное кол-во очков за пар
 highest_score_game = Номер игры, где получено наибольшее кол-во очков <br>
 lowest_score_take = Наименьшее кол-во очков за партию <br>
 lowest_score_game= Номер игры, где получено наименьшее кол-во очков за партию <br>
-changes = История изменений очков в формате {'game_index' : id игры из **Games**, 'rating_change' : изменение рейтинга} <br>
+changes = История изменений очков в формате {'game_id' : id игры из **Games**, 'rating_change' : изменение рейтинга} <br>
 top_position = Наивысшая позиция, которую игрок занимал в таблице <br>
 lowest_position = Низшая позиция, которую игрок занимал в таблице <br>
 average = Среднее кол-во очков за партию <br>
@@ -27,9 +28,10 @@ games_info = массив объектов **GameInfo** <br>
 
 **Games**
 
+game_id = уникальный id игры <br>
 teams = массив объектов **Team** <br>
-turns = кол-во ходов
-reason = название победы
+turns = кол-во ходов <br>
+reason = название победы <br>
 
 **Team**
 
@@ -38,7 +40,7 @@ leader_id = индекс из словаря **Leaders** <br>
 
 **Leaders**
 
-index = уникальный id лидера <br>
+leader_id = уникальный id лидера <br>
 name = имя лидера <br>
 nation_name = название нации <br>
 nation_id = index нации из словая **Nations** <br>
@@ -46,16 +48,16 @@ games_info = массив объектов **GameInfo** <br>
 
 **Nations**
 
-index = уникальный id нации <br>
+nation_id = уникальный id нации <br>
 name = имя нации <br>
 games_info = массив объектов **GameInfo** <br>
 
 **GameInfo**
 
-game_index = id игры из **Games** <br>
-player_index = id игрока из **Players** <br>
-leader_index = id лидера из **Leaders** <br>
-nation_index = id нации из **Nations** <br>
+game_id = id игры из **Games** <br>
+player_id = id игрока из **Players** <br>
+leader_id= id лидера из **Leaders** <br>
+nation_id = id нации из **Nations** <br>
 is_win = победа или нет <br>
 score_change = изменение очков для этого игрока в этой игре <br>
 place = место занятое в общем зачёте в данной партии <br>
