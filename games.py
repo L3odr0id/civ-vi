@@ -14,6 +14,7 @@ def get_history():
         get_game_7(),
         get_game_8(),
         get_game_9(),
+        get_game_10()
     ]
     return games
 
@@ -114,6 +115,9 @@ _Juan_III = leadersStorage.leader(15)
 _Javarman = leadersStorage.leader(11)
 _Kupe = leadersStorage.leader(21)
 _PoundMaker = leadersStorage.leader(29)
+_Kir = leadersStorage.leader(17)
+_Menelik2 = leadersStorage.leader(26)
+
 
 def get_game_1():
     game = Game(index=1, turns=144, end='Суп ушёл варить пельмени')
@@ -278,4 +282,14 @@ def get_game_9():
     team3.add_player(_Kris, _Hojo_Tokimune)
 
     game.teams = [team0, team1, team2, team3, ]
+    return game
+
+def get_game_10():
+    game = Game(index=10, turns=72, end='Военная')
+    team0 = Team()
+    team0.add_player(_George_Best_7, _Kir)
+    team1 = Team()
+    team1.add_player(_Leodroid, _Menelik2)
+
+    game.teams = [team0, team1, ]
     return game

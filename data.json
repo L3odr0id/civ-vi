@@ -3,16 +3,16 @@
         "1": {
             "player_id": 1,
             "name": "George_Best_7",
-            "rating": 326,
-            "count": 9,
-            "personal_wins": 4,
+            "rating": 339,
+            "count": 10,
+            "personal_wins": 5,
             "team_wins": 2,
-            "total_wins": 6,
+            "total_wins": 7,
             "highest_score_take": 16,
             "highest_score_game": 3,
             "lowest_score_take": -1,
             "lowest_score_game": 4,
-            "peak_score": 326,
+            "peak_score": 339,
             "changes": [
                 {
                     "game_id": 1,
@@ -49,12 +49,16 @@
                 {
                     "game_id": 9,
                     "rating_change": 9
+                },
+                {
+                    "game_id": 10,
+                    "rating_change": 13
                 }
             ],
             "top_position": 1,
             "lowest_position": 1,
-            "average": 10.89,
-            "win_rate": 0.67,
+            "average": 11.1,
+            "win_rate": 0.7,
             "change_position": 0,
             "games_info": [
                 {
@@ -137,14 +141,23 @@
                     "place": 2,
                     "leader_id": 21,
                     "nation_id": 19
+                },
+                {
+                    "game_id": 10,
+                    "player_id": 1,
+                    "is_win": true,
+                    "score_change": 13,
+                    "place": 1,
+                    "leader_id": 17,
+                    "nation_id": 15
                 }
             ]
         },
         "2": {
             "player_id": 2,
             "name": "Leodroid",
-            "rating": 304,
-            "count": 9,
+            "rating": 307,
+            "count": 10,
             "personal_wins": 1,
             "team_wins": 1,
             "total_wins": 2,
@@ -152,7 +165,7 @@
             "highest_score_game": 9,
             "lowest_score_take": 3,
             "lowest_score_game": 5,
-            "peak_score": 304,
+            "peak_score": 307,
             "changes": [
                 {
                     "game_id": 1,
@@ -189,13 +202,17 @@
                 {
                     "game_id": 9,
                     "rating_change": 15
+                },
+                {
+                    "game_id": 10,
+                    "rating_change": 3
                 }
             ],
             "top_position": 2,
             "lowest_position": 3,
-            "average": 8.44,
-            "win_rate": 0.22,
-            "change_position": 1,
+            "average": 7.9,
+            "win_rate": 0.2,
+            "change_position": 0,
             "games_info": [
                 {
                     "game_id": 1,
@@ -277,6 +294,15 @@
                     "place": 1,
                     "leader_id": 11,
                     "nation_id": 10
+                },
+                {
+                    "game_id": 10,
+                    "player_id": 2,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2,
+                    "leader_id": 26,
+                    "nation_id": 24
                 }
             ]
         },
@@ -327,7 +353,7 @@
             "lowest_position": 4,
             "average": 9.86,
             "win_rate": 0.29,
-            "change_position": -1,
+            "change_position": 0,
             "games_info": [
                 {
                     "game_id": 1,
@@ -441,7 +467,7 @@
             "lowest_position": 9,
             "average": 4.86,
             "win_rate": 0.0,
-            "change_position": 1,
+            "change_position": 0,
             "games_info": [
                 {
                     "game_id": 3,
@@ -535,7 +561,7 @@
             "lowest_position": 10,
             "average": 15.0,
             "win_rate": 1.0,
-            "change_position": -1,
+            "change_position": 0,
             "games_info": [
                 {
                     "game_id": 4,
@@ -1344,6 +1370,25 @@
             ],
             "turns": 148,
             "reason": "Религиозная"
+        },
+        "10": {
+            "game_id": 10,
+            "teams": [
+                [
+                    {
+                        "player_id": 1,
+                        "leader_id": 17
+                    }
+                ],
+                [
+                    {
+                        "player_id": 2,
+                        "leader_id": 26
+                    }
+                ]
+            ],
+            "turns": 72,
+            "reason": "Военная"
         }
     },
     "leaders": {
@@ -1600,7 +1645,17 @@
             "name": "Кир II",
             "nation_name": "Персия",
             "nation_id": 15,
-            "games_info": []
+            "games_info": [
+                {
+                    "game_id": 10,
+                    "player_id": 1,
+                    "is_win": true,
+                    "score_change": 13,
+                    "place": 1,
+                    "leader_id": 17,
+                    "nation_id": 15
+                }
+            ]
         },
         "18": {
             "leader_id": 18,
@@ -1713,7 +1768,17 @@
             "name": "Менелик II",
             "nation_name": "Эфиопия",
             "nation_id": 24,
-            "games_info": []
+            "games_info": [
+                {
+                    "game_id": 10,
+                    "player_id": 2,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2,
+                    "leader_id": 26,
+                    "nation_id": 24
+                }
+            ]
         },
         "27": {
             "leader_id": 27,
@@ -2486,7 +2551,17 @@
         "15": {
             "nation_id": 15,
             "name": "Персия",
-            "games_info": []
+            "games_info": [
+                {
+                    "game_id": 10,
+                    "player_id": 1,
+                    "is_win": true,
+                    "score_change": 13,
+                    "place": 1,
+                    "leader_id": 17,
+                    "nation_id": 15
+                }
+            ]
         },
         "16": {
             "nation_id": 16,
@@ -2581,7 +2656,17 @@
         "24": {
             "nation_id": 24,
             "name": "Эфиопия",
-            "games_info": []
+            "games_info": [
+                {
+                    "game_id": 10,
+                    "player_id": 2,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2,
+                    "leader_id": 26,
+                    "nation_id": 24
+                }
+            ]
         },
         "25": {
             "nation_id": 25,
