@@ -14,7 +14,8 @@ def get_history():
         get_game_7(),
         get_game_8(),
         get_game_9(),
-        get_game_10()
+        get_game_10(),
+        get_game_11()
     ]
     return games
 
@@ -117,6 +118,9 @@ _Kupe = leadersStorage.leader(21)
 _PoundMaker = leadersStorage.leader(29)
 _Kir = leadersStorage.leader(17)
 _Menelik2 = leadersStorage.leader(26)
+_Lautaro = leadersStorage.leader(22)
+_Tomiris = leadersStorage.leader(41)
+_Suleiman = leadersStorage.leader(37)
 
 
 def get_game_1():
@@ -292,4 +296,20 @@ def get_game_10():
     team1.add_player(_Leodroid, _Menelik2)
 
     game.teams = [team0, team1, ]
+    return game
+
+def get_game_11():
+    game = Game(index=11, turns=232, end='Научная')
+    team0 = Team()
+    team0.add_player(_The_Losst, _Friedrich_Barbarossa)
+    team1 = Team()
+    team1.add_player(_TinyClayMan, _Lautaro)
+    team2 = Team()
+    team2.add_player(_Neodim, _Peter_the_Great)
+    team3 = Team()
+    team3.add_player(_Leodroid, _Tomiris)
+    team4 = Team()
+    team4.add_player(_George_Best_7, _Suleiman)
+
+    game.teams = [team0, team1, team2, team3, team4, ]
     return game
