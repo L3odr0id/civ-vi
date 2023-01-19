@@ -1,31 +1,31 @@
 import json
 from calc_scores import calc_scores
 # from firebase import pushToFirebase
-from games import get_history, get_games_serializable
-from leader import leadersStorage
-from nations import nations_storage
-from players_storage import playerStorage
+
+from values.players import player_storage
+from values.leaders import leadersStorage
+from values.nations import nations_storage
+from values.games import games_storage
 
 
 def main():
-    games = get_history()
 
-    for i in range(len(games)):
-        calc_scores(games[i])
+    for game in games_storage.games:
+        calc_scores(game)
         # print('Результаты партии ' + str(i + 1))
-        playerStorage.sort()
+        player_storage.sort()
         # Наивысшую/Низшую и изменение позиции
-        for j in range(len(playerStorage.players)):
-            playerStorage.players[j].top_position = min(playerStorage.players[j].top_position, j + 1)
-            playerStorage.players[j].lowest_position = max(playerStorage.players[j].lowest_position, j + 1)
-            playerStorage.players[j].change_position = playerStorage.players[j].previous_position - j - 1
-            playerStorage.players[j].previous_position = j + 1
+        for j in range(len(player_storage.players)):
+            player_storage.players[j].top_position = min(player_storage.players[j].top_position, j + 1)
+            player_storage.players[j].lowest_position = max(player_storage.players[j].lowest_position, j + 1)
+            player_storage.players[j].change_position = player_storage.players[j].previous_position - j - 1
+            player_storage.players[j].previous_position = j + 1
         # playerStorage.print()
         # print()
 
     res_json = dict()
-    res_json['players'] = playerStorage.get_serializable()
-    res_json['games'] = get_games_serializable(games)
+    res_json['players'] = player_storage.get_serializable()
+    res_json['games'] = games_storage.get_serializable()
     res_json['leaders'] = leadersStorage.get_serializable()
     res_json['nations'] = nations_storage.get_serializable()
 

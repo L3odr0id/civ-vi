@@ -507,7 +507,7 @@
                 }
             ],
             "top_position": 4,
-            "lowest_position": 9,
+            "lowest_position": 8,
             "average": 5.88,
             "win_rate": 0.0,
             "change_position": 0,
@@ -618,10 +618,10 @@
                 }
             ],
             "top_position": 5,
-            "lowest_position": 10,
+            "lowest_position": 11,
             "average": 8.25,
             "win_rate": 0.5,
-            "change_position": 2,
+            "change_position": 3,
             "games_info": [
                 {
                     "game_id": 1,
@@ -808,11 +808,11 @@
                     "rating_change": 13
                 }
             ],
-            "top_position": 6,
-            "lowest_position": 11,
+            "top_position": 5,
+            "lowest_position": 10,
             "average": 8.0,
             "win_rate": 0.5,
-            "change_position": 0,
+            "change_position": -1,
             "games_info": [
                 {
                     "game_id": 1,
@@ -926,7 +926,7 @@
                 }
             ],
             "top_position": 5,
-            "lowest_position": 12,
+            "lowest_position": 11,
             "average": 10.0,
             "win_rate": 0.0,
             "change_position": 0,

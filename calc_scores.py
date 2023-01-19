@@ -1,8 +1,13 @@
-from game_info import GameInfo
-from games import Game
+from __future__ import annotations
+from typing import TYPE_CHECKING
 
-K = 20
-Guaranteed_score = round(K / 2.5)
+if TYPE_CHECKING:
+    from data.game import Game
+
+from data.game_info import GameInfo
+from data.player import RatingChange
+
+from constants import K, Guaranteed_score
 
 
 def get_elo_change(rating1: int, rating2: int, win: bool):
@@ -26,11 +31,11 @@ def calc_scores(game: Game):
             if i > j:
                 # мы проигрываем этой команде
                 their_rating = game.teams[j].get_average_rating()
-                sum += get_elo_change(our_rating, their_rating, LOSE)
+                sum += get_elo_change(int(our_rating), int(their_rating), LOSE)
             if i < j:
                 # мы выигрываем у этой команды
                 their_rating = game.teams[j].get_average_rating()
-                sum += get_elo_change(our_rating, their_rating, WIN)
+                sum += get_elo_change(int(our_rating), int(their_rating), WIN)
         avg = sum / len(game.teams)
         avgs.append(avg)
 
@@ -51,9 +56,9 @@ def calc_scores(game: Game):
             change = round(avgs[i] + Guaranteed_score)  # Изменение рейтинга
 
             if player.highest_score_take[0] < change:
-                player.highest_score_take = [change, game.id]
+                player.highest_score_take = (change, game.id)
             if player.highest_score_loss[0] > change:
-                player.highest_score_loss = [change, game.id]
+                player.highest_score_loss = (change, game.id)
 
             # Изменить рейтинг
             player.rating += change
@@ -63,11 +68,11 @@ def calc_scores(game: Game):
             player.peak_score = max(player.rating, player.peak_score)
 
             # история изменений
-            player.changes_history.append({'game_id': game.id,
-                                           'rating_change': change})
+            player.changes_history.append(RatingChange(game.id, change))
 
             # для лидера и нации добавляем запись об игре
-            game_info = GameInfo(game.id, player.id, leader.id, leader.nation.id, i == 0, change, i + 1)
+            game_info = GameInfo(game.id, player.id, leader.id,
+                                 leader.nation.id, i == 0, change, i + 1)
             player.games_info.append(game_info)
             leader.games_info.append(game_info)
             leader.nation.games_info.append(game_info)

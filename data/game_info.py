@@ -1,13 +1,13 @@
 class GameInfo:
     def __init__(self, game_id: int, player_id: int, leader_id: int, nation_id: int, is_win: bool,
                  score_change: int, place: int, ):
-        self.game_id = game_id
-        self.player_id = player_id
-        self.isWin = is_win
-        self.scoreChange = score_change
-        self.place = place
-        self.leader_id = leader_id
-        self.nation_id = nation_id
+        self.game_id: int = game_id
+        self.player_id: int = player_id
+        self.isWin: bool = is_win
+        self.scoreChange: int = score_change
+        self.place: int = place
+        self.leader_id: int = leader_id
+        self.nation_id: int = nation_id
 
     def get_serializable(self):
         d = dict()
