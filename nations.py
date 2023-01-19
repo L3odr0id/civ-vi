@@ -4,7 +4,7 @@ from leader import LeadersStorage, leadersStorage, Nation
 # Хранилище наций
 class NationsStorage:
     def __init__(self):
-        self.__nations = []
+        self.__nations: list[Nation] = []
 
     # Всем нациям поставить в соответствие лидеров, а лидерам нации
     def resolve_leaders_and_nations(self, leaders: LeadersStorage):
@@ -43,7 +43,7 @@ class NationsStorage:
     def get_serializable(self):
         d = dict()
         for i in self.__nations:
-            d[i.index] = i.get_serializable()
+            d[i.id] = i.get_serializable()
         return d
 
 

@@ -2,8 +2,8 @@ INITIAL_RATING = 228
 
 
 class Player:
-    def __init__(self, index: int, name: str):
-        self.index = index  # ID игрока
+    def __init__(self, id: int, name: str):
+        self.id = id  # ID игрока
         self.name = name    # Никнейм
         self.rating = INITIAL_RATING  # Рейтинг
         self.games_count = 0    # Кол-во игр
@@ -24,7 +24,7 @@ class Player:
 
     def get_serializable(self):
         d = dict()
-        d['player_id'] = self.index
+        d['id'] = self.id
         d['name'] = self.name
         d['rating'] = self.rating
         d['count'] = self.games_count

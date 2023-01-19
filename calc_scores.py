@@ -51,9 +51,9 @@ def calc_scores(game: Game):
             change = round(avgs[i] + Guaranteed_score)  # Изменение рейтинга
 
             if player.highest_score_take[0] < change:
-                player.highest_score_take = [change, game.index]
+                player.highest_score_take = [change, game.id]
             if player.highest_score_loss[0] > change:
-                player.highest_score_loss = [change, game.index]
+                player.highest_score_loss = [change, game.id]
 
             # Изменить рейтинг
             player.rating += change
@@ -63,11 +63,11 @@ def calc_scores(game: Game):
             player.peak_score = max(player.rating, player.peak_score)
 
             # история изменений
-            player.changes_history.append({'game_id': game.index,
+            player.changes_history.append({'game_id': game.id,
                                            'rating_change': change})
 
             # для лидера и нации добавляем запись об игре
-            game_info = GameInfo(game.index, player.index, leader.index, leader.nation.index, i == 0, change, i + 1)
+            game_info = GameInfo(game.id, player.id, leader.id, leader.nation.id, i == 0, change, i + 1)
             player.games_info.append(game_info)
             leader.games_info.append(game_info)
             leader.nation.games_info.append(game_info)

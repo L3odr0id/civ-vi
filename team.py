@@ -9,8 +9,8 @@ class _MetaPlayer:
 
     def get_serializable(self):
         d = dict()
-        d['player_id'] = self.player.index
-        d['leader_id'] = self.leader.index
+        d['player_id'] = self.player.id
+        d['leader_id'] = self.leader.id
         return d
 
 

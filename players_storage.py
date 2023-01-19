@@ -20,7 +20,7 @@ NICKNAMES = [
 
 class PlayersStorage:
     def __init__(self):
-        self.players = []
+        self.players: list[Player] = []
 
     def player(self, name: str):
         for player in self.players:
@@ -37,7 +37,7 @@ class PlayersStorage:
     def get_serializable(self):
         d = dict()
         for p in self.players:
-            d[p.index] = p.get_serializable()
+            d[p.id] = p.get_serializable()
         return d
 
 

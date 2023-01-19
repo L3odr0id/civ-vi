@@ -1,17 +1,17 @@
 class Leader:
-    def __init__(self, name: str, nation: str, index: int):
+    def __init__(self, name: str, nation: str, id: int):
         self.name = name
         self.nationName = nation
-        self.index = index
+        self.id = id
         self.nation = Nation(0, '')  # плесйхолдер
         self.games_info = []
 
     def get_serializable(self):
         d = dict()
-        d['leader_id'] = self.index
+        d['id'] = self.id
         d['name'] = self.name
         d['nation_name'] = self.nationName
-        d['nation_id'] = self.nation.index
+        d['nation_id'] = self.nation.id
         arr = []
         for i in self.games_info:
             arr.append(i.get_serializable())
@@ -20,24 +20,24 @@ class Leader:
 
 
 class LeadersStorage:
-    def __init__(self, leaders: list):
+    def __init__(self, leaders: list[Leader]):
         self.leaders = leaders
 
-    def leader(self, index: int):
+    def leader(self, id: int):
         for i in self.leaders:
-            if i.index == index:
+            if i.id == id:
                 return i
 
     def get_serializable(self):
         d = dict()
         for i in self.leaders:
-            d[i.index] = i.get_serializable()
+            d[i.id] = i.get_serializable()
         return d
 
 
 class Nation:
-    def __init__(self, index: int, name: str):
-        self.index = index
+    def __init__(self, id: int, name: str):
+        self.id = id
         self.name = name
         self.games_info = []
         self.__leaders = []
@@ -47,7 +47,7 @@ class Nation:
 
     def get_serializable(self):
         d = dict()
-        d['nation_id'] = self.index
+        d['id'] = self.id
         d['name'] = self.name
         arr = []
         for i in self.games_info:

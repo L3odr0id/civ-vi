@@ -23,16 +23,16 @@ def get_history():
 def get_games_serializable(games: list):
     d = dict()
     for game in games:
-        d[game.index] = game.get_serializable()
+        d[game.id] = game.get_serializable()
     return d
 
 
 class Game:
-    def __init__(self, index: int, turns: int, end: str):
-        self.teams = []  # Команды
-        self.index = index  # Номер партии
-        self.turns = turns  # Кол-во ходов
-        self.end = end  # Причина окончания игры
+    def __init__(self, id: int, turns: int, end: str):
+        self.teams: list[Team] = []  # Команды
+        self.id: str = id  # Номер партии
+        self.turns: int = turns  # Кол-во ходов
+        self.end: str = end  # Причина окончания игры
 
     def print(self):
         print('A game with ' + str(len(self.teams)) + ' teams')
@@ -45,7 +45,7 @@ class Game:
         for team in self.teams:
             teams.append(team.get_serializable())
         res = dict()
-        res['game_id'] = self.index
+        res['id'] = self.id
         res['teams'] = teams
         res['turns'] = self.turns
         res['reason'] = self.end
@@ -124,7 +124,7 @@ _Suleiman = leadersStorage.leader(37)
 
 
 def get_game_1():
-    game = Game(index=1, turns=144, end='Суп ушёл варить пельмени')
+    game = Game(id=1, turns=144, end='Суп ушёл варить пельмени')
 
     team1 = Team()
     team1.add_player(_George_Best_7, _Friedrich_Barbarossa)
@@ -143,7 +143,7 @@ def get_game_1():
 
 
 def get_game_2():
-    game = Game(index=2, turns=148, end='Культурная')
+    game = Game(id=2, turns=148, end='Культурная')
     team1 = Team()
     team1.add_player(_George_Best_7, _Pedru_II)
     team2 = Team()
@@ -162,7 +162,7 @@ def get_game_2():
 
 
 def get_game_3():
-    game = Game(index=3, turns=236, end='Дипломатическая')
+    game = Game(id=3, turns=236, end='Дипломатическая')
     team0 = Team()
     team0.add_player(_George_Best_7, _Rusvelt_Vsadnik)
     team1 = Team()
@@ -181,7 +181,7 @@ def get_game_3():
 
 
 def get_game_4():
-    game = Game(index=4, turns=215, end='Религиозная')
+    game = Game(id=4, turns=215, end='Религиозная')
     team0 = Team()
     team0.add_player(_Ortreke, _Pochatok)
     team1 = Team()
@@ -200,7 +200,7 @@ def get_game_4():
 
 
 def get_game_5():
-    game = Game(index=5, turns=192, end='Религиозная')
+    game = Game(id=5, turns=192, end='Религиозная')
     team0 = Team()
     team0.add_player(_George_Best_7, _Yadviga)
     team0.add_player(_MaxBelol, _Robert_Brus)
@@ -217,7 +217,7 @@ def get_game_5():
 
 
 def get_game_6():
-    game = Game(index=6, turns=182, end='Дипломатическая')
+    game = Game(id=6, turns=182, end='Дипломатическая')
     team0 = Team()
     team0.add_player(_Neodim, _Peter_the_Great)
     team0.add_player(_Ortreke, _Montesuma)
@@ -239,7 +239,7 @@ def get_game_6():
 
 
 def get_game_7():
-    game = Game(index=7, turns=241, end='Дипломатическая')
+    game = Game(id=7, turns=241, end='Дипломатическая')
     team0 = Team()
     team0.add_player(_George_Best_7, _Hammurapi)
     team1 = Team()
@@ -260,7 +260,7 @@ def get_game_7():
 
 
 def get_game_8():
-    game = Game(index=8, turns=220, end='Дипломатическая')
+    game = Game(id=8, turns=220, end='Дипломатическая')
     team0 = Team()
     team0.add_player(_George_Best_7, _Tin_Huan)
     team1 = Team()
@@ -275,7 +275,7 @@ def get_game_8():
 
 
 def get_game_9():
-    game = Game(index=9, turns=148, end='Религиозная')
+    game = Game(id=9, turns=148, end='Религиозная')
     team0 = Team()
     team0.add_player(_Leodroid, _Javarman)
     team1 = Team()
@@ -289,7 +289,7 @@ def get_game_9():
     return game
 
 def get_game_10():
-    game = Game(index=10, turns=72, end='Военная')
+    game = Game(id=10, turns=72, end='Военная')
     team0 = Team()
     team0.add_player(_George_Best_7, _Kir)
     team1 = Team()
@@ -299,7 +299,7 @@ def get_game_10():
     return game
 
 def get_game_11():
-    game = Game(index=11, turns=232, end='Научная')
+    game = Game(id=11, turns=232, end='Научная')
     team0 = Team()
     team0.add_player(_The_Losst, _Friedrich_Barbarossa)
     team1 = Team()
