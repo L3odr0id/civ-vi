@@ -8,45 +8,39 @@ import values.leaders as leaders
 
 
 def get_game_1():
-    game = Game(id=1, turns=144, end='Суп ушёл варить пельмени')
+    game = Game(1, 144, 'Суп ушёл варить пельмени')
+
+    team0 = Team()
+    team0.add_player(players._George_Best_7, leaders._Friedrich_Barbarossa)
+    team0.add_player(players._Leodroid, leaders._Trayan)
+    team0.add_player(players._Veldy, leaders._Peter_the_Great)
 
     team1 = Team()
-    team1.add_player(players._George_Best_7, leaders._Friedrich_Barbarossa)
-    team1.add_player(players._Leodroid, leaders._Trayan)
-    team1.add_player(players._Veldy, leaders._Peter_the_Great)
+    team1.add_player(players._Neodim, leaders._Mansa_Musa)
+    team1.add_player(players._SaltySoup, leaders._Hojo_Tokimune)
+    team1.add_player(players._The_Losst, leaders._Rusvelt_Progressive)
 
-    team2 = Team()
-    team2.add_player(players._Neodim, leaders._Mansa_Musa)
-    team2.add_player(players._SaltySoup, leaders._Hojo_Tokimune)
-    team2.add_player(players._The_Losst, leaders._Rusvelt_Progressive)
-
-    game.teams.append(team1)
-    game.teams.append(team2)
-
+    game.teams = [team0, team1]
     return game
 
 
 def get_game_2():
-    game = Game(id=2, turns=148, end='Культурная')
+    game = Game(2, 148, 'Культурная')
+    team0 = Team()
+    team0.add_player(players._George_Best_7, leaders._Pedru_II)
     team1 = Team()
-    team1.add_player(players._George_Best_7, leaders._Pedru_II)
+    team1.add_player(players._Neodim, leaders._Peter_the_Great)
     team2 = Team()
-    team2.add_player(players._Neodim, leaders._Peter_the_Great)
+    team2.add_player(players._Leodroid, leaders._Chaka)
     team3 = Team()
-    team3.add_player(players._Leodroid, leaders._Chaka)
-    team4 = Team()
-    team4.add_player(players._MaxBelol, leaders._Yadviga)
+    team3.add_player(players._MaxBelol, leaders._Yadviga)
 
-    game.teams.append(team1)
-    game.teams.append(team2)
-    game.teams.append(team3)
-    game.teams.append(team4)
-
+    game.teams = [team0, team1, team2, team3]
     return game
 
 
 def get_game_3():
-    game = Game(id=3, turns=236, end='Дипломатическая')
+    game = Game(3, 236, 'Дипломатическая')
     team0 = Team()
     team0.add_player(players._George_Best_7, leaders._Rusvelt_Vsadnik)
     team1 = Team()
@@ -65,7 +59,7 @@ def get_game_3():
 
 
 def get_game_4():
-    game = Game(id=4, turns=215, end='Религиозная')
+    game = Game(4, 215, 'Религиозная')
     team0 = Team()
     team0.add_player(players._Ortreke, leaders._Pochatok)
     team1 = Team()
@@ -84,7 +78,7 @@ def get_game_4():
 
 
 def get_game_5():
-    game = Game(id=5, turns=192, end='Религиозная')
+    game = Game(5, 192, 'Религиозная')
     team0 = Team()
     team0.add_player(players._George_Best_7, leaders._Yadviga)
     team0.add_player(players._MaxBelol, leaders._Robert_Brus)
@@ -94,14 +88,12 @@ def get_game_5():
     team1.add_player(players._Leodroid, leaders._Ambiotriks)
     team1.add_player(players._TinyClayMan, leaders._Hubilai_Mongol)
 
-    game.teams.append(team0)
-    game.teams.append(team1)
-
+    game.teams = [team0, team1]
     return game
 
 
 def get_game_6():
-    game = Game(id=6, turns=182, end='Дипломатическая')
+    game = Game(6, 182, 'Дипломатическая')
     team0 = Team()
     team0.add_player(players._Neodim, leaders._Peter_the_Great)
     team0.add_player(players._Ortreke, leaders._Montesuma)
@@ -116,14 +108,12 @@ def get_game_6():
     team1.add_player(players._MaxBelol, leaders._Simon_Bolivar)
     team1.add_player(players._TinyClayMan, leaders._viktoria)
 
-    game.teams.append(team0)
-    game.teams.append(team1)
-
+    game.teams = [team0, team1]
     return game
 
 
 def get_game_7():
-    game = Game(id=7, turns=241, end='Дипломатическая')
+    game = Game(7, 241, 'Дипломатическая')
     team0 = Team()
     team0.add_player(players._George_Best_7, leaders._Hammurapi)
     team1 = Team()
@@ -144,7 +134,7 @@ def get_game_7():
 
 
 def get_game_8():
-    game = Game(id=8, turns=220, end='Дипломатическая')
+    game = Game(8, 220, 'Дипломатическая')
     team0 = Team()
     team0.add_player(players._George_Best_7, leaders._Tin_Huan)
     team1 = Team()
@@ -154,12 +144,12 @@ def get_game_8():
     team3 = Team()
     team3.add_player(players._TinyClayMan, leaders._Juan_III)
 
-    game.teams = [team0, team1, team2, team3, ]
+    game.teams = [team0, team1, team2, team3]
     return game
 
 
 def get_game_9():
-    game = Game(id=9, turns=148, end='Религиозная')
+    game = Game(9, 148, 'Религиозная')
     team0 = Team()
     team0.add_player(players._Leodroid, leaders._Javarman)
     team1 = Team()
@@ -169,21 +159,21 @@ def get_game_9():
     team3 = Team()
     team3.add_player(players._Kris, leaders._Hojo_Tokimune)
 
-    game.teams = [team0, team1, team2, team3, ]
+    game.teams = [team0, team1, team2, team3]
     return game
 
 def get_game_10():
-    game = Game(id=10, turns=72, end='Военная')
+    game = Game(10, 72, 'Военная')
     team0 = Team()
     team0.add_player(players._George_Best_7, leaders._Kir)
     team1 = Team()
     team1.add_player(players._Leodroid, leaders._Menelik2)
 
-    game.teams = [team0, team1, ]
+    game.teams = [team0, team1]
     return game
 
 def get_game_11():
-    game = Game(id=11, turns=232, end='Научная')
+    game = Game(11, 232, 'Научная')
     team0 = Team()
     team0.add_player(players._The_Losst, leaders._Friedrich_Barbarossa)
     team1 = Team()
@@ -195,7 +185,7 @@ def get_game_11():
     team4 = Team()
     team4.add_player(players._George_Best_7, leaders._Suleiman)
 
-    game.teams = [team0, team1, team2, team3, team4, ]
+    game.teams = [team0, team1, team2, team3, team4]
     return game
 
 

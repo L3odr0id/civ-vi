@@ -5,11 +5,11 @@ if TYPE_CHECKING:
 
 
 class Game:
-    def __init__(self, id: int, turns: int, end: str):
+    def __init__(self, id: int, turns: int, end_reason: str):
         self.id: int = id  # Номер партии
         self.teams: List[Team] = []  # Команды
         self.turns: int = turns  # Кол-во ходов
-        self.end: str = end  # Причина окончания игры
+        self.end_reason: str = end_reason  # Причина окончания игры
 
     def print(self):
         print('A game with ' + str(len(self.teams)) + ' teams')
@@ -25,7 +25,7 @@ class Game:
             teams.append(team.get_serializable())
         res['teams'] = teams
         res['turns'] = self.turns
-        res['reason'] = self.end
+        res['end_reason'] = self.end_reason
         return res
 
     def player_took_part(self, name: str):
