@@ -1,63 +1,70 @@
 # CIVILIZATION VI Stats
 
 ## Инфа
-Вся информация разделена на блоки players, games, leaders и nations. Каждая из них представляет собой словарь, где каждому index соответствует конкретный объект. Объекты из разных отделов могут сслыться друг на друга по этим индексам.
 
-### Описание ключей:
-**Players**
+Вся информация разделена на блоки players, games, leaders и nations. Каждая из них представляет собой словарь, где каждому id соответствует конкретный объект. Объекты из разных блоков могут сслыться друг на друга по этим id.
 
-player_id = уникальный id игрока <br>
-name = Ник игрока <br>
-rating = Рейтинг <br>
-count = Кол-во сыграных партий <br>
-personal_wins = Кол-во одиночных побед <br>
-team_wins = Кол-во командных побед <br>
-total_wins = Общее кол-во побед. total_wins = personal_wins + team_wins <br>
-highest_score_take = Максимальное кол-во очков за партию <br>
-highest_score_game = Номер игры, где получено наибольшее кол-во очков <br>
-lowest_score_take = Наименьшее кол-во очков за партию <br>
-lowest_score_game= Номер игры, где получено наименьшее кол-во очков за партию <br>
-changes = История изменений очков в формате {'game_id' : id игры из **Games**, 'rating_change' : изменение рейтинга} <br>
-top_position = Наивысшая позиция, которую игрок занимал в таблице <br>
-lowest_position = Низшая позиция, которую игрок занимал в таблице <br>
-average = Среднее кол-во очков за партию <br>
-win_rate = Процент побед <br>
-change_position = Изменение позиции в таблице, относительно прошлой игры <br>
-peak_score = наибольшее значение рейтинга за всё время <br>
-games_info = массив объектов **GameInfo** <br>
+## Описание сущностей:
 
-**Games**
+### Player
 
-game_id = уникальный id игры <br>
-teams = массив объектов **Team** <br>
-turns = кол-во ходов <br>
-reason = название победы <br>
+- id = Уникальный id игрока
+- name = Ник игрока
+- rating = Рейтинг
+- games_amount = Кол-во сыграных партий
+- solo_wins_amount = Кол-во одиночных побед
+- team_wins_amount = Кол-во командных побед
+- total_wins_amount = Общее кол-во побед
+- highest_rating_take = Наибольшее кол-во рейтинга за партию
+- highest_rating_take_game = Номер игры, где получено наибольшее кол-во рейтинга
+- lowest_rating_take = Наименьшее кол-во рейтинга за партию
+- lowest_rating_take_game = Номер игры, где получено наименьшее кол-во рейтинга за партию
+- rating_changes = История изменений рейтинга, см. RatingChange
+- top_position = Наивысшая позиция, которую игрок занимал в таблице
+- lowest_position = Низшая позиция, которую игрок занимал в таблице
+- average_rating = Среднее кол-во очков за партию
+- win_rate = Процент побед
+- change_position = Изменение позиции в таблице, относительно прошлой игры
+- peak_rating = Наибольшее значение рейтинга за всё время
+- games_info = Краткая информация о играх, в которых принимал участие игрок, см. GameInfo
 
-**Team**
+### RatingChange
 
-player_id = индекс из словаря **Players** <br>
-leader_id = индекс из словаря **Leaders** <br>
+- game_id = id игры
+- rating_change = Изменение рейтинга
 
-**Leaders**
+### Game
 
-leader_id = уникальный id лидера <br>
-name = имя лидера <br>
-nation_name = название нации <br>
-nation_id = index нации из словая **Nations** <br>
-games_info = массив объектов **GameInfo** <br>
+- id = Уникальный id игры
+- teams = Команды, участвующие в игре, см. Team
+- turns = Кол-во ходов
+- reason = Причина победы
 
-**Nations**
+### Team
 
-nation_id = уникальный id нации <br>
-name = имя нации <br>
-games_info = массив объектов **GameInfo** <br>
+- player_id = id игрока, см. Player
+- leader_id = id лидера нации, см. Leader
 
-**GameInfo**
+### Leader
 
-game_id = id игры из **Games** <br>
-player_id = id игрока из **Players** <br>
-leader_id= id лидера из **Leaders** <br>
-nation_id = id нации из **Nations** <br>
-is_win = победа или нет <br>
-score_change = изменение очков для этого игрока в этой игре <br>
-place = место занятое в общем зачёте в данной партии <br>
+- id = Уникальный id лидера
+- name = Имя лидера
+- nation_name = Название нации
+- nation_id = id нации, см Nation
+- games_info = Краткая информация о играх, в которых принимал участие этот лидер, см. GameInfo
+
+### Nation
+
+- id = Уникальный id нации
+- name = Название нации
+- games_info = Краткая информация о играх, в которых принимала участие эта нация, см. GameInfo
+
+### GameInfo
+
+- game_id = id игры, см. Game
+- player_id = id игрока, см. Player
+- leader_id= id лидера, см. Leaders
+- nation_id = id нации, см. Nation
+- is_win = Победа или нет
+- score_change = Изменение очков для этого игрока в этой игре
+- place = Место занятое в общем зачёте в данной партии

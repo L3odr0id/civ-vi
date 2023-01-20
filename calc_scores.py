@@ -1,8 +1,13 @@
-from game_info import GameInfo
-from games import Game
+from __future__ import annotations
+from typing import TYPE_CHECKING
 
-K = 20
-Guaranteed_score = round(K / 2.5)
+if TYPE_CHECKING:
+    from data.game import Game
+
+from data.game_info import GameInfo
+from data.player import RatingChange
+
+from constants import K, Guaranteed_score
 
 
 def get_elo_change(rating1: int, rating2: int, win: bool):
@@ -26,11 +31,11 @@ def calc_scores(game: Game):
             if i > j:
                 # мы проигрываем этой команде
                 their_rating = game.teams[j].get_average_rating()
-                sum += get_elo_change(our_rating, their_rating, LOSE)
+                sum += get_elo_change(int(our_rating), int(their_rating), LOSE)
             if i < j:
                 # мы выигрываем у этой команды
                 their_rating = game.teams[j].get_average_rating()
-                sum += get_elo_change(our_rating, their_rating, WIN)
+                sum += get_elo_change(int(our_rating), int(their_rating), WIN)
         avg = sum / len(game.teams)
         avgs.append(avg)
 
@@ -41,33 +46,33 @@ def calc_scores(game: Game):
             leader = meta.leader
 
             # Подсчёт статистики
-            player.games_count += 1
+            player.games_amount += 1
             if i == 0:
                 # Выигрыш партии
                 if len(game.teams[0].get_players()) == 1:
-                    player.personal_wins += 1
+                    player.solo_wins_amount += 1
                 else:
-                    player.team_wins += 1
+                    player.team_wins_amount += 1
             change = round(avgs[i] + Guaranteed_score)  # Изменение рейтинга
 
-            if player.highest_score_take[0] < change:
-                player.highest_score_take = [change, game.index]
-            if player.highest_score_loss[0] > change:
-                player.highest_score_loss = [change, game.index]
+            if player.highest_rating_take[0] < change:
+                player.highest_rating_take = (change, game.id)
+            if player.lowest_rating_take[0] > change:
+                player.lowest_rating_take = (change, game.id)
 
             # Изменить рейтинг
             player.rating += change
             player.rating = round(player.rating)
 
             # Статистика пикового значения очков
-            player.peak_score = max(player.rating, player.peak_score)
+            player.peak_rating = max(player.rating, player.peak_rating)
 
             # история изменений
-            player.changes_history.append({'game_id': game.index,
-                                           'rating_change': change})
+            player.rating_changes.append(RatingChange(game.id, change))
 
             # для лидера и нации добавляем запись об игре
-            game_info = GameInfo(game.index, player.index, leader.index, leader.nation.index, i == 0, change, i + 1)
+            game_info = GameInfo(game.id, player.id, leader.id,
+                                 leader.nation.id, i == 0, change, i + 1)
             player.games_info.append(game_info)
             leader.games_info.append(game_info)
             leader.nation.games_info.append(game_info)
