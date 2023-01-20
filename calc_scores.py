@@ -46,29 +46,29 @@ def calc_scores(game: Game):
             leader = meta.leader
 
             # Подсчёт статистики
-            player.games_count += 1
+            player.games_amount += 1
             if i == 0:
                 # Выигрыш партии
                 if len(game.teams[0].get_players()) == 1:
-                    player.personal_wins += 1
+                    player.solo_wins_amount += 1
                 else:
-                    player.team_wins += 1
+                    player.team_wins_amount += 1
             change = round(avgs[i] + Guaranteed_score)  # Изменение рейтинга
 
-            if player.highest_score_take[0] < change:
-                player.highest_score_take = (change, game.id)
-            if player.highest_score_loss[0] > change:
-                player.highest_score_loss = (change, game.id)
+            if player.highest_rating_take[0] < change:
+                player.highest_rating_take = (change, game.id)
+            if player.lowest_rating_take[0] > change:
+                player.lowest_rating_take = (change, game.id)
 
             # Изменить рейтинг
             player.rating += change
             player.rating = round(player.rating)
 
             # Статистика пикового значения очков
-            player.peak_score = max(player.rating, player.peak_score)
+            player.peak_rating = max(player.rating, player.peak_rating)
 
             # история изменений
-            player.changes_history.append(RatingChange(game.id, change))
+            player.rating_changes.append(RatingChange(game.id, change))
 
             # для лидера и нации добавляем запись об игре
             game_info = GameInfo(game.id, player.id, leader.id,
