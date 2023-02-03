@@ -1125,9 +1125,9 @@
             ],
             "turns": 144,
             "end_reason": "Суп ушёл варить пельмени",
-            "start_date": "02.05.2020",
-            "finish_date": "02.05.2020",
-            "seconds_per_move": -1
+            "start_date": "2020-02-05",
+            "finish_date": "2020-02-05",
+            "seconds_per_move": null
         },
         "2": {
             "id": 2,
@@ -1159,9 +1159,9 @@
             ],
             "turns": 148,
             "end_reason": "Культурная",
-            "start_date": "14.11.2020",
-            "finish_date": "15.11.2020",
-            "seconds_per_move": -1
+            "start_date": "2020-11-14",
+            "finish_date": "2020-11-15",
+            "seconds_per_move": null
         },
         "3": {
             "id": 3,
@@ -1205,9 +1205,9 @@
             ],
             "turns": 236,
             "end_reason": "Дипломатическая",
-            "start_date": "28.12.2020",
-            "finish_date": "30.12.2020",
-            "seconds_per_move": -1
+            "start_date": "2020-12-28",
+            "finish_date": "2020-12-30",
+            "seconds_per_move": null
         },
         "4": {
             "id": 4,
@@ -1251,9 +1251,9 @@
             ],
             "turns": 215,
             "end_reason": "Религиозная",
-            "start_date": "01.02.2021",
-            "finish_date": "03.02.2021",
-            "seconds_per_move": -1
+            "start_date": "2021-02-01",
+            "finish_date": "2021-02-03",
+            "seconds_per_move": null
         },
         "5": {
             "id": 5,
@@ -1285,9 +1285,9 @@
             ],
             "turns": 192,
             "end_reason": "Религиозная",
-            "start_date": "28.02.2021",
-            "finish_date": "14.02.2021",
-            "seconds_per_move": -1
+            "start_date": "2021-02-14",
+            "finish_date": "2021-02-28",
+            "seconds_per_move": null
         },
         "6": {
             "id": 6,
@@ -1339,9 +1339,9 @@
             ],
             "turns": 182,
             "end_reason": "Дипломатическая",
-            "start_date": "04.04.2021",
-            "finish_date": "18.04.2021",
-            "seconds_per_move": -1
+            "start_date": "2021-04-04",
+            "finish_date": "2021-04-18",
+            "seconds_per_move": null
         },
         "7": {
             "id": 7,
@@ -1391,9 +1391,9 @@
             ],
             "turns": 241,
             "end_reason": "Дипломатическая",
-            "start_date": "25.04.2021",
-            "finish_date": "09.05.2021",
-            "seconds_per_move": -1
+            "start_date": "2021-04-25",
+            "finish_date": "2021-05-09",
+            "seconds_per_move": null
         },
         "8": {
             "id": 8,
@@ -1425,9 +1425,9 @@
             ],
             "turns": 220,
             "end_reason": "Дипломатическая",
-            "start_date": "16.05.2021",
-            "finish_date": "27.06.2021",
-            "seconds_per_move": -1
+            "start_date": "2021-05-16",
+            "finish_date": "2021-06-27",
+            "seconds_per_move": null
         },
         "9": {
             "id": 9,
@@ -1459,8 +1459,8 @@
             ],
             "turns": 148,
             "end_reason": "Религиозная",
-            "start_date": "13.3.2022",
-            "finish_date": "13.3.2022",
+            "start_date": "2022-03-13",
+            "finish_date": "2022-03-13",
             "seconds_per_move": 69
         },
         "10": {
@@ -1481,9 +1481,9 @@
             ],
             "turns": 72,
             "end_reason": "Военная",
-            "start_date": "24.04.2022",
-            "finish_date": "24.04.2022",
-            "seconds_per_move": -1
+            "start_date": "2022-04-24",
+            "finish_date": "2022-04-24",
+            "seconds_per_move": null
         },
         "11": {
             "id": 11,
@@ -1521,9 +1521,9 @@
             ],
             "turns": 232,
             "end_reason": "Научная",
-            "start_date": "18.09.2022",
-            "finish_date": "16.10.2022",
-            "seconds_per_move": -1
+            "start_date": "2022-09-18",
+            "finish_date": "2022-10-16",
+            "seconds_per_move": null
         }
     },
     "leaders": {

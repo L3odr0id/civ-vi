@@ -29,7 +29,7 @@ def main():
     res_json['leaders'] = leadersStorage.get_serializable()
     res_json['nations'] = nations_storage.get_serializable()
 
-    # pushToFirebase(res_json)
+    pushToFirebase(res_json)
 
     with open('data.json', 'w', encoding='utf-8') as f:
         json.dump(res_json, f, ensure_ascii=False, indent=4)
