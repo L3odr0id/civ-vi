@@ -5,11 +5,14 @@ if TYPE_CHECKING:
 
 
 class Game:
-    def __init__(self, id: int, turns: int, end_reason: str):
+    def __init__(self, id: int, turns: int, end_reason: str, start_date:str, finish_date:str,  seconds_per_move:int):
         self.id: int = id  # Номер партии
         self.teams: List[Team] = []  # Команды
         self.turns: int = turns  # Кол-во ходов
         self.end_reason: str = end_reason  # Причина окончания игры
+        self.start_date:str = start_date    # Дата начала партии
+        self.finish_date:str = finish_date  # Дата окончания партии
+        self.seconds_per_move:int = seconds_per_move    # Время на ход в секундах
 
     def print(self):
         print('A game with ' + str(len(self.teams)) + ' teams')
@@ -26,6 +29,9 @@ class Game:
         res['teams'] = teams
         res['turns'] = self.turns
         res['end_reason'] = self.end_reason
+        res['start_date'] = self.start_date
+        res['finish_date'] = self.finish_date
+        res['seconds_per_move'] = self.seconds_per_move
         return res
 
     def player_took_part(self, name: str):

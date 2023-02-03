@@ -1,6 +1,6 @@
 import json
 from calc_scores import calc_scores
-# from firebase import pushToFirebase
+from firebase import pushToFirebase
 
 from values.players import player_storage
 from values.leaders import leadersStorage
@@ -36,8 +36,9 @@ def main():
     # for game in games:
     #     game.print()
 
-    # ps.sort()
-    # ps.print()
+    # Debug. Увидеть изменения в таблице
+    # player_storage.sort()
+    # player_storage.debug_print_just_ratings()
 
 
 if __name__ == "__main__":

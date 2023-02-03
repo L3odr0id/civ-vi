@@ -21,6 +21,10 @@ class PlayersStorage:
         for i in range(len(self.players)):
             print(str(i + 1) + ' ' + str(self.players[i].get_serializable()))
 
+    def debug_print_just_ratings(self):
+        for i in range(len(self.players)):
+            print(str(i + 1) + ' ' + self.players[i].name +' ' + str(self.players[i].rating))
+
     def get_serializable(self):
         d = dict()
         for player in self.players:

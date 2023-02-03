@@ -7,7 +7,7 @@ if TYPE_CHECKING:
 from data.game_info import GameInfo
 from data.player import RatingChange
 
-from constants import K, Guaranteed_score
+from constants import K, Guaranteed_score, WIN_AWARD
 
 
 def get_elo_change(rating1: int, rating2: int, win: bool):
@@ -53,7 +53,8 @@ def calc_scores(game: Game):
                     player.solo_wins_amount += 1
                 else:
                     player.team_wins_amount += 1
-            change = round(avgs[i] + Guaranteed_score)  # Изменение рейтинга
+            win_award = WIN_AWARD if i == 0 else 0 # Надбавка за победу
+            change = round(avgs[i] + Guaranteed_score + win_award)  # Изменение рейтинга
 
             if player.highest_rating_take[0] < change:
                 player.highest_rating_take = (change, game.id)
