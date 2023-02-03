@@ -5,14 +5,14 @@ if TYPE_CHECKING:
 
 
 class Game:
-    def __init__(self, id: int, turns: int, end_reason: str, start_date:str, finish_date:str,  seconds_per_move:int):
+    def __init__(self, id: int, turns: int, end_reason: str, start_date: str, finish_date: str, seconds_per_move: int | None = None):
         self.id: int = id  # Номер партии
         self.teams: List[Team] = []  # Команды
         self.turns: int = turns  # Кол-во ходов
         self.end_reason: str = end_reason  # Причина окончания игры
-        self.start_date:str = start_date    # Дата начала партии
-        self.finish_date:str = finish_date  # Дата окончания партии
-        self.seconds_per_move:int = seconds_per_move    # Время на ход в секундах
+        self.start_date: str = start_date    # Дата начала партии в формате YYYY-MM-DD
+        self.finish_date: str = finish_date  # Дата окончания партии в формате YYYY-MM-DD
+        self.seconds_per_move: int | None = seconds_per_move    # Время на ход в секундах
 
     def print(self):
         print('A game with ' + str(len(self.teams)) + ' teams')
