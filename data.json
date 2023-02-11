@@ -3,16 +3,16 @@
         "1": {
             "id": 1,
             "name": "George_Best_7",
-            "rating": 353,
-            "games_amount": 11,
+            "rating": 368,
+            "games_amount": 12,
             "solo_wins_amount": 5,
-            "team_wins_amount": 2,
-            "total_wins_amount": 7,
+            "team_wins_amount": 3,
+            "total_wins_amount": 8,
             "highest_rating_take": 18,
             "highest_rating_take_game": 2,
             "lowest_rating_take": -2,
             "lowest_rating_take_game": 11,
-            "peak_rating": 355,
+            "peak_rating": 368,
             "rating_changes": [
                 {
                     "game_id": 1,
@@ -57,12 +57,16 @@
                 {
                     "game_id": 11,
                     "rating_change": -2
+                },
+                {
+                    "game_id": 12,
+                    "rating_change": 15
                 }
             ],
             "top_position": 1,
             "lowest_position": 1,
-            "average_rating": 11.36,
-            "win_rate": 0.64,
+            "average_rating": 11.67,
+            "win_rate": 0.67,
             "change_position": 0,
             "games_info": [
                 {
@@ -163,14 +167,23 @@
                     "place": 5,
                     "leader_id": 37,
                     "nation_id": 34
+                },
+                {
+                    "game_id": 12,
+                    "player_id": 1,
+                    "is_win": true,
+                    "score_change": 15,
+                    "place": 1,
+                    "leader_id": 60,
+                    "nation_id": 45
                 }
             ]
         },
         "2": {
             "id": 2,
             "name": "Leodroid",
-            "rating": 315,
-            "games_amount": 11,
+            "rating": 318,
+            "games_amount": 12,
             "solo_wins_amount": 1,
             "team_wins_amount": 1,
             "total_wins_amount": 2,
@@ -178,7 +191,7 @@
             "highest_rating_take_game": 9,
             "lowest_rating_take": 3,
             "lowest_rating_take_game": 5,
-            "peak_rating": 315,
+            "peak_rating": 318,
             "rating_changes": [
                 {
                     "game_id": 1,
@@ -223,12 +236,16 @@
                 {
                     "game_id": 11,
                     "rating_change": 4
+                },
+                {
+                    "game_id": 12,
+                    "rating_change": 3
                 }
             ],
             "top_position": 2,
             "lowest_position": 3,
-            "average_rating": 7.91,
-            "win_rate": 0.18,
+            "average_rating": 7.5,
+            "win_rate": 0.17,
             "change_position": 0,
             "games_info": [
                 {
@@ -329,14 +346,23 @@
                     "place": 4,
                     "leader_id": 41,
                     "nation_id": 37
+                },
+                {
+                    "game_id": 12,
+                    "player_id": 2,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2,
+                    "leader_id": 58,
+                    "nation_id": 2
                 }
             ]
         },
         "0": {
             "id": 0,
             "name": "Neodim",
-            "rating": 309,
-            "games_amount": 8,
+            "rating": 312,
+            "games_amount": 9,
             "solo_wins_amount": 0,
             "team_wins_amount": 2,
             "total_wins_amount": 2,
@@ -344,7 +370,7 @@
             "highest_rating_take_game": 5,
             "lowest_rating_take": 3,
             "lowest_rating_take_game": 1,
-            "peak_rating": 309,
+            "peak_rating": 312,
             "rating_changes": [
                 {
                     "game_id": 1,
@@ -377,12 +403,16 @@
                 {
                     "game_id": 11,
                     "rating_change": 8
+                },
+                {
+                    "game_id": 12,
+                    "rating_change": 3
                 }
             ],
             "top_position": 2,
             "lowest_position": 4,
-            "average_rating": 10.12,
-            "win_rate": 0.25,
+            "average_rating": 9.33,
+            "win_rate": 0.22,
             "change_position": 0,
             "games_info": [
                 {
@@ -456,22 +486,31 @@
                     "place": 3,
                     "leader_id": 28,
                     "nation_id": 26
+                },
+                {
+                    "game_id": 12,
+                    "player_id": 0,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2,
+                    "leader_id": 28,
+                    "nation_id": 26
                 }
             ]
         },
         "5": {
             "id": 5,
             "name": "TinyClayMan",
-            "rating": 275,
-            "games_amount": 8,
+            "rating": 290,
+            "games_amount": 9,
             "solo_wins_amount": 0,
-            "team_wins_amount": 0,
-            "total_wins_amount": 0,
-            "highest_rating_take": 13,
-            "highest_rating_take_game": 11,
+            "team_wins_amount": 1,
+            "total_wins_amount": 1,
+            "highest_rating_take": 15,
+            "highest_rating_take_game": 12,
             "lowest_rating_take": 1,
             "lowest_rating_take_game": 8,
-            "peak_rating": 275,
+            "peak_rating": 290,
             "rating_changes": [
                 {
                     "game_id": 3,
@@ -504,13 +543,17 @@
                 {
                     "game_id": 11,
                     "rating_change": 13
+                },
+                {
+                    "game_id": 12,
+                    "rating_change": 15
                 }
             ],
             "top_position": 4,
             "lowest_position": 8,
-            "average_rating": 5.88,
-            "win_rate": 0.0,
-            "change_position": 1,
+            "average_rating": 6.89,
+            "win_rate": 0.11,
+            "change_position": 0,
             "games_info": [
                 {
                     "game_id": 3,
@@ -583,6 +626,103 @@
                     "place": 2,
                     "leader_id": 22,
                     "nation_id": 20
+                },
+                {
+                    "game_id": 12,
+                    "player_id": 5,
+                    "is_win": true,
+                    "score_change": 15,
+                    "place": 1,
+                    "leader_id": 59,
+                    "nation_id": 47
+                }
+            ]
+        },
+        "7": {
+            "id": 7,
+            "name": "MaxBelol",
+            "rating": 270,
+            "games_amount": 5,
+            "solo_wins_amount": 0,
+            "team_wins_amount": 2,
+            "total_wins_amount": 2,
+            "highest_rating_take": 15,
+            "highest_rating_take_game": 5,
+            "lowest_rating_take": 1,
+            "lowest_rating_take_game": 2,
+            "peak_rating": 270,
+            "rating_changes": [
+                {
+                    "game_id": 2,
+                    "rating_change": 1
+                },
+                {
+                    "game_id": 5,
+                    "rating_change": 15
+                },
+                {
+                    "game_id": 6,
+                    "rating_change": 3
+                },
+                {
+                    "game_id": 7,
+                    "rating_change": 8
+                },
+                {
+                    "game_id": 12,
+                    "rating_change": 15
+                }
+            ],
+            "top_position": 5,
+            "lowest_position": 11,
+            "average_rating": 8.4,
+            "win_rate": 0.4,
+            "change_position": 2,
+            "games_info": [
+                {
+                    "game_id": 2,
+                    "player_id": 7,
+                    "is_win": false,
+                    "score_change": 1,
+                    "place": 4,
+                    "leader_id": 57,
+                    "nation_id": 50
+                },
+                {
+                    "game_id": 5,
+                    "player_id": 7,
+                    "is_win": true,
+                    "score_change": 15,
+                    "place": 1,
+                    "leader_id": 33,
+                    "nation_id": 30
+                },
+                {
+                    "game_id": 6,
+                    "player_id": 7,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2,
+                    "leader_id": 35,
+                    "nation_id": 32
+                },
+                {
+                    "game_id": 7,
+                    "player_id": 7,
+                    "is_win": false,
+                    "score_change": 8,
+                    "place": 4,
+                    "leader_id": 20,
+                    "nation_id": 18
+                },
+                {
+                    "game_id": 12,
+                    "player_id": 7,
+                    "is_win": true,
+                    "score_change": 15,
+                    "place": 1,
+                    "leader_id": 45,
+                    "nation_id": 41
                 }
             ]
         },
@@ -621,7 +761,7 @@
             "lowest_position": 11,
             "average_rating": 9.5,
             "win_rate": 0.5,
-            "change_position": 3,
+            "change_position": -1,
             "games_info": [
                 {
                     "game_id": 1,
@@ -688,7 +828,7 @@
             "lowest_position": 10,
             "average_rating": 17.0,
             "win_rate": 1.0,
-            "change_position": -2,
+            "change_position": -1,
             "games_info": [
                 {
                     "game_id": 4,
@@ -710,78 +850,65 @@
                 }
             ]
         },
-        "7": {
-            "id": 7,
-            "name": "MaxBelol",
-            "rating": 255,
-            "games_amount": 4,
+        "9": {
+            "id": 9,
+            "name": "Cvytik",
+            "rating": 253,
+            "games_amount": 3,
             "solo_wins_amount": 0,
             "team_wins_amount": 1,
             "total_wins_amount": 1,
             "highest_rating_take": 15,
-            "highest_rating_take_game": 5,
-            "lowest_rating_take": 1,
-            "lowest_rating_take_game": 2,
-            "peak_rating": 255,
+            "highest_rating_take_game": 12,
+            "lowest_rating_take": 3,
+            "lowest_rating_take_game": 6,
+            "peak_rating": 253,
             "rating_changes": [
                 {
-                    "game_id": 2,
-                    "rating_change": 1
-                },
-                {
-                    "game_id": 5,
-                    "rating_change": 15
+                    "game_id": 4,
+                    "rating_change": 7
                 },
                 {
                     "game_id": 6,
                     "rating_change": 3
                 },
                 {
-                    "game_id": 7,
-                    "rating_change": 8
+                    "game_id": 12,
+                    "rating_change": 15
                 }
             ],
-            "top_position": 5,
-            "lowest_position": 11,
-            "average_rating": 6.75,
-            "win_rate": 0.25,
-            "change_position": -1,
+            "top_position": 8,
+            "lowest_position": 12,
+            "average_rating": 8.33,
+            "win_rate": 0.33,
+            "change_position": 4,
             "games_info": [
                 {
-                    "game_id": 2,
-                    "player_id": 7,
+                    "game_id": 4,
+                    "player_id": 9,
                     "is_win": false,
-                    "score_change": 1,
+                    "score_change": 7,
                     "place": 4,
-                    "leader_id": 57,
-                    "nation_id": 50
-                },
-                {
-                    "game_id": 5,
-                    "player_id": 7,
-                    "is_win": true,
-                    "score_change": 15,
-                    "place": 1,
-                    "leader_id": 33,
-                    "nation_id": 30
+                    "leader_id": 32,
+                    "nation_id": 9
                 },
                 {
                     "game_id": 6,
-                    "player_id": 7,
+                    "player_id": 9,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
-                    "leader_id": 35,
-                    "nation_id": 32
+                    "leader_id": 7,
+                    "nation_id": 6
                 },
                 {
-                    "game_id": 7,
-                    "player_id": 7,
-                    "is_win": false,
-                    "score_change": 8,
-                    "place": 4,
-                    "leader_id": 20,
-                    "nation_id": 18
+                    "game_id": 12,
+                    "player_id": 9,
+                    "is_win": true,
+                    "score_change": 15,
+                    "place": 1,
+                    "leader_id": 46,
+                    "nation_id": 42
                 }
             ]
         },
@@ -854,10 +981,10 @@
                 }
             ],
             "top_position": 3,
-            "lowest_position": 9,
+            "lowest_position": 10,
             "average_rating": 15.0,
             "win_rate": 1.0,
-            "change_position": 0,
+            "change_position": -1,
             "games_info": [
                 {
                     "game_id": 1,
@@ -893,7 +1020,7 @@
             "lowest_position": 12,
             "average_rating": 15.0,
             "win_rate": 1.0,
-            "change_position": 0,
+            "change_position": -1,
             "games_info": [
                 {
                     "game_id": 6,
@@ -926,10 +1053,10 @@
                 }
             ],
             "top_position": 5,
-            "lowest_position": 11,
+            "lowest_position": 12,
             "average_rating": 10.0,
             "win_rate": 0.0,
-            "change_position": 0,
+            "change_position": -1,
             "games_info": [
                 {
                     "game_id": 3,
@@ -939,55 +1066,6 @@
                     "place": 3,
                     "leader_id": 3,
                     "nation_id": 3
-                }
-            ]
-        },
-        "9": {
-            "id": 9,
-            "name": "Cvytik",
-            "rating": 238,
-            "games_amount": 2,
-            "solo_wins_amount": 0,
-            "team_wins_amount": 0,
-            "total_wins_amount": 0,
-            "highest_rating_take": 7,
-            "highest_rating_take_game": 4,
-            "lowest_rating_take": 3,
-            "lowest_rating_take_game": 6,
-            "peak_rating": 238,
-            "rating_changes": [
-                {
-                    "game_id": 4,
-                    "rating_change": 7
-                },
-                {
-                    "game_id": 6,
-                    "rating_change": 3
-                }
-            ],
-            "top_position": 8,
-            "lowest_position": 12,
-            "average_rating": 5.0,
-            "win_rate": 0.0,
-            "change_position": 0,
-            "games_info": [
-                {
-                    "game_id": 4,
-                    "player_id": 9,
-                    "is_win": false,
-                    "score_change": 7,
-                    "place": 4,
-                    "leader_id": 32,
-                    "nation_id": 9
-                },
-                {
-                    "game_id": 6,
-                    "player_id": 9,
-                    "is_win": false,
-                    "score_change": 3,
-                    "place": 2,
-                    "leader_id": 7,
-                    "nation_id": 6
                 }
             ]
         },
@@ -1086,6 +1164,42 @@
                     "place": 4,
                     "leader_id": 49,
                     "nation_id": 45
+                }
+            ]
+        },
+        "14": {
+            "id": 14,
+            "name": "MixKage",
+            "rating": 231,
+            "games_amount": 1,
+            "solo_wins_amount": 0,
+            "team_wins_amount": 0,
+            "total_wins_amount": 0,
+            "highest_rating_take": 3,
+            "highest_rating_take_game": 12,
+            "lowest_rating_take": 3,
+            "lowest_rating_take_game": 12,
+            "peak_rating": 231,
+            "rating_changes": [
+                {
+                    "game_id": 12,
+                    "rating_change": 3
+                }
+            ],
+            "top_position": 15,
+            "lowest_position": 15,
+            "average_rating": 3.0,
+            "win_rate": 0.0,
+            "change_position": 0,
+            "games_info": [
+                {
+                    "game_id": 12,
+                    "player_id": 14,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2,
+                    "leader_id": 42,
+                    "nation_id": 38
                 }
             ]
         }
@@ -1524,6 +1638,48 @@
             "start_date": "2022-09-18",
             "finish_date": "2022-10-16",
             "seconds_per_move": null
+        },
+        "12": {
+            "id": 12,
+            "teams": [
+                [
+                    {
+                        "player_id": 7,
+                        "leader_id": 45
+                    },
+                    {
+                        "player_id": 5,
+                        "leader_id": 59
+                    },
+                    {
+                        "player_id": 1,
+                        "leader_id": 60
+                    },
+                    {
+                        "player_id": 9,
+                        "leader_id": 46
+                    }
+                ],
+                [
+                    {
+                        "player_id": 0,
+                        "leader_id": 28
+                    },
+                    {
+                        "player_id": 14,
+                        "leader_id": 42
+                    },
+                    {
+                        "player_id": 2,
+                        "leader_id": 58
+                    }
+                ]
+            ],
+            "turns": 181,
+            "end_reason": "Военная",
+            "start_date": "2023-02-04",
+            "finish_date": "2023-02-11",
+            "seconds_per_move": 169
         }
     },
     "leaders": {
@@ -2010,6 +2166,15 @@
                     "place": 3,
                     "leader_id": 28,
                     "nation_id": 26
+                },
+                {
+                    "game_id": 12,
+                    "player_id": 0,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2,
+                    "leader_id": 28,
+                    "nation_id": 26
                 }
             ]
         },
@@ -2238,6 +2403,15 @@
                     "place": 1,
                     "leader_id": 42,
                     "nation_id": 38
+                },
+                {
+                    "game_id": 12,
+                    "player_id": 14,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2,
+                    "leader_id": 42,
+                    "nation_id": 38
                 }
             ]
         },
@@ -2270,7 +2444,17 @@
             "name": "Филипп II",
             "nation_name": "Испания",
             "nation_id": 41,
-            "games_info": []
+            "games_info": [
+                {
+                    "game_id": 12,
+                    "player_id": 7,
+                    "is_win": true,
+                    "score_change": 15,
+                    "place": 1,
+                    "leader_id": 45,
+                    "nation_id": 41
+                }
+            ]
         },
         "46": {
             "id": 46,
@@ -2310,6 +2494,15 @@
                     "player_id": 4,
                     "is_win": true,
                     "score_change": 20,
+                    "place": 1,
+                    "leader_id": 46,
+                    "nation_id": 42
+                },
+                {
+                    "game_id": 12,
+                    "player_id": 9,
+                    "is_win": true,
+                    "score_change": 15,
                     "place": 1,
                     "leader_id": 46,
                     "nation_id": 42
@@ -2514,7 +2707,51 @@
             "name": "Екатерина Медичи (Чёрная королева)",
             "nation_name": "Франция",
             "nation_id": 2,
-            "games_info": []
+            "games_info": [
+                {
+                    "game_id": 12,
+                    "player_id": 2,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2,
+                    "leader_id": 58,
+                    "nation_id": 2
+                }
+            ]
+        },
+        "59": {
+            "id": 59,
+            "name": "У Цзетянь",
+            "nation_name": "Китай",
+            "nation_id": 47,
+            "games_info": [
+                {
+                    "game_id": 12,
+                    "player_id": 5,
+                    "is_win": true,
+                    "score_change": 15,
+                    "place": 1,
+                    "leader_id": 59,
+                    "nation_id": 47
+                }
+            ]
+        },
+        "60": {
+            "id": 60,
+            "name": "Токугава§",
+            "nation_name": "Япония",
+            "nation_id": 45,
+            "games_info": [
+                {
+                    "game_id": 12,
+                    "player_id": 1,
+                    "is_win": true,
+                    "score_change": 15,
+                    "place": 1,
+                    "leader_id": 60,
+                    "nation_id": 45
+                }
+            ]
         }
     },
     "nations": {
@@ -2558,6 +2795,15 @@
                     "score_change": -1,
                     "place": 6,
                     "leader_id": 14,
+                    "nation_id": 2
+                },
+                {
+                    "game_id": 12,
+                    "player_id": 2,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2,
+                    "leader_id": 58,
                     "nation_id": 2
                 }
             ]
@@ -2942,6 +3188,15 @@
                     "place": 3,
                     "leader_id": 28,
                     "nation_id": 26
+                },
+                {
+                    "game_id": 12,
+                    "player_id": 0,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2,
+                    "leader_id": 28,
+                    "nation_id": 26
                 }
             ]
         },
@@ -3121,6 +3376,15 @@
                     "place": 1,
                     "leader_id": 42,
                     "nation_id": 38
+                },
+                {
+                    "game_id": 12,
+                    "player_id": 14,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2,
+                    "leader_id": 42,
+                    "nation_id": 38
                 }
             ]
         },
@@ -3147,7 +3411,17 @@
         "41": {
             "id": 41,
             "name": "Испания",
-            "games_info": []
+            "games_info": [
+                {
+                    "game_id": 12,
+                    "player_id": 7,
+                    "is_win": true,
+                    "score_change": 15,
+                    "place": 1,
+                    "leader_id": 45,
+                    "nation_id": 41
+                }
+            ]
         },
         "42": {
             "id": 42,
@@ -3185,6 +3459,15 @@
                     "player_id": 4,
                     "is_win": true,
                     "score_change": 20,
+                    "place": 1,
+                    "leader_id": 46,
+                    "nation_id": 42
+                },
+                {
+                    "game_id": 12,
+                    "player_id": 9,
+                    "is_win": true,
+                    "score_change": 15,
                     "place": 1,
                     "leader_id": 46,
                     "nation_id": 42
@@ -3250,6 +3533,15 @@
                     "place": 4,
                     "leader_id": 49,
                     "nation_id": 45
+                },
+                {
+                    "game_id": 12,
+                    "player_id": 1,
+                    "is_win": true,
+                    "score_change": 15,
+                    "place": 1,
+                    "leader_id": 60,
+                    "nation_id": 45
                 }
             ]
         },
@@ -3288,6 +3580,15 @@
                     "score_change": 17,
                     "place": 1,
                     "leader_id": 52,
+                    "nation_id": 47
+                },
+                {
+                    "game_id": 12,
+                    "player_id": 5,
+                    "is_win": true,
+                    "score_change": 15,
+                    "place": 1,
+                    "leader_id": 59,
                     "nation_id": 47
                 }
             ]

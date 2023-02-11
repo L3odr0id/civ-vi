@@ -18,6 +18,7 @@ _Veldy = Player(10, 'Veldy')
 _TheDavidGame = Player(11, 'TheDavidGame')
 _Kris = Player(12, 'Kris')
 _Losyashboi = Player(13, 'Losyashboi')
+_MixKage = Player(14, 'MixKage')
 
 
 player_storage = PlayersStorage([
@@ -34,5 +35,6 @@ player_storage = PlayersStorage([
     _Cvytik,
     _StillWiseOut,
     _Kris,
-    _Losyashboi
+    _Losyashboi,
+    _MixKage
 ])
