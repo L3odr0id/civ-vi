@@ -33,6 +33,8 @@ class Player:
         self.previous_position: int = 0  # Позиция в результате прошлой партии
         self.change_position: int = 0    # Позиция в результате прошлой партии
         self.games_info: List[GameInfo] = [] # Краткая информация о играх, в которых принимал участие игрок
+        self.current_win_streak = 0     # Текущий винстрик
+        self.max_win_streak = 0         # Лучший винстрик
 
     def __lt__(self, other):
         return self.rating > other.rating
@@ -64,6 +66,8 @@ class Player:
         for game_info in self.games_info:
             games_info.append(game_info.get_serializable())
         d['games_info'] = games_info
+        d['current_win_streak'] = self.current_win_streak
+        d['max_win_streak'] = self.max_win_streak
         return d
 
     def get_wins_count(self):

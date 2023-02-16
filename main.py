@@ -1,5 +1,6 @@
 import json
 from calc_scores import calc_scores
+from calculations.winstreak import Winstreak
 from firebase import pushToFirebase
 
 from values.players import player_storage
@@ -22,6 +23,10 @@ def main():
             player_storage.players[j].previous_position = j + 1
         # playerStorage.print()
         # print()
+
+    # Расчёт винстрика
+    for player in player_storage.players:
+        Winstreak().set_values(player=player)
 
     res_json = dict()
     res_json['players'] = player_storage.get_serializable()

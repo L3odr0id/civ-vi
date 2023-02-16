@@ -177,7 +177,9 @@
                     "leader_id": 60,
                     "nation_id": 45
                 }
-            ]
+            ],
+            "current_win_streak": 1,
+            "max_win_streak": 3
         },
         "2": {
             "id": 2,
@@ -356,7 +358,9 @@
                     "leader_id": 58,
                     "nation_id": 2
                 }
-            ]
+            ],
+            "current_win_streak": 0,
+            "max_win_streak": 1
         },
         "0": {
             "id": 0,
@@ -496,7 +500,9 @@
                     "leader_id": 28,
                     "nation_id": 26
                 }
-            ]
+            ],
+            "current_win_streak": 0,
+            "max_win_streak": 2
         },
         "5": {
             "id": 5,
@@ -636,7 +642,9 @@
                     "leader_id": 59,
                     "nation_id": 47
                 }
-            ]
+            ],
+            "current_win_streak": 1,
+            "max_win_streak": 1
         },
         "7": {
             "id": 7,
@@ -724,7 +732,9 @@
                     "leader_id": 45,
                     "nation_id": 41
                 }
-            ]
+            ],
+            "current_win_streak": 1,
+            "max_win_streak": 1
         },
         "4": {
             "id": 4,
@@ -799,7 +809,9 @@
                     "leader_id": 46,
                     "nation_id": 42
                 }
-            ]
+            ],
+            "current_win_streak": 2,
+            "max_win_streak": 2
         },
         "3": {
             "id": 3,
@@ -848,7 +860,9 @@
                     "leader_id": 27,
                     "nation_id": 25
                 }
-            ]
+            ],
+            "current_win_streak": 2,
+            "max_win_streak": 2
         },
         "9": {
             "id": 9,
@@ -910,7 +924,9 @@
                     "leader_id": 46,
                     "nation_id": 42
                 }
-            ]
+            ],
+            "current_win_streak": 1,
+            "max_win_streak": 1
         },
         "6": {
             "id": 6,
@@ -959,7 +975,9 @@
                     "leader_id": 46,
                     "nation_id": 42
                 }
-            ]
+            ],
+            "current_win_streak": 1,
+            "max_win_streak": 1
         },
         "10": {
             "id": 10,
@@ -995,7 +1013,9 @@
                     "leader_id": 28,
                     "nation_id": 26
                 }
-            ]
+            ],
+            "current_win_streak": 1,
+            "max_win_streak": 1
         },
         "8": {
             "id": 8,
@@ -1031,7 +1051,9 @@
                     "leader_id": 13,
                     "nation_id": 12
                 }
-            ]
+            ],
+            "current_win_streak": 1,
+            "max_win_streak": 1
         },
         "11": {
             "id": 11,
@@ -1067,7 +1089,9 @@
                     "leader_id": 3,
                     "nation_id": 3
                 }
-            ]
+            ],
+            "current_win_streak": 0,
+            "max_win_streak": 0
         },
         "13": {
             "id": 13,
@@ -1116,7 +1140,9 @@
                     "leader_id": 49,
                     "nation_id": 45
                 }
-            ]
+            ],
+            "current_win_streak": 0,
+            "max_win_streak": 0
         },
         "12": {
             "id": 12,
@@ -1165,7 +1191,9 @@
                     "leader_id": 49,
                     "nation_id": 45
                 }
-            ]
+            ],
+            "current_win_streak": 0,
+            "max_win_streak": 0
         },
         "14": {
             "id": 14,
@@ -1201,7 +1229,9 @@
                     "leader_id": 42,
                     "nation_id": 38
                 }
-            ]
+            ],
+            "current_win_streak": 0,
+            "max_win_streak": 0
         }
     },
     "games": {
