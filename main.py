@@ -16,6 +16,7 @@ def create_meta_information():
         'last_update': time.time()
     }
 
+
 def main():
 
     for game in games_storage.games:
