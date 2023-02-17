@@ -1,4 +1,6 @@
 import json
+import time
+
 from calc_scores import calc_scores
 from calculations.winstreak import Winstreak
 from firebase import pushToFirebase
@@ -8,6 +10,11 @@ from values.leaders import leadersStorage
 from values.nations import nations_storage
 from values.games import games_storage
 
+def create_meta_information():
+    return {
+        'last_game': games_storage.games[-1].id,
+        'last_update': time.time()
+    }
 
 def main():
 
@@ -33,6 +40,7 @@ def main():
     res_json['games'] = games_storage.get_serializable()
     res_json['leaders'] = leadersStorage.get_serializable()
     res_json['nations'] = nations_storage.get_serializable()
+    res_json['meta'] = create_meta_information()
 
     # pushToFirebase(res_json)
 
