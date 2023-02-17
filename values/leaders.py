@@ -63,7 +63,7 @@ _Chieu_Vietnam = Leader('Чьеу Тхи Чинь', 'Вьетнам', 56)
 _Yadviga = Leader('Ядвига', 'Польша', 57)
 _Ekaterina_Medichi_Black_Queen = Leader('Екатерина Медичи (Чёрная королева)', 'Франция', 58)
 _Wu_Zeitian = Leader('У Цзетянь', 'Китай', 59)
-_Tokugawa = Leader('Токугава§', 'Япония', 60)
+_Tokugawa = Leader('Токугава', 'Япония', 60)
 
 
 leadersStorage = LeadersStorage([
