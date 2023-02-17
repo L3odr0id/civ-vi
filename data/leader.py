@@ -7,12 +7,13 @@ from data.nation import Nation
 
 
 class Leader:
-    def __init__(self, name: str, nation_name: str, id: int):
+    def __init__(self, name: str, nation_name: str, id: int, is_banned: bool=False):
         self.name: str = name
         self.nationName: str = nation_name
         self.id: int = id
         self.nation: Nation = Nation(0, '')  # плесйхолдер
         self.games_info: List[GameInfo] = []
+        self.is_banned = is_banned
 
     def get_serializable(self):
         d = dict()
@@ -24,4 +25,17 @@ class Leader:
         for game_info in self.games_info:
             games_info.append(game_info.get_serializable())
         d['games_info'] = games_info
+        d['games_amount'] = len(self.games_info)
+        d['wins'] = self.get_wins_count()
+        d['win_rate'] = self.get_win_rate()
+        d['is_played'] = len(self.games_info) > 0
+        d['is_banned'] = self.is_banned
         return d
+    
+    def get_wins_count(self):
+        return sum(map(lambda x : x.isWin, self.games_info))
+    
+    def get_win_rate(self):
+        if len(self.games_info) == 0:
+            return 0
+        return round(self.get_wins_count() / len(self.games_info), 2)

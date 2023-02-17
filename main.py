@@ -10,7 +10,6 @@ from values.leaders import leadersStorage
 from values.nations import nations_storage
 from values.games import games_storage
 
-
 def create_meta_information():
     return {
         'last_game': games_storage.games[-1].id,
