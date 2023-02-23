@@ -26,14 +26,22 @@ class Leader:
             games_info.append(game_info.get_serializable())
         d['games_info'] = games_info
         d['games_amount'] = len(self.games_info)
-        d['wins'] = self.get_wins_count()
+        d['total_wins_amount'] = self.get_wins_count()
+        d['solo_wins_amount'] = self.get_solo_wins()
+        d['team_wins_amount'] = self.get_team_wins()
         d['win_rate'] = self.get_win_rate()
         d['is_played'] = len(self.games_info) > 0
         d['is_banned'] = self.is_banned
         return d
+
+    def get_team_wins(self):
+        return sum(map(lambda x : x.isWin and x.is_played_with_teams, self.games_info))
+    
+    def get_solo_wins(self):
+        return sum(map(lambda x : x.isWin and not x.is_played_with_teams, self.games_info))
     
     def get_wins_count(self):
-        return sum(map(lambda x : x.isWin, self.games_info))
+        return self.get_team_wins() + self.get_solo_wins()
     
     def get_win_rate(self):
         if len(self.games_info) == 0:

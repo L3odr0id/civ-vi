@@ -1,6 +1,6 @@
 class GameInfo:
     def __init__(self, game_id: int, player_id: int, leader_id: int, nation_id: int, is_win: bool,
-                 score_change: int, place: int, ):
+                 score_change: int, place: int, is_played_with_teams: bool ):
         self.game_id: int = game_id
         self.player_id: int = player_id
         self.isWin: bool = is_win
@@ -8,6 +8,7 @@ class GameInfo:
         self.place: int = place
         self.leader_id: int = leader_id
         self.nation_id: int = nation_id
+        self.is_played_with_teams = is_played_with_teams
 
     def get_serializable(self):
         d = dict()
@@ -18,4 +19,5 @@ class GameInfo:
         d['place'] = self.place
         d['leader_id'] = self.leader_id
         d['nation_id'] = self.nation_id
+        d['is_played_with_teams'] = self.is_played_with_teams
         return d
