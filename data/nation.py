@@ -5,10 +5,14 @@ if TYPE_CHECKING:
     from data.leader import Leader
     from data.game_info import GameInfo
 
+import itertools
 
 class Nation:
-    def __init__(self, id: int, name: str):
-        self.id: int = id
+
+    id_iter = itertools.count()
+
+    def __init__(self, name: str):
+        self.id: int = next(self.id_iter)
         self.name: str = name
         self.games_info: List[GameInfo] = []
         self.leaders: List[Leader] = []

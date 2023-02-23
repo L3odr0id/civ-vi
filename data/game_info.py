@@ -8,7 +8,7 @@ class GameInfo:
         self.place: int = place
         self.leader_id: int = leader_id
         self.nation_id: int = nation_id
-        self.is_played_by_teams = is_played_by_teams
+        self.is_played_by_teams: bool = is_played_by_teams
 
     def get_serializable(self):
         d = dict()

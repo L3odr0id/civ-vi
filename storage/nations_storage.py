@@ -13,7 +13,6 @@ class NationsStorage:
 
     # Всем нациям поставить в соответствие лидеров, а лидерам нации
     def resolve_leaders_and_nations(self, leaders: LeadersStorage):
-        i = 0
         for leader in leaders.leaders:
             nation = self.nation(leader.nationName)
 
@@ -21,9 +20,8 @@ class NationsStorage:
                 nation.add_leader(leader)
                 leader.nation = nation
             else:
-                self.add_nation(Nation(i, leader.nationName))
+                self.add_nation(Nation(leader.nationName))
                 leader.nation = self.nations[-1]
-                i += 1
 
     # получить нацию по названию
     def nation(self, nation_name: str) -> Nation | None :

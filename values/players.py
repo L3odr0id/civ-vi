@@ -4,21 +4,21 @@ from data.player import Player
 
 
 # Игроки
-_Neodim = Player(0, 'Neodim')
-_George_Best_7 = Player(1, 'George_Best_7')
-_Leodroid = Player(2, 'Leodroid')
-_Ortreke = Player(3, 'Ortreke')
-_The_Losst = Player(4, 'The_Losst')
-_TinyClayMan = Player(5, 'TinyClayMan')
-_SaltySoup = Player(6, 'SaltySoup')
-_MaxBelol = Player(7, 'MaxBelol')
-_StillWiseOut = Player(8, 'StillWiseOut')
-_Cvytik = Player(9, 'Cvytik')
-_Veldy = Player(10, 'Veldy')
-_TheDavidGame = Player(11, 'TheDavidGame')
-_Kris = Player(12, 'Kris')
-_Losyashboi = Player(13, 'Losyashboi')
-_MixKage = Player(14, 'MixKage')
+_Neodim = Player('Neodim')
+_George_Best_7 = Player('George_Best_7')
+_Leodroid = Player('Leodroid')
+_Ortreke = Player('Ortreke')
+_The_Losst = Player('The_Losst')
+_TinyClayMan = Player('TinyClayMan')
+_SaltySoup = Player('SaltySoup')
+_MaxBelol = Player('MaxBelol')
+_StillWiseOut = Player('StillWiseOut')
+_Cvytik = Player('Cvytik')
+_Veldy = Player('Veldy')
+_TheDavidGame = Player('TheDavidGame')
+_Kris = Player('Kris')
+_Losyashboi = Player('Losyashboi')
+_MixKage = Player('MixKage')
 
 
 player_storage = PlayersStorage([

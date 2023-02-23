@@ -3,6 +3,8 @@ from typing import Tuple, List, TYPE_CHECKING
 if TYPE_CHECKING:
     from data.game_info import GameInfo
 
+import itertools
+
 from constants import INITIAL_RATING 
 
 class RatingChange:
@@ -17,8 +19,11 @@ class RatingChange:
         return d
 
 class Player:
-    def __init__(self, id: int, name: str):
-        self.id: int = id  # ID игрока
+
+    id_iter = itertools.count()
+
+    def __init__(self, name: str):
+        self.id: int = next(self.id_iter) # ID игрока
         self.name: str = name    # Никнейм
         self.rating: int = INITIAL_RATING  # Рейтинг
         self.games_amount: int = 0    # Кол-во игр

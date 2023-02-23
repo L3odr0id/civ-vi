@@ -3,15 +3,21 @@ from typing import List, TYPE_CHECKING
 if TYPE_CHECKING:
     from data.team import Team
 
+import itertools
+
 
 class Game:
-    def __init__(self, id: int, turns: int, end_reason: str, start_date: str, finish_date: str, seconds_per_move: int | None = None):
-        self.id: int = id  # Номер партии
+
+    id_iter = itertools.count()
+
+    def __init__(self, game_number: int, turns: int, end_reason: str, start_date: str, finish_date: str, seconds_per_move: int | None = None):
+        self.id = next(self.id_iter) # ID игры
+        self.game_number: int = game_number  # Номер игры
         self.teams: List[Team] = []  # Команды
         self.turns: int = turns  # Кол-во ходов
         self.end_reason: str = end_reason  # Причина окончания игры
-        self.start_date: str = start_date    # Дата начала партии в формате YYYY-MM-DD
-        self.finish_date: str = finish_date  # Дата окончания партии в формате YYYY-MM-DD
+        self.start_date: str = start_date    # Дата начала игры в формате YYYY-MM-DD
+        self.finish_date: str = finish_date  # Дата окончания игры в формате YYYY-MM-DD
         self.seconds_per_move: int | None = seconds_per_move    # Время на ход в секундах
 
     def print(self):
@@ -23,6 +29,7 @@ class Game:
     def get_serializable(self):
         res = dict()
         res['id'] = self.id
+        res['game_number'] = self.game_number
         teams = []
         for team in self.teams:
             teams.append(team.get_serializable())

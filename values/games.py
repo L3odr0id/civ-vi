@@ -8,7 +8,7 @@ import values.leaders as leaders
 
 
 def get_game_1():
-    game = Game(0, 144, 'Суп ушёл варить пельмени', start_date='2020-02-05', finish_date='2020-02-05')
+    game = Game(1, 144, 'Суп ушёл варить пельмени', start_date='2020-02-05', finish_date='2020-02-05')
 
     team0 = Team()
     team0.add_player(players._George_Best_7, leaders._Friedrich_Barbarossa)
@@ -25,7 +25,7 @@ def get_game_1():
 
 
 def get_game_2():
-    game = Game(1, 148, 'Культурная', start_date='2020-11-14', finish_date='2020-11-15')
+    game = Game(2, 148, 'Культурная', start_date='2020-11-14', finish_date='2020-11-15')
     team0 = Team()
     team0.add_player(players._George_Best_7, leaders._Pedru_II)
     team1 = Team()
@@ -40,7 +40,7 @@ def get_game_2():
 
 
 def get_game_3():
-    game = Game(2, 236, 'Дипломатическая', start_date='2020-12-28', finish_date='2020-12-30')
+    game = Game(3, 236, 'Дипломатическая', start_date='2020-12-28', finish_date='2020-12-30')
     team0 = Team()
     team0.add_player(players._George_Best_7, leaders._Rusvelt_Vsadnik)
     team1 = Team()
@@ -59,7 +59,7 @@ def get_game_3():
 
 
 def get_game_4():
-    game = Game(3, 215, 'Религиозная', start_date='2021-02-01', finish_date='2021-02-03')
+    game = Game(4, 215, 'Религиозная', start_date='2021-02-01', finish_date='2021-02-03')
     team0 = Team()
     team0.add_player(players._Ortreke, leaders._Pochatok)
     team1 = Team()
@@ -78,7 +78,7 @@ def get_game_4():
 
 
 def get_game_5():
-    game = Game(4, 192, 'Религиозная', start_date='2021-02-14', finish_date='2021-02-28')
+    game = Game(5, 192, 'Религиозная', start_date='2021-02-14', finish_date='2021-02-28')
     team0 = Team()
     team0.add_player(players._George_Best_7, leaders._Yadviga)
     team0.add_player(players._MaxBelol, leaders._Robert_Brus)
@@ -93,7 +93,7 @@ def get_game_5():
 
 
 def get_game_6():
-    game = Game(5, 182, 'Дипломатическая', start_date='2021-04-04', finish_date='2021-04-18')
+    game = Game(6, 182, 'Дипломатическая', start_date='2021-04-04', finish_date='2021-04-18')
     team0 = Team()
     team0.add_player(players._Neodim, leaders._Peter_the_Great)
     team0.add_player(players._Ortreke, leaders._Montesuma)
@@ -113,7 +113,7 @@ def get_game_6():
 
 
 def get_game_7():
-    game = Game(6, 241, 'Дипломатическая', start_date='2021-04-25', finish_date='2021-05-09')
+    game = Game(7, 241, 'Дипломатическая', start_date='2021-04-25', finish_date='2021-05-09')
     team0 = Team()
     team0.add_player(players._George_Best_7, leaders._Hammurapi)
     team1 = Team()
@@ -134,7 +134,7 @@ def get_game_7():
 
 
 def get_game_8():
-    game = Game(7 , 220, 'Дипломатическая', start_date='2021-05-16', finish_date='2021-06-27')
+    game = Game(8 , 220, 'Дипломатическая', start_date='2021-05-16', finish_date='2021-06-27')
     team0 = Team()
     team0.add_player(players._George_Best_7, leaders._Tin_Huan)
     team1 = Team()
@@ -149,7 +149,7 @@ def get_game_8():
 
 
 def get_game_9():
-    game = Game(8, 148, 'Религиозная', start_date='2022-03-13', finish_date='2022-03-13', seconds_per_move=69)
+    game = Game(9, 148, 'Религиозная', start_date='2022-03-13', finish_date='2022-03-13', seconds_per_move=69)
     team0 = Team()
     team0.add_player(players._Leodroid, leaders._Javarman)
     team1 = Team()
@@ -163,7 +163,7 @@ def get_game_9():
     return game
 
 def get_game_10():
-    game = Game(9, 72, 'Военная', start_date='2022-04-24', finish_date='2022-04-24')
+    game = Game(10, 72, 'Военная', start_date='2022-04-24', finish_date='2022-04-24')
     team0 = Team()
     team0.add_player(players._George_Best_7, leaders._Kir)
     team1 = Team()
@@ -173,7 +173,7 @@ def get_game_10():
     return game
 
 def get_game_11():
-    game = Game(10, 232, 'Научная', start_date='2022-09-18', finish_date='2022-10-16')
+    game = Game(11, 232, 'Научная', start_date='2022-09-18', finish_date='2022-10-16')
     team0 = Team()
     team0.add_player(players._The_Losst, leaders._Friedrich_Barbarossa)
     team1 = Team()
@@ -189,7 +189,7 @@ def get_game_11():
     return game
 
 def get_game_12():
-    game = Game(11, 181, 'Военная', start_date='2023-02-04', finish_date='2023-02-11', seconds_per_move=169)
+    game = Game(12, 181, 'Военная', start_date='2023-02-04', finish_date='2023-02-11', seconds_per_move=169)
     team0 = Team()
     team0.add_player(players._MaxBelol, leaders._Filipp_2)
     team0.add_player(players._TinyClayMan, leaders._Wu_Zeitian)

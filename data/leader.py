@@ -5,13 +5,17 @@ if TYPE_CHECKING:
 
 from data.nation import Nation
 
+import itertools
 
 class Leader:
-    def __init__(self, name: str, nation_name: str, id: int, is_banned: bool=False):
+
+    id_iter = itertools.count()
+
+    def __init__(self, name: str, nation_name: str, is_banned: bool=False):
+        self.id: int = next(self.id_iter)
         self.name: str = name
-        self.nationName: str = nation_name
-        self.id: int = id
-        self.nation: Nation = Nation(0, '')  # плесйхолдер
+        self.nationName: str = nation_name # TODO: убрать после переработки соединения нации и лидера
+        self.nation: Nation | None = None
         self.games_info: List[GameInfo] = []
         self.is_banned = is_banned
 
@@ -20,7 +24,7 @@ class Leader:
         d['id'] = self.id
         d['name'] = self.name
         d['nation_name'] = self.nationName
-        d['nation_id'] = self.nation.id
+        d['nation_id'] = self.nation.id if self.nation != None else None
         games_info = []
         for game_info in self.games_info:
             games_info.append(game_info.get_serializable())
