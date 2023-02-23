@@ -73,7 +73,7 @@ def calc_scores(game: Game):
 
             # для лидера и нации добавляем запись об игре
             game_info = GameInfo(game.id, player.id, leader.id,
-                                 leader.nation.id, i == 0, change, i + 1, is_played_with_teams=len(game.teams[0].get_players())>1
+                                 leader.nation.id, i == 0, change, i + 1, is_played_by_teams=len(game.teams[0].get_players())>1
                                  )
             player.games_info.append(game_info)
             leader.games_info.append(game_info)
