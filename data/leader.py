@@ -1,9 +1,9 @@
+from __future__ import annotations
 from typing import List, TYPE_CHECKING
 
 if TYPE_CHECKING:
     from data.game_info import GameInfo
-
-from data.nation import Nation
+    from data.nation import Nation
 
 import itertools
 
@@ -11,11 +11,10 @@ class Leader:
 
     id_iter = itertools.count()
 
-    def __init__(self, name: str, nation_name: str, is_banned: bool=False):
+    def __init__(self, name: str, nation: Nation, is_banned: bool = False):
         self.id: int = next(self.id_iter)
         self.name: str = name
-        self.nationName: str = nation_name # TODO: убрать после переработки соединения нации и лидера
-        self.nation: Nation | None = None
+        self.nation: Nation = nation
         self.games_info: List[GameInfo] = []
         self.is_banned = is_banned
 
@@ -23,7 +22,6 @@ class Leader:
         d = dict()
         d['id'] = self.id
         d['name'] = self.name
-        d['nation_name'] = self.nationName
         d['nation_id'] = self.nation.id if self.nation != None else None
         games_info = []
         for game_info in self.games_info:

@@ -2029,7 +2029,6 @@
         "0": {
             "id": 0,
             "name": "Александр",
-            "nation_name": "Македония",
             "nation_id": 0,
             "games_info": [
                 {
@@ -2054,7 +2053,6 @@
         "1": {
             "id": 1,
             "name": "Алиенора Аквитанская (Англия)",
-            "nation_name": "Англия",
             "nation_id": 1,
             "games_info": [
                 {
@@ -2079,7 +2077,6 @@
         "2": {
             "id": 2,
             "name": "Алиенора Аквитанская (Франция)",
-            "nation_name": "Франция",
             "nation_id": 2,
             "games_info": [],
             "games_amount": 0,
@@ -2093,7 +2090,6 @@
         "3": {
             "id": 3,
             "name": "Аманиторе",
-            "nation_name": "Нубия",
             "nation_id": 3,
             "games_info": [
                 {
@@ -2118,7 +2114,6 @@
         "4": {
             "id": 4,
             "name": "Амбиорикс",
-            "nation_name": "Галлия",
             "nation_id": 4,
             "games_info": [
                 {
@@ -2143,7 +2138,6 @@
         "5": {
             "id": 5,
             "name": "Василий II",
-            "nation_name": "Византия (Россия 2)",
             "nation_id": 5,
             "games_info": [
                 {
@@ -2168,7 +2162,6 @@
         "6": {
             "id": 6,
             "name": "Виктория",
-            "nation_name": "Англия",
             "nation_id": 1,
             "games_info": [
                 {
@@ -2193,7 +2186,6 @@
         "7": {
             "id": 7,
             "name": "Вильгельмина",
-            "nation_name": "Нидерланды",
             "nation_id": 6,
             "games_info": [
                 {
@@ -2218,7 +2210,6 @@
         "8": {
             "id": 8,
             "name": "Ганди",
-            "nation_name": "Индия",
             "nation_id": 7,
             "games_info": [
                 {
@@ -2243,7 +2234,6 @@
         "9": {
             "id": 9,
             "name": "Гильгамеш",
-            "nation_name": "Шумер",
             "nation_id": 8,
             "games_info": [
                 {
@@ -2268,7 +2258,6 @@
         "10": {
             "id": 10,
             "name": "Горго",
-            "nation_name": "Греция",
             "nation_id": 9,
             "games_info": [
                 {
@@ -2293,7 +2282,6 @@
         "11": {
             "id": 11,
             "name": "Джайаварман VII",
-            "nation_name": "Кхмеры",
             "nation_id": 10,
             "games_info": [
                 {
@@ -2318,7 +2306,6 @@
         "12": {
             "id": 12,
             "name": "Джон Кэртин",
-            "nation_name": "Австралия",
             "nation_id": 11,
             "games_info": [],
             "games_amount": 0,
@@ -2332,7 +2319,6 @@
         "13": {
             "id": 13,
             "name": "Дидона",
-            "nation_name": "Финикия",
             "nation_id": 12,
             "games_info": [
                 {
@@ -2357,7 +2343,6 @@
         "14": {
             "id": 14,
             "name": "Екатерина Медичи (Великолепная)",
-            "nation_name": "Франция",
             "nation_id": 2,
             "games_info": [
                 {
@@ -2382,7 +2367,6 @@
         "15": {
             "id": 15,
             "name": "Жуан III",
-            "nation_name": "Португалия",
             "nation_id": 13,
             "games_info": [
                 {
@@ -2407,7 +2391,6 @@
         "16": {
             "id": 16,
             "name": "Иш-Вак-Чан-Ахав",
-            "nation_name": "Майя",
             "nation_id": 14,
             "games_info": [
                 {
@@ -2442,7 +2425,6 @@
         "17": {
             "id": 17,
             "name": "Кир II",
-            "nation_name": "Персия",
             "nation_id": 15,
             "games_info": [
                 {
@@ -2467,7 +2449,6 @@
         "18": {
             "id": 18,
             "name": "Клеопатра",
-            "nation_name": "Египет",
             "nation_id": 16,
             "games_info": [
                 {
@@ -2492,7 +2473,6 @@
         "19": {
             "id": 19,
             "name": "Кристина",
-            "nation_name": "Швеция",
             "nation_id": 17,
             "games_info": [
                 {
@@ -2517,7 +2497,6 @@
         "20": {
             "id": 20,
             "name": "Купе",
-            "nation_name": "Маори",
             "nation_id": 18,
             "games_info": [
                 {
@@ -2542,7 +2521,6 @@
         "21": {
             "id": 21,
             "name": "Лаутаро",
-            "nation_name": "Мапуче",
             "nation_id": 19,
             "games_info": [
                 {
@@ -2567,7 +2545,6 @@
         "22": {
             "id": 22,
             "name": "Манса Муса",
-            "nation_name": "Мали",
             "nation_id": 20,
             "games_info": [
                 {
@@ -2592,7 +2569,6 @@
         "23": {
             "id": 23,
             "name": "Матьяш I",
-            "nation_name": "Венгрия",
             "nation_id": 21,
             "games_info": [
                 {
@@ -2617,7 +2593,6 @@
         "24": {
             "id": 24,
             "name": "Мвемба а Нзинга",
-            "nation_name": "Конго",
             "nation_id": 22,
             "games_info": [],
             "games_amount": 0,
@@ -2631,7 +2606,6 @@
         "25": {
             "id": 25,
             "name": "Менелик II",
-            "nation_name": "Эфиопия",
             "nation_id": 23,
             "games_info": [
                 {
@@ -2656,7 +2630,6 @@
         "26": {
             "id": 26,
             "name": "Монтесума",
-            "nation_name": "Ацтеки",
             "nation_id": 24,
             "games_info": [
                 {
@@ -2681,7 +2654,6 @@
         "27": {
             "id": 27,
             "name": "Пётр Великий",
-            "nation_name": "Россия",
             "nation_id": 25,
             "games_info": [
                 {
@@ -2786,7 +2758,6 @@
         "28": {
             "id": 28,
             "name": "Паундмейкер",
-            "nation_name": "Кри",
             "nation_id": 26,
             "games_info": [
                 {
@@ -2811,7 +2782,6 @@
         "29": {
             "id": 29,
             "name": "Пачакутек",
-            "nation_name": "Инки",
             "nation_id": 27,
             "games_info": [
                 {
@@ -2836,7 +2806,6 @@
         "30": {
             "id": 30,
             "name": "Педру II",
-            "nation_name": "Бразилия",
             "nation_id": 28,
             "games_info": [
                 {
@@ -2861,7 +2830,6 @@
         "31": {
             "id": 31,
             "name": "Перикл",
-            "nation_name": "Греция",
             "nation_id": 9,
             "games_info": [
                 {
@@ -2886,7 +2854,6 @@
         "32": {
             "id": 32,
             "name": "Роберт Брюс",
-            "nation_name": "Шотландия",
             "nation_id": 29,
             "games_info": [
                 {
@@ -2911,7 +2878,6 @@
         "33": {
             "id": 33,
             "name": "Саладин (Визирь)",
-            "nation_name": "Аравия",
             "nation_id": 30,
             "games_info": [
                 {
@@ -2936,7 +2902,6 @@
         "34": {
             "id": 34,
             "name": "Симон Боливар",
-            "nation_name": "Колумбия",
             "nation_id": 31,
             "games_info": [
                 {
@@ -2961,7 +2926,6 @@
         "35": {
             "id": 35,
             "name": "Сондок",
-            "nation_name": "Корея",
             "nation_id": 32,
             "games_info": [],
             "games_amount": 0,
@@ -2975,7 +2939,6 @@
         "36": {
             "id": 36,
             "name": "Сулейман (Кануни)",
-            "nation_name": "Османы",
             "nation_id": 33,
             "games_info": [
                 {
@@ -3000,7 +2963,6 @@
         "37": {
             "id": 37,
             "name": "Тамара",
-            "nation_name": "Грузия",
             "nation_id": 34,
             "games_info": [
                 {
@@ -3025,7 +2987,6 @@
         "38": {
             "id": 38,
             "name": "Теодор Рузвельт (Прогрессивист)",
-            "nation_name": "США",
             "nation_id": 35,
             "games_info": [
                 {
@@ -3050,7 +3011,6 @@
         "39": {
             "id": 39,
             "name": "Теодор Рузвельт (Мужественный всадник)",
-            "nation_name": "США",
             "nation_id": 35,
             "games_info": [
                 {
@@ -3075,7 +3035,6 @@
         "40": {
             "id": 40,
             "name": "Томирис",
-            "nation_name": "Скифия",
             "nation_id": 36,
             "games_info": [
                 {
@@ -3100,7 +3059,6 @@
         "41": {
             "id": 41,
             "name": "Траян",
-            "nation_name": "Рим",
             "nation_id": 37,
             "games_info": [
                 {
@@ -3155,7 +3113,6 @@
         "42": {
             "id": 42,
             "name": "Трибхувана",
-            "nation_name": "Индонезия",
             "nation_id": 38,
             "games_info": [
                 {
@@ -3180,7 +3137,6 @@
         "43": {
             "id": 43,
             "name": "Уилфрид Лорье",
-            "nation_name": "Канада",
             "nation_id": 39,
             "games_info": [
                 {
@@ -3205,7 +3161,6 @@
         "44": {
             "id": 44,
             "name": "Филипп II",
-            "nation_name": "Испания",
             "nation_id": 40,
             "games_info": [
                 {
@@ -3230,7 +3185,6 @@
         "45": {
             "id": 45,
             "name": "Фридрих Барбаросса",
-            "nation_name": "Германия",
             "nation_id": 41,
             "games_info": [
                 {
@@ -3295,7 +3249,6 @@
         "46": {
             "id": 46,
             "name": "Хаммурапи",
-            "nation_name": "Вавилон",
             "nation_id": 42,
             "games_info": [
                 {
@@ -3320,7 +3273,6 @@
         "47": {
             "id": 47,
             "name": "Харальд Суровый",
-            "nation_name": "Норвегия",
             "nation_id": 43,
             "games_info": [],
             "games_amount": 0,
@@ -3334,7 +3286,6 @@
         "48": {
             "id": 48,
             "name": "Ходзё Токимунэ",
-            "nation_name": "Япония",
             "nation_id": 44,
             "games_info": [
                 {
@@ -3389,7 +3340,6 @@
         "49": {
             "id": 49,
             "name": "Хубилай (Монголия)",
-            "nation_name": "Монголия",
             "nation_id": 45,
             "games_info": [
                 {
@@ -3414,7 +3364,6 @@
         "50": {
             "id": 50,
             "name": "Хубилай (Китай)",
-            "nation_name": "Китай",
             "nation_id": 46,
             "games_info": [
                 {
@@ -3439,7 +3388,6 @@
         "51": {
             "id": 51,
             "name": "Цинь Шихуанди (Небесный Мандат)",
-            "nation_name": "Китай",
             "nation_id": 46,
             "games_info": [
                 {
@@ -3464,7 +3412,6 @@
         "52": {
             "id": 52,
             "name": "Чака",
-            "nation_name": "Зулусы",
             "nation_id": 47,
             "games_info": [
                 {
@@ -3489,7 +3436,6 @@
         "53": {
             "id": 53,
             "name": "Чандрагупта",
-            "nation_name": "Индия",
             "nation_id": 7,
             "games_info": [],
             "games_amount": 0,
@@ -3503,7 +3449,6 @@
         "54": {
             "id": 54,
             "name": "Чингисхан",
-            "nation_name": "Монголия",
             "nation_id": 45,
             "games_info": [
                 {
@@ -3528,7 +3473,6 @@
         "55": {
             "id": 55,
             "name": "Чьеу Тхи Чинь",
-            "nation_name": "Вьетнам",
             "nation_id": 48,
             "games_info": [
                 {
@@ -3553,7 +3497,6 @@
         "56": {
             "id": 56,
             "name": "Ядвига",
-            "nation_name": "Польша",
             "nation_id": 49,
             "games_info": [
                 {
@@ -3588,7 +3531,6 @@
         "57": {
             "id": 57,
             "name": "Екатерина Медичи (Чёрная королева)",
-            "nation_name": "Франция",
             "nation_id": 2,
             "games_info": [
                 {
@@ -3613,7 +3555,6 @@
         "58": {
             "id": 58,
             "name": "У Цзетянь",
-            "nation_name": "Китай",
             "nation_id": 46,
             "games_info": [
                 {
@@ -3638,7 +3579,6 @@
         "59": {
             "id": 59,
             "name": "Токугава",
-            "nation_name": "Япония",
             "nation_id": 44,
             "games_info": [
                 {
@@ -3663,7 +3603,6 @@
         "60": {
             "id": 60,
             "name": "Сулейман (Muhteşem)",
-            "nation_name": "Османы",
             "nation_id": 33,
             "games_info": [
                 {
@@ -3688,7 +3627,6 @@
         "61": {
             "id": 61,
             "name": "Авраам Линкольн",
-            "nation_name": "США",
             "nation_id": 35,
             "games_info": [],
             "games_amount": 0,
@@ -3702,7 +3640,6 @@
         "62": {
             "id": 62,
             "name": "Надер Шах",
-            "nation_name": "Персия",
             "nation_id": 15,
             "games_info": [],
             "games_amount": 0,
@@ -3716,7 +3653,6 @@
         "63": {
             "id": 63,
             "name": "Нзинга Мбанди",
-            "nation_name": "Конго",
             "nation_id": 22,
             "games_info": [],
             "games_amount": 0,
@@ -3730,7 +3666,6 @@
         "64": {
             "id": 64,
             "name": "Юлий Цезарь",
-            "nation_name": "Рим",
             "nation_id": 37,
             "games_info": [],
             "games_amount": 0,
@@ -3744,7 +3679,6 @@
         "65": {
             "id": 65,
             "name": "Цинь Шихуанди (Освободитель)",
-            "nation_name": "Китай",
             "nation_id": 46,
             "games_info": [],
             "games_amount": 0,
@@ -3758,7 +3692,6 @@
         "66": {
             "id": 66,
             "name": "Саладин (Султан)",
-            "nation_name": "Аравия",
             "nation_id": 30,
             "games_info": [],
             "games_amount": 0,
@@ -3772,7 +3705,6 @@
         "67": {
             "id": 67,
             "name": "Юнлэ",
-            "nation_name": "Китай",
             "nation_id": 46,
             "games_info": [],
             "games_amount": 0,
@@ -3784,1056 +3716,9 @@
             "is_banned": false
         }
     },
-    "nations": {
-        "0": {
-            "id": 0,
-            "name": "Македония",
-            "games_info": [
-                {
-                    "game_id": 4,
-                    "game_number": 5,
-                    "player_id": 15,
-                    "is_win": false,
-                    "score_change": 3,
-                    "place": 2,
-                    "leader_id": 0,
-                    "nation_id": 0
-                }
-            ]
-        },
-        "1": {
-            "id": 1,
-            "name": "Англия",
-            "games_info": [
-                {
-                    "game_id": 2,
-                    "game_number": 3,
-                    "player_id": 5,
-                    "is_win": false,
-                    "score_change": 7,
-                    "place": 4,
-                    "leader_id": 1,
-                    "nation_id": 1
-                },
-                {
-                    "game_id": 5,
-                    "game_number": 6,
-                    "player_id": 5,
-                    "is_win": false,
-                    "score_change": 3,
-                    "place": 2,
-                    "leader_id": 6,
-                    "nation_id": 1
-                }
-            ]
-        },
-        "2": {
-            "id": 2,
-            "name": "Франция",
-            "games_info": [
-                {
-                    "game_id": 3,
-                    "game_number": 4,
-                    "player_id": 1,
-                    "is_win": false,
-                    "score_change": -1,
-                    "place": 6,
-                    "leader_id": 14,
-                    "nation_id": 2
-                },
-                {
-                    "game_id": 11,
-                    "game_number": 12,
-                    "player_id": 2,
-                    "is_win": false,
-                    "score_change": 3,
-                    "place": 2,
-                    "leader_id": 57,
-                    "nation_id": 2
-                }
-            ]
-        },
-        "3": {
-            "id": 3,
-            "name": "Нубия",
-            "games_info": [
-                {
-                    "game_id": 2,
-                    "game_number": 3,
-                    "player_id": 11,
-                    "is_win": false,
-                    "score_change": 10,
-                    "place": 3,
-                    "leader_id": 3,
-                    "nation_id": 3
-                }
-            ]
-        },
-        "4": {
-            "id": 4,
-            "name": "Галлия",
-            "games_info": [
-                {
-                    "game_id": 4,
-                    "game_number": 5,
-                    "player_id": 2,
-                    "is_win": false,
-                    "score_change": 3,
-                    "place": 2,
-                    "leader_id": 4,
-                    "nation_id": 4
-                }
-            ]
-        },
-        "5": {
-            "id": 5,
-            "name": "Византия (Россия 2)",
-            "games_info": [
-                {
-                    "game_id": 3,
-                    "game_number": 4,
-                    "player_id": 0,
-                    "is_win": false,
-                    "score_change": 13,
-                    "place": 2,
-                    "leader_id": 5,
-                    "nation_id": 5
-                }
-            ]
-        },
-        "6": {
-            "id": 6,
-            "name": "Нидерланды",
-            "games_info": [
-                {
-                    "game_id": 5,
-                    "game_number": 6,
-                    "player_id": 9,
-                    "is_win": false,
-                    "score_change": 3,
-                    "place": 2,
-                    "leader_id": 7,
-                    "nation_id": 6
-                }
-            ]
-        },
-        "7": {
-            "id": 7,
-            "name": "Индия",
-            "games_info": [
-                {
-                    "game_id": 12,
-                    "game_number": 13,
-                    "player_id": 5,
-                    "is_win": false,
-                    "score_change": 11,
-                    "place": 2,
-                    "leader_id": 8,
-                    "nation_id": 7
-                }
-            ]
-        },
-        "8": {
-            "id": 8,
-            "name": "Шумер",
-            "games_info": [
-                {
-                    "game_id": 2,
-                    "game_number": 3,
-                    "player_id": 4,
-                    "is_win": false,
-                    "score_change": 0,
-                    "place": 6,
-                    "leader_id": 9,
-                    "nation_id": 8
-                }
-            ]
-        },
-        "9": {
-            "id": 9,
-            "name": "Греция",
-            "games_info": [
-                {
-                    "game_id": 3,
-                    "game_number": 4,
-                    "player_id": 9,
-                    "is_win": false,
-                    "score_change": 7,
-                    "place": 4,
-                    "leader_id": 31,
-                    "nation_id": 9
-                },
-                {
-                    "game_id": 11,
-                    "game_number": 12,
-                    "player_id": 15,
-                    "is_win": false,
-                    "score_change": 3,
-                    "place": 2,
-                    "leader_id": 10,
-                    "nation_id": 9
-                }
-            ]
-        },
-        "10": {
-            "id": 10,
-            "name": "Кхмеры",
-            "games_info": [
-                {
-                    "game_id": 8,
-                    "game_number": 9,
-                    "player_id": 2,
-                    "is_win": true,
-                    "score_change": 17,
-                    "place": 1,
-                    "leader_id": 11,
-                    "nation_id": 10
-                }
-            ]
-        },
-        "11": {
-            "id": 11,
-            "name": "Австралия",
-            "games_info": []
-        },
-        "12": {
-            "id": 12,
-            "name": "Финикия",
-            "games_info": [
-                {
-                    "game_id": 5,
-                    "game_number": 6,
-                    "player_id": 8,
-                    "is_win": true,
-                    "score_change": 15,
-                    "place": 1,
-                    "leader_id": 13,
-                    "nation_id": 12
-                }
-            ]
-        },
-        "13": {
-            "id": 13,
-            "name": "Португалия",
-            "games_info": [
-                {
-                    "game_id": 7,
-                    "game_number": 8,
-                    "player_id": 5,
-                    "is_win": false,
-                    "score_change": 0,
-                    "place": 6,
-                    "leader_id": 15,
-                    "nation_id": 13
-                }
-            ]
-        },
-        "14": {
-            "id": 14,
-            "name": "Майя",
-            "games_info": [
-                {
-                    "game_id": 5,
-                    "game_number": 6,
-                    "player_id": 4,
-                    "is_win": true,
-                    "score_change": 15,
-                    "place": 1,
-                    "leader_id": 16,
-                    "nation_id": 14
-                },
-                {
-                    "game_id": 6,
-                    "game_number": 7,
-                    "player_id": 13,
-                    "is_win": false,
-                    "score_change": 0,
-                    "place": 7,
-                    "leader_id": 16,
-                    "nation_id": 14
-                }
-            ]
-        },
-        "15": {
-            "id": 15,
-            "name": "Персия",
-            "games_info": [
-                {
-                    "game_id": 9,
-                    "game_number": 10,
-                    "player_id": 1,
-                    "is_win": true,
-                    "score_change": 15,
-                    "place": 1,
-                    "leader_id": 17,
-                    "nation_id": 15
-                }
-            ]
-        },
-        "16": {
-            "id": 16,
-            "name": "Египет",
-            "games_info": [
-                {
-                    "game_id": 2,
-                    "game_number": 3,
-                    "player_id": 2,
-                    "is_win": false,
-                    "score_change": 13,
-                    "place": 2,
-                    "leader_id": 18,
-                    "nation_id": 16
-                }
-            ]
-        },
-        "17": {
-            "id": 17,
-            "name": "Швеция",
-            "games_info": [
-                {
-                    "game_id": 6,
-                    "game_number": 7,
-                    "player_id": 7,
-                    "is_win": false,
-                    "score_change": 8,
-                    "place": 4,
-                    "leader_id": 19,
-                    "nation_id": 17
-                }
-            ]
-        },
-        "18": {
-            "id": 18,
-            "name": "Маори",
-            "games_info": [
-                {
-                    "game_id": 8,
-                    "game_number": 9,
-                    "player_id": 1,
-                    "is_win": false,
-                    "score_change": 9,
-                    "place": 2,
-                    "leader_id": 20,
-                    "nation_id": 18
-                }
-            ]
-        },
-        "19": {
-            "id": 19,
-            "name": "Мапуче",
-            "games_info": [
-                {
-                    "game_id": 10,
-                    "game_number": 11,
-                    "player_id": 5,
-                    "is_win": false,
-                    "score_change": 14,
-                    "place": 2,
-                    "leader_id": 21,
-                    "nation_id": 19
-                }
-            ]
-        },
-        "20": {
-            "id": 20,
-            "name": "Мали",
-            "games_info": [
-                {
-                    "game_id": 0,
-                    "game_number": 1,
-                    "player_id": 0,
-                    "is_win": false,
-                    "score_change": 3,
-                    "place": 2,
-                    "leader_id": 22,
-                    "nation_id": 20
-                }
-            ]
-        },
-        "21": {
-            "id": 21,
-            "name": "Венгрия",
-            "games_info": [
-                {
-                    "game_id": 6,
-                    "game_number": 7,
-                    "player_id": 5,
-                    "is_win": false,
-                    "score_change": 11,
-                    "place": 3,
-                    "leader_id": 23,
-                    "nation_id": 21
-                }
-            ]
-        },
-        "22": {
-            "id": 22,
-            "name": "Конго",
-            "games_info": []
-        },
-        "23": {
-            "id": 23,
-            "name": "Эфиопия",
-            "games_info": [
-                {
-                    "game_id": 9,
-                    "game_number": 10,
-                    "player_id": 2,
-                    "is_win": false,
-                    "score_change": 3,
-                    "place": 2,
-                    "leader_id": 25,
-                    "nation_id": 23
-                }
-            ]
-        },
-        "24": {
-            "id": 24,
-            "name": "Ацтеки",
-            "games_info": [
-                {
-                    "game_id": 5,
-                    "game_number": 6,
-                    "player_id": 3,
-                    "is_win": true,
-                    "score_change": 15,
-                    "place": 1,
-                    "leader_id": 26,
-                    "nation_id": 24
-                }
-            ]
-        },
-        "25": {
-            "id": 25,
-            "name": "Россия",
-            "games_info": [
-                {
-                    "game_id": 0,
-                    "game_number": 1,
-                    "player_id": 10,
-                    "is_win": true,
-                    "score_change": 15,
-                    "place": 1,
-                    "leader_id": 27,
-                    "nation_id": 25
-                },
-                {
-                    "game_id": 1,
-                    "game_number": 2,
-                    "player_id": 0,
-                    "is_win": false,
-                    "score_change": 11,
-                    "place": 2,
-                    "leader_id": 27,
-                    "nation_id": 25
-                },
-                {
-                    "game_id": 2,
-                    "game_number": 3,
-                    "player_id": 0,
-                    "is_win": false,
-                    "score_change": 3,
-                    "place": 5,
-                    "leader_id": 27,
-                    "nation_id": 25
-                },
-                {
-                    "game_id": 4,
-                    "game_number": 5,
-                    "player_id": 0,
-                    "is_win": true,
-                    "score_change": 15,
-                    "place": 1,
-                    "leader_id": 27,
-                    "nation_id": 25
-                },
-                {
-                    "game_id": 5,
-                    "game_number": 6,
-                    "player_id": 0,
-                    "is_win": true,
-                    "score_change": 15,
-                    "place": 1,
-                    "leader_id": 27,
-                    "nation_id": 25
-                },
-                {
-                    "game_id": 6,
-                    "game_number": 7,
-                    "player_id": 0,
-                    "is_win": false,
-                    "score_change": 13,
-                    "place": 2,
-                    "leader_id": 27,
-                    "nation_id": 25
-                },
-                {
-                    "game_id": 7,
-                    "game_number": 8,
-                    "player_id": 15,
-                    "is_win": false,
-                    "score_change": -4,
-                    "place": 5,
-                    "leader_id": 27,
-                    "nation_id": 25
-                },
-                {
-                    "game_id": 10,
-                    "game_number": 11,
-                    "player_id": 0,
-                    "is_win": false,
-                    "score_change": 9,
-                    "place": 3,
-                    "leader_id": 27,
-                    "nation_id": 25
-                },
-                {
-                    "game_id": 11,
-                    "game_number": 12,
-                    "player_id": 0,
-                    "is_win": false,
-                    "score_change": 3,
-                    "place": 2,
-                    "leader_id": 27,
-                    "nation_id": 25
-                }
-            ]
-        },
-        "26": {
-            "id": 26,
-            "name": "Кри",
-            "games_info": [
-                {
-                    "game_id": 8,
-                    "game_number": 9,
-                    "player_id": 5,
-                    "is_win": false,
-                    "score_change": 6,
-                    "place": 3,
-                    "leader_id": 28,
-                    "nation_id": 26
-                }
-            ]
-        },
-        "27": {
-            "id": 27,
-            "name": "Инки",
-            "games_info": [
-                {
-                    "game_id": 3,
-                    "game_number": 4,
-                    "player_id": 3,
-                    "is_win": true,
-                    "score_change": 19,
-                    "place": 1,
-                    "leader_id": 29,
-                    "nation_id": 27
-                }
-            ]
-        },
-        "28": {
-            "id": 28,
-            "name": "Бразилия",
-            "games_info": [
-                {
-                    "game_id": 1,
-                    "game_number": 2,
-                    "player_id": 1,
-                    "is_win": true,
-                    "score_change": 18,
-                    "place": 1,
-                    "leader_id": 30,
-                    "nation_id": 28
-                }
-            ]
-        },
-        "29": {
-            "id": 29,
-            "name": "Шотландия",
-            "games_info": [
-                {
-                    "game_id": 4,
-                    "game_number": 5,
-                    "player_id": 7,
-                    "is_win": true,
-                    "score_change": 15,
-                    "place": 1,
-                    "leader_id": 32,
-                    "nation_id": 29
-                }
-            ]
-        },
-        "30": {
-            "id": 30,
-            "name": "Аравия",
-            "games_info": [
-                {
-                    "game_id": 3,
-                    "game_number": 4,
-                    "player_id": 5,
-                    "is_win": false,
-                    "score_change": 3,
-                    "place": 5,
-                    "leader_id": 33,
-                    "nation_id": 30
-                }
-            ]
-        },
-        "31": {
-            "id": 31,
-            "name": "Колумбия",
-            "games_info": [
-                {
-                    "game_id": 5,
-                    "game_number": 6,
-                    "player_id": 7,
-                    "is_win": false,
-                    "score_change": 3,
-                    "place": 2,
-                    "leader_id": 34,
-                    "nation_id": 31
-                }
-            ]
-        },
-        "32": {
-            "id": 32,
-            "name": "Корея",
-            "games_info": []
-        },
-        "33": {
-            "id": 33,
-            "name": "Османы",
-            "games_info": [
-                {
-                    "game_id": 10,
-                    "game_number": 11,
-                    "player_id": 1,
-                    "is_win": false,
-                    "score_change": 1,
-                    "place": 5,
-                    "leader_id": 36,
-                    "nation_id": 33
-                },
-                {
-                    "game_id": 12,
-                    "game_number": 13,
-                    "player_id": 7,
-                    "is_win": false,
-                    "score_change": 7,
-                    "place": 3,
-                    "leader_id": 60,
-                    "nation_id": 33
-                }
-            ]
-        },
-        "34": {
-            "id": 34,
-            "name": "Грузия",
-            "games_info": [
-                {
-                    "game_id": 6,
-                    "game_number": 7,
-                    "player_id": 2,
-                    "is_win": false,
-                    "score_change": 5,
-                    "place": 5,
-                    "leader_id": 37,
-                    "nation_id": 34
-                }
-            ]
-        },
-        "35": {
-            "id": 35,
-            "name": "США",
-            "games_info": [
-                {
-                    "game_id": 0,
-                    "game_number": 1,
-                    "player_id": 4,
-                    "is_win": false,
-                    "score_change": 3,
-                    "place": 2,
-                    "leader_id": 38,
-                    "nation_id": 35
-                },
-                {
-                    "game_id": 2,
-                    "game_number": 3,
-                    "player_id": 1,
-                    "is_win": true,
-                    "score_change": 18,
-                    "place": 1,
-                    "leader_id": 39,
-                    "nation_id": 35
-                }
-            ]
-        },
-        "36": {
-            "id": 36,
-            "name": "Скифия",
-            "games_info": [
-                {
-                    "game_id": 10,
-                    "game_number": 11,
-                    "player_id": 2,
-                    "is_win": false,
-                    "score_change": 6,
-                    "place": 4,
-                    "leader_id": 40,
-                    "nation_id": 36
-                }
-            ]
-        },
-        "37": {
-            "id": 37,
-            "name": "Рим",
-            "games_info": [
-                {
-                    "game_id": 0,
-                    "game_number": 1,
-                    "player_id": 2,
-                    "is_win": true,
-                    "score_change": 15,
-                    "place": 1,
-                    "leader_id": 41,
-                    "nation_id": 37
-                },
-                {
-                    "game_id": 7,
-                    "game_number": 8,
-                    "player_id": 15,
-                    "is_win": false,
-                    "score_change": 10,
-                    "place": 3,
-                    "leader_id": 41,
-                    "nation_id": 37
-                },
-                {
-                    "game_id": 10,
-                    "game_number": 11,
-                    "player_id": 15,
-                    "is_win": false,
-                    "score_change": 1,
-                    "place": 6,
-                    "leader_id": 41,
-                    "nation_id": 37
-                },
-                {
-                    "game_id": 11,
-                    "game_number": 12,
-                    "player_id": 14,
-                    "is_win": false,
-                    "score_change": 3,
-                    "place": 2,
-                    "leader_id": 41,
-                    "nation_id": 37
-                }
-            ]
-        },
-        "38": {
-            "id": 38,
-            "name": "Индонезия",
-            "games_info": [
-                {
-                    "game_id": 12,
-                    "game_number": 13,
-                    "player_id": 1,
-                    "is_win": false,
-                    "score_change": -1,
-                    "place": 4,
-                    "leader_id": 42,
-                    "nation_id": 38
-                }
-            ]
-        },
-        "39": {
-            "id": 39,
-            "name": "Канада",
-            "games_info": [
-                {
-                    "game_id": 5,
-                    "game_number": 6,
-                    "player_id": 1,
-                    "is_win": false,
-                    "score_change": 3,
-                    "place": 2,
-                    "leader_id": 43,
-                    "nation_id": 39
-                }
-            ]
-        },
-        "40": {
-            "id": 40,
-            "name": "Испания",
-            "games_info": [
-                {
-                    "game_id": 11,
-                    "game_number": 12,
-                    "player_id": 7,
-                    "is_win": true,
-                    "score_change": 15,
-                    "place": 1,
-                    "leader_id": 44,
-                    "nation_id": 40
-                }
-            ]
-        },
-        "41": {
-            "id": 41,
-            "name": "Германия",
-            "games_info": [
-                {
-                    "game_id": 0,
-                    "game_number": 1,
-                    "player_id": 1,
-                    "is_win": true,
-                    "score_change": 15,
-                    "place": 1,
-                    "leader_id": 45,
-                    "nation_id": 41
-                },
-                {
-                    "game_id": 5,
-                    "game_number": 6,
-                    "player_id": 6,
-                    "is_win": true,
-                    "score_change": 15,
-                    "place": 1,
-                    "leader_id": 45,
-                    "nation_id": 41
-                },
-                {
-                    "game_id": 6,
-                    "game_number": 7,
-                    "player_id": 12,
-                    "is_win": false,
-                    "score_change": 3,
-                    "place": 6,
-                    "leader_id": 45,
-                    "nation_id": 41
-                },
-                {
-                    "game_id": 10,
-                    "game_number": 11,
-                    "player_id": 4,
-                    "is_win": true,
-                    "score_change": 20,
-                    "place": 1,
-                    "leader_id": 45,
-                    "nation_id": 41
-                },
-                {
-                    "game_id": 11,
-                    "game_number": 12,
-                    "player_id": 9,
-                    "is_win": true,
-                    "score_change": 15,
-                    "place": 1,
-                    "leader_id": 45,
-                    "nation_id": 41
-                }
-            ]
-        },
-        "42": {
-            "id": 42,
-            "name": "Вавилон",
-            "games_info": [
-                {
-                    "game_id": 6,
-                    "game_number": 7,
-                    "player_id": 1,
-                    "is_win": true,
-                    "score_change": 18,
-                    "place": 1,
-                    "leader_id": 46,
-                    "nation_id": 42
-                }
-            ]
-        },
-        "43": {
-            "id": 43,
-            "name": "Норвегия",
-            "games_info": []
-        },
-        "44": {
-            "id": 44,
-            "name": "Япония",
-            "games_info": [
-                {
-                    "game_id": 0,
-                    "game_number": 1,
-                    "player_id": 6,
-                    "is_win": false,
-                    "score_change": 3,
-                    "place": 2,
-                    "leader_id": 48,
-                    "nation_id": 44
-                },
-                {
-                    "game_id": 5,
-                    "game_number": 6,
-                    "player_id": 2,
-                    "is_win": false,
-                    "score_change": 3,
-                    "place": 2,
-                    "leader_id": 48,
-                    "nation_id": 44
-                },
-                {
-                    "game_id": 7,
-                    "game_number": 8,
-                    "player_id": 13,
-                    "is_win": false,
-                    "score_change": 7,
-                    "place": 4,
-                    "leader_id": 48,
-                    "nation_id": 44
-                },
-                {
-                    "game_id": 8,
-                    "game_number": 9,
-                    "player_id": 12,
-                    "is_win": false,
-                    "score_change": 2,
-                    "place": 4,
-                    "leader_id": 48,
-                    "nation_id": 44
-                },
-                {
-                    "game_id": 11,
-                    "game_number": 12,
-                    "player_id": 1,
-                    "is_win": true,
-                    "score_change": 15,
-                    "place": 1,
-                    "leader_id": 59,
-                    "nation_id": 44
-                }
-            ]
-        },
-        "45": {
-            "id": 45,
-            "name": "Монголия",
-            "games_info": [
-                {
-                    "game_id": 3,
-                    "game_number": 4,
-                    "player_id": 2,
-                    "is_win": false,
-                    "score_change": 9,
-                    "place": 3,
-                    "leader_id": 54,
-                    "nation_id": 45
-                },
-                {
-                    "game_id": 4,
-                    "game_number": 5,
-                    "player_id": 5,
-                    "is_win": false,
-                    "score_change": 3,
-                    "place": 2,
-                    "leader_id": 49,
-                    "nation_id": 45
-                }
-            ]
-        },
-        "46": {
-            "id": 46,
-            "name": "Китай",
-            "games_info": [
-                {
-                    "game_id": 7,
-                    "game_number": 8,
-                    "player_id": 1,
-                    "is_win": true,
-                    "score_change": 17,
-                    "place": 1,
-                    "leader_id": 51,
-                    "nation_id": 46
-                },
-                {
-                    "game_id": 11,
-                    "game_number": 12,
-                    "player_id": 5,
-                    "is_win": true,
-                    "score_change": 15,
-                    "place": 1,
-                    "leader_id": 58,
-                    "nation_id": 46
-                },
-                {
-                    "game_id": 12,
-                    "game_number": 13,
-                    "player_id": 2,
-                    "is_win": true,
-                    "score_change": 18,
-                    "place": 1,
-                    "leader_id": 50,
-                    "nation_id": 46
-                }
-            ]
-        },
-        "47": {
-            "id": 47,
-            "name": "Зулусы",
-            "games_info": [
-                {
-                    "game_id": 1,
-                    "game_number": 2,
-                    "player_id": 2,
-                    "is_win": false,
-                    "score_change": 5,
-                    "place": 3,
-                    "leader_id": 52,
-                    "nation_id": 47
-                }
-            ]
-        },
-        "48": {
-            "id": 48,
-            "name": "Вьетнам",
-            "games_info": [
-                {
-                    "game_id": 7,
-                    "game_number": 8,
-                    "player_id": 2,
-                    "is_win": false,
-                    "score_change": 12,
-                    "place": 2,
-                    "leader_id": 55,
-                    "nation_id": 48
-                }
-            ]
-        },
-        "49": {
-            "id": 49,
-            "name": "Польша",
-            "games_info": [
-                {
-                    "game_id": 1,
-                    "game_number": 2,
-                    "player_id": 7,
-                    "is_win": false,
-                    "score_change": 1,
-                    "place": 4,
-                    "leader_id": 56,
-                    "nation_id": 49
-                },
-                {
-                    "game_id": 4,
-                    "game_number": 5,
-                    "player_id": 1,
-                    "is_win": true,
-                    "score_change": 15,
-                    "place": 1,
-                    "leader_id": 56,
-                    "nation_id": 49
-                }
-            ]
-        }
-    },
+    "nations": {},
     "meta": {
         "last_game": 12,
-        "last_update": 1677340880.1213725
+        "last_update": 1677355442.35384
     }
 }

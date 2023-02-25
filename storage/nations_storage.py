@@ -8,20 +8,8 @@ from data.nation import Nation
 
 # Хранилище наций
 class NationsStorage:
-    def __init__(self):
+    def __init__(self, nations: List[Nation]):
         self.nations: List[Nation] = []
-
-    # Всем нациям поставить в соответствие лидеров, а лидерам нации
-    def resolve_leaders_and_nations(self, leaders: LeadersStorage):
-        for leader in leaders.leaders:
-            nation = self.nation(leader.nationName)
-
-            if nation != None:
-                nation.add_leader(leader)
-                leader.nation = nation
-            else:
-                self.add_nation(Nation(leader.nationName))
-                leader.nation = self.nations[-1]
 
     # получить нацию по названию
     def nation(self, nation_name: str) -> Nation | None :
