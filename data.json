@@ -3,8 +3,8 @@
         "1": {
             "id": 1,
             "name": "George_Best_7",
-            "rating": 371,
-            "games_amount": 12,
+            "rating": 370,
+            "games_amount": 13,
             "solo_wins_amount": 5,
             "team_wins_amount": 3,
             "total_wins_amount": 8,
@@ -61,12 +61,16 @@
                 {
                     "game_id": 11,
                     "rating_change": 15
+                },
+                {
+                    "game_id": 12,
+                    "rating_change": -1
                 }
             ],
             "top_position": 1,
             "lowest_position": 1,
-            "average_rating": 11.92,
-            "win_rate": 0.67,
+            "average_rating": 10.92,
+            "win_rate": 0.62,
             "change_position": 0,
             "games_info": [
                 {
@@ -188,24 +192,34 @@
                     "place": 1,
                     "leader_id": 59,
                     "nation_id": 44
+                },
+                {
+                    "game_id": 12,
+                    "game_number": 13,
+                    "player_id": 1,
+                    "is_win": false,
+                    "score_change": -1,
+                    "place": 4,
+                    "leader_id": 42,
+                    "nation_id": 38
                 }
             ],
-            "current_win_streak": 1,
+            "current_win_streak": 0,
             "max_win_streak": 3
         },
         "2": {
             "id": 2,
             "name": "Leodroid",
-            "rating": 322,
-            "games_amount": 12,
-            "solo_wins_amount": 1,
+            "rating": 340,
+            "games_amount": 13,
+            "solo_wins_amount": 2,
             "team_wins_amount": 1,
-            "total_wins_amount": 2,
-            "highest_rating_take": 17,
-            "highest_rating_take_game": 8,
+            "total_wins_amount": 3,
+            "highest_rating_take": 18,
+            "highest_rating_take_game": 12,
             "lowest_rating_take": 3,
             "lowest_rating_take_game": 4,
-            "peak_rating": 322,
+            "peak_rating": 340,
             "rating_changes": [
                 {
                     "game_id": 0,
@@ -254,12 +268,16 @@
                 {
                     "game_id": 11,
                     "rating_change": 3
+                },
+                {
+                    "game_id": 12,
+                    "rating_change": 18
                 }
             ],
             "top_position": 2,
             "lowest_position": 3,
-            "average_rating": 7.83,
-            "win_rate": 0.17,
+            "average_rating": 8.62,
+            "win_rate": 0.23,
             "change_position": 0,
             "games_info": [
                 {
@@ -381,9 +399,19 @@
                     "place": 2,
                     "leader_id": 57,
                     "nation_id": 2
+                },
+                {
+                    "game_id": 12,
+                    "game_number": 13,
+                    "player_id": 2,
+                    "is_win": true,
+                    "score_change": 18,
+                    "place": 1,
+                    "leader_id": 50,
+                    "nation_id": 46
                 }
             ],
-            "current_win_streak": 0,
+            "current_win_streak": 1,
             "max_win_streak": 1
         },
         "0": {
@@ -540,8 +568,8 @@
         "5": {
             "id": 5,
             "name": "TinyClayMan",
-            "rating": 290,
-            "games_amount": 9,
+            "rating": 301,
+            "games_amount": 10,
             "solo_wins_amount": 0,
             "team_wins_amount": 1,
             "total_wins_amount": 1,
@@ -549,7 +577,7 @@
             "highest_rating_take_game": 11,
             "lowest_rating_take": 0,
             "lowest_rating_take_game": 7,
-            "peak_rating": 290,
+            "peak_rating": 301,
             "rating_changes": [
                 {
                     "game_id": 2,
@@ -586,12 +614,16 @@
                 {
                     "game_id": 11,
                     "rating_change": 15
+                },
+                {
+                    "game_id": 12,
+                    "rating_change": 11
                 }
             ],
             "top_position": 4,
             "lowest_position": 8,
-            "average_rating": 6.89,
-            "win_rate": 0.11,
+            "average_rating": 7.3,
+            "win_rate": 0.1,
             "change_position": 0,
             "games_info": [
                 {
@@ -683,16 +715,26 @@
                     "place": 1,
                     "leader_id": 58,
                     "nation_id": 46
+                },
+                {
+                    "game_id": 12,
+                    "game_number": 13,
+                    "player_id": 5,
+                    "is_win": false,
+                    "score_change": 11,
+                    "place": 2,
+                    "leader_id": 8,
+                    "nation_id": 7
                 }
             ],
-            "current_win_streak": 1,
+            "current_win_streak": 0,
             "max_win_streak": 1
         },
         "7": {
             "id": 7,
             "name": "MaxBelol",
-            "rating": 270,
-            "games_amount": 5,
+            "rating": 277,
+            "games_amount": 6,
             "solo_wins_amount": 0,
             "team_wins_amount": 2,
             "total_wins_amount": 2,
@@ -700,7 +742,7 @@
             "highest_rating_take_game": 4,
             "lowest_rating_take": 1,
             "lowest_rating_take_game": 1,
-            "peak_rating": 270,
+            "peak_rating": 277,
             "rating_changes": [
                 {
                     "game_id": 1,
@@ -721,13 +763,17 @@
                 {
                     "game_id": 11,
                     "rating_change": 15
+                },
+                {
+                    "game_id": 12,
+                    "rating_change": 7
                 }
             ],
             "top_position": 5,
             "lowest_position": 11,
-            "average_rating": 8.4,
-            "win_rate": 0.4,
-            "change_position": 2,
+            "average_rating": 8.17,
+            "win_rate": 0.33,
+            "change_position": 0,
             "games_info": [
                 {
                     "game_id": 1,
@@ -778,9 +824,19 @@
                     "place": 1,
                     "leader_id": 44,
                     "nation_id": 40
+                },
+                {
+                    "game_id": 12,
+                    "game_number": 13,
+                    "player_id": 7,
+                    "is_win": false,
+                    "score_change": 7,
+                    "place": 3,
+                    "leader_id": 60,
+                    "nation_id": 33
                 }
             ],
-            "current_win_streak": 1,
+            "current_win_streak": 0,
             "max_win_streak": 1
         },
         "4": {
@@ -818,7 +874,7 @@
             "lowest_position": 11,
             "average_rating": 9.5,
             "win_rate": 0.5,
-            "change_position": -1,
+            "change_position": 0,
             "games_info": [
                 {
                     "game_id": 0,
@@ -891,7 +947,7 @@
             "lowest_position": 10,
             "average_rating": 17.0,
             "win_rate": 1.0,
-            "change_position": -1,
+            "change_position": 0,
             "games_info": [
                 {
                     "game_id": 3,
@@ -948,7 +1004,7 @@
             "lowest_position": 12,
             "average_rating": 8.33,
             "win_rate": 0.33,
-            "change_position": 4,
+            "change_position": 0,
             "games_info": [
                 {
                     "game_id": 3,
@@ -1011,7 +1067,7 @@
             "lowest_position": 10,
             "average_rating": 9.0,
             "win_rate": 0.5,
-            "change_position": -1,
+            "change_position": 0,
             "games_info": [
                 {
                     "game_id": 0,
@@ -1060,7 +1116,7 @@
             "lowest_position": 10,
             "average_rating": 15.0,
             "win_rate": 1.0,
-            "change_position": -1,
+            "change_position": 0,
             "games_info": [
                 {
                     "game_id": 0,
@@ -1099,7 +1155,7 @@
             "lowest_position": 13,
             "average_rating": 15.0,
             "win_rate": 1.0,
-            "change_position": -1,
+            "change_position": 0,
             "games_info": [
                 {
                     "game_id": 5,
@@ -1154,7 +1210,7 @@
             "lowest_position": 16,
             "average_rating": 2.6,
             "win_rate": 0.0,
-            "change_position": 1,
+            "change_position": 0,
             "games_info": [
                 {
                     "game_id": 4,
@@ -1233,7 +1289,7 @@
             "lowest_position": 13,
             "average_rating": 10.0,
             "win_rate": 0.0,
-            "change_position": -2,
+            "change_position": 0,
             "games_info": [
                 {
                     "game_id": 2,
@@ -1391,6 +1447,29 @@
                     "nation_id": 37
                 }
             ],
+            "current_win_streak": 0,
+            "max_win_streak": 0
+        },
+        "16": {
+            "id": 16,
+            "name": "Бот (король) CIV VI",
+            "rating": 228,
+            "games_amount": 0,
+            "solo_wins_amount": 0,
+            "team_wins_amount": 0,
+            "total_wins_amount": 0,
+            "highest_rating_take": -228,
+            "highest_rating_take_game": -1,
+            "lowest_rating_take": 228,
+            "lowest_rating_take_game": -1,
+            "peak_rating": 228,
+            "rating_changes": [],
+            "top_position": 17,
+            "lowest_position": 17,
+            "average_rating": 0,
+            "win_rate": 0,
+            "change_position": 0,
+            "games_info": [],
             "current_win_streak": 0,
             "max_win_streak": 0
         }
@@ -1909,6 +1988,41 @@
             "start_date": "2023-02-04",
             "finish_date": "2023-02-11",
             "seconds_per_move": 169
+        },
+        "12": {
+            "id": 12,
+            "game_number": 13,
+            "teams": [
+                [
+                    {
+                        "player_id": 2,
+                        "leader_id": 50
+                    }
+                ],
+                [
+                    {
+                        "player_id": 5,
+                        "leader_id": 8
+                    }
+                ],
+                [
+                    {
+                        "player_id": 7,
+                        "leader_id": 60
+                    }
+                ],
+                [
+                    {
+                        "player_id": 1,
+                        "leader_id": 42
+                    }
+                ]
+            ],
+            "turns": 198,
+            "end_reason": "Научная",
+            "start_date": "2023-02-18",
+            "finish_date": "2023-02-25",
+            "seconds_per_move": 169
         }
     },
     "leaders": {
@@ -2106,13 +2220,24 @@
             "name": "Ганди",
             "nation_name": "Индия",
             "nation_id": 7,
-            "games_info": [],
-            "games_amount": 0,
+            "games_info": [
+                {
+                    "game_id": 12,
+                    "game_number": 13,
+                    "player_id": 5,
+                    "is_win": false,
+                    "score_change": 11,
+                    "place": 2,
+                    "leader_id": 8,
+                    "nation_id": 7
+                }
+            ],
+            "games_amount": 1,
             "total_wins_amount": 0,
             "solo_wins_amount": 0,
             "team_wins_amount": 0,
-            "win_rate": 0,
-            "is_played": false,
+            "win_rate": 0.0,
+            "is_played": true,
             "is_banned": false
         },
         "9": {
@@ -3032,13 +3157,24 @@
             "name": "Трибхувана",
             "nation_name": "Индонезия",
             "nation_id": 38,
-            "games_info": [],
-            "games_amount": 0,
+            "games_info": [
+                {
+                    "game_id": 12,
+                    "game_number": 13,
+                    "player_id": 1,
+                    "is_win": false,
+                    "score_change": -1,
+                    "place": 4,
+                    "leader_id": 42,
+                    "nation_id": 38
+                }
+            ],
+            "games_amount": 1,
             "total_wins_amount": 0,
             "solo_wins_amount": 0,
             "team_wins_amount": 0,
-            "win_rate": 0,
-            "is_played": false,
+            "win_rate": 0.0,
+            "is_played": true,
             "is_banned": false
         },
         "43": {
@@ -3280,13 +3416,24 @@
             "name": "Хубилай (Китай)",
             "nation_name": "Китай",
             "nation_id": 46,
-            "games_info": [],
-            "games_amount": 0,
-            "total_wins_amount": 0,
-            "solo_wins_amount": 0,
+            "games_info": [
+                {
+                    "game_id": 12,
+                    "game_number": 13,
+                    "player_id": 2,
+                    "is_win": true,
+                    "score_change": 18,
+                    "place": 1,
+                    "leader_id": 50,
+                    "nation_id": 46
+                }
+            ],
+            "games_amount": 1,
+            "total_wins_amount": 1,
+            "solo_wins_amount": 1,
             "team_wins_amount": 0,
-            "win_rate": 0,
-            "is_played": false,
+            "win_rate": 1.0,
+            "is_played": true,
             "is_banned": false
         },
         "51": {
@@ -3518,13 +3665,24 @@
             "name": "Сулейман (Muhteşem)",
             "nation_name": "Османы",
             "nation_id": 33,
-            "games_info": [],
-            "games_amount": 0,
+            "games_info": [
+                {
+                    "game_id": 12,
+                    "game_number": 13,
+                    "player_id": 7,
+                    "is_win": false,
+                    "score_change": 7,
+                    "place": 3,
+                    "leader_id": 60,
+                    "nation_id": 33
+                }
+            ],
+            "games_amount": 1,
             "total_wins_amount": 0,
             "solo_wins_amount": 0,
             "team_wins_amount": 0,
-            "win_rate": 0,
-            "is_played": false,
+            "win_rate": 0.0,
+            "is_played": true,
             "is_banned": false
         },
         "61": {
@@ -3762,7 +3920,18 @@
         "7": {
             "id": 7,
             "name": "Индия",
-            "games_info": []
+            "games_info": [
+                {
+                    "game_id": 12,
+                    "game_number": 13,
+                    "player_id": 5,
+                    "is_win": false,
+                    "score_change": 11,
+                    "place": 2,
+                    "leader_id": 8,
+                    "nation_id": 7
+                }
+            ]
         },
         "8": {
             "id": 8,
@@ -4244,6 +4413,16 @@
                     "place": 5,
                     "leader_id": 36,
                     "nation_id": 33
+                },
+                {
+                    "game_id": 12,
+                    "game_number": 13,
+                    "player_id": 7,
+                    "is_win": false,
+                    "score_change": 7,
+                    "place": 3,
+                    "leader_id": 60,
+                    "nation_id": 33
                 }
             ]
         },
@@ -4354,7 +4533,18 @@
         "38": {
             "id": 38,
             "name": "Индонезия",
-            "games_info": []
+            "games_info": [
+                {
+                    "game_id": 12,
+                    "game_number": 13,
+                    "player_id": 1,
+                    "is_win": false,
+                    "score_change": -1,
+                    "place": 4,
+                    "leader_id": 42,
+                    "nation_id": 38
+                }
+            ]
         },
         "39": {
             "id": 39,
@@ -4570,6 +4760,16 @@
                     "place": 1,
                     "leader_id": 58,
                     "nation_id": 46
+                },
+                {
+                    "game_id": 12,
+                    "game_number": 13,
+                    "player_id": 2,
+                    "is_win": true,
+                    "score_change": 18,
+                    "place": 1,
+                    "leader_id": 50,
+                    "nation_id": 46
                 }
             ]
         },
@@ -4633,7 +4833,7 @@
         }
     },
     "meta": {
-        "last_game": 11,
-        "last_update": 1677315842.4660792
+        "last_game": 12,
+        "last_update": 1677340880.1213725
     }
 }

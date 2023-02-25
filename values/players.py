@@ -20,12 +20,13 @@ _Kris = Player('Kris')
 _Losyashboi = Player('Losyashboi')
 _MixKage = Player('MixKage')
 _Bot_4_civ6 = Player('Бот (князь) CIV VI')
+_Bot_5_civ6 = Player('Бот (король) CIV VI')
 
 
 player_storage = PlayersStorage([
     _George_Best_7,
     _Leodroid,
-    _Veldy, 
+    _Veldy,
     _Neodim,
     _SaltySoup,
     _The_Losst,
@@ -38,5 +39,6 @@ player_storage = PlayersStorage([
     _Kris,
     _Losyashboi,
     _MixKage,
-    _Bot_4_civ6
+    _Bot_4_civ6,
+    _Bot_5_civ6
 ])

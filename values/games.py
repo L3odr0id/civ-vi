@@ -212,6 +212,26 @@ def get_game_12():
     game.teams = [team0, team1]
     return game
 
+def get_game_13():
+    game = Game(13, 198, 'Научная', start_date='2023-02-18', finish_date='2023-02-25', seconds_per_move=169)
+    team0 = Team()
+    team0.add_player(players._Leodroid, leaders._Hubilau_China)
+
+    team1 = Team()
+    team1.add_player(players._TinyClayMan, leaders._Gandi)
+
+    team2 = Team()
+    team2.add_player(players._MaxBelol, leaders._Suleiman_muhtesem)
+
+    team3 = Team()
+    team3.add_player(players._George_Best_7, leaders._Tribuhvana)
+
+    team4 = Team()
+    team4.add_player(players._Bot_5_civ6, leaders._Peter_the_Great)
+
+    game.teams = [team0, team1, team2, team3]
+    return game
+
 
 games_storage = GamesStorage([
     get_game_1(),
@@ -225,5 +245,6 @@ games_storage = GamesStorage([
     get_game_9(),
     get_game_10(),
     get_game_11(),
-    get_game_12()
+    get_game_12(),
+    get_game_13()
 ])
