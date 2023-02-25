@@ -56,6 +56,11 @@ def calc_scores(game: Game):
             win_award = WIN_AWARD if i == 0 else 0 # Надбавка за победу
             change = round(avgs[i] + Guaranteed_score + win_award)  # Изменение рейтинга
 
+            if player.games_info and player.games_info[-1].game.id == game.id:
+                # Если player - это бот и таких ботов участвовало несколько в партии,
+                # тогда не нужно лишний раз начислять ему баллы за участие
+                change -= Guaranteed_score
+
             if player.highest_rating_take[0] < change:
                 player.highest_rating_take = (change, game.id)
             if player.lowest_rating_take[0] > change:
@@ -72,8 +77,8 @@ def calc_scores(game: Game):
             player.rating_changes.append(RatingChange(game.id, change))
 
             # для лидера и нации добавляем запись об игре
-            game_info = GameInfo(game.id, player.id, leader.id,
-                                 leader.nation.id, i == 0, change, i + 1, is_played_by_teams=len(game.teams[0].get_players())>1
+            game_info = GameInfo(game, player.id, leader.id,
+                                 leader.nation.id, i == 0, change, i + 1,
                                  )
             player.games_info.append(game_info)
             leader.games_info.append(game_info)

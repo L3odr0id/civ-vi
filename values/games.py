@@ -87,6 +87,7 @@ def get_game_5():
     team1 = Team()
     team1.add_player(players._Leodroid, leaders._Ambiotriks)
     team1.add_player(players._TinyClayMan, leaders._Hubilai_Mongol)
+    team1.add_player(players._Bot_4_civ6, leaders._Alexandr_Makedonia)
 
     game.teams = [team0, team1]
     return game
@@ -139,12 +140,16 @@ def get_game_8():
     team0.add_player(players._George_Best_7, leaders._Tin_Huan)
     team1 = Team()
     team1.add_player(players._Leodroid, leaders._Chieu_Vietnam)
+    team4 = Team()
+    team4.add_player(players._Bot_4_civ6, leaders._Trayan)
     team2 = Team()
     team2.add_player(players._Losyashboi, leaders._Hojo_Tokimune)
+    team5 = Team()
+    team5.add_player(players._Bot_4_civ6, leaders._Peter_the_Great)
     team3 = Team()
     team3.add_player(players._TinyClayMan, leaders._Juan_III)
 
-    game.teams = [team0, team1, team2, team3]
+    game.teams = [team0, team1, team4, team2, team5, team3]
     return game
 
 
@@ -184,8 +189,10 @@ def get_game_11():
     team3.add_player(players._Leodroid, leaders._Tomiris)
     team4 = Team()
     team4.add_player(players._George_Best_7, leaders._Suleiman)
+    team5 = Team()
+    team5.add_player(players._Bot_4_civ6, leaders._Trayan)
 
-    game.teams = [team0, team1, team2, team3, team4]
+    game.teams = [team0, team1, team2, team3, team4, team5]
     return game
 
 def get_game_12():
@@ -200,6 +207,7 @@ def get_game_12():
     team1.add_player(players._Neodim, leaders._Peter_the_Great)
     team1.add_player(players._MixKage, leaders._Trayan)
     team1.add_player(players._Leodroid, leaders._Ekaterina_Medichi_Black_Queen)
+    team1.add_player(players._Bot_4_civ6, leaders._Gorgo_Grece)
 
     game.teams = [team0, team1]
     return game

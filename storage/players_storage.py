@@ -22,8 +22,12 @@ class PlayersStorage:
             print(str(i + 1) + ' ' + str(self.players[i].get_serializable()))
 
     def debug_print_just_ratings(self):
+        """
+        Это я использую, чтобы при изменения логики смотреть, не сломалась ли таблица.
+        Показвает список игроков по рейтингу и изменения в позициях.
+        """
         for i in range(len(self.players)):
-            print(str(i + 1) + ' ' + self.players[i].name +' ' + str(self.players[i].rating))
+            print(str(i + 1) + ' ' + self.players[i].name +' ' + str(self.players[i].rating)+ ' '+str(self.players[i].change_position))
 
     def get_serializable(self):
         d = dict()

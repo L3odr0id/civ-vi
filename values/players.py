@@ -19,6 +19,7 @@ _TheDavidGame = Player('TheDavidGame')
 _Kris = Player('Kris')
 _Losyashboi = Player('Losyashboi')
 _MixKage = Player('MixKage')
+_Bot_4_civ6 = Player('Бот (князь) CIV VI')
 
 
 player_storage = PlayersStorage([
@@ -36,5 +37,6 @@ player_storage = PlayersStorage([
     _StillWiseOut,
     _Kris,
     _Losyashboi,
-    _MixKage
+    _MixKage,
+    _Bot_4_civ6
 ])

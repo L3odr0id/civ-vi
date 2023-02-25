@@ -75,10 +75,10 @@
 ### GameInfo
 
 - game_id = id игры, см. Game
+- game_number = номер игры, см. Game
 - player_id = id игрока, см. Player
 - leader_id= id лидера, см. Leaders
 - nation_id = id нации, см. Nation
 - is_win = Победа или нет
 - score_change = Изменение очков для этого игрока в этой игре
 - place = Место занятое в общем зачёте в данной партии
-- is_played_by_teams = Игралась ли игра по командам (иначе каждый сам за себя)

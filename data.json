@@ -3,16 +3,16 @@
         "1": {
             "id": 1,
             "name": "George_Best_7",
-            "rating": 368,
+            "rating": 371,
             "games_amount": 12,
             "solo_wins_amount": 5,
             "team_wins_amount": 3,
             "total_wins_amount": 8,
             "highest_rating_take": 18,
             "highest_rating_take_game": 1,
-            "lowest_rating_take": -2,
-            "lowest_rating_take_game": 10,
-            "peak_rating": 368,
+            "lowest_rating_take": -1,
+            "lowest_rating_take_game": 3,
+            "peak_rating": 371,
             "rating_changes": [
                 {
                     "game_id": 0,
@@ -56,7 +56,7 @@
                 },
                 {
                     "game_id": 10,
-                    "rating_change": -2
+                    "rating_change": 1
                 },
                 {
                     "game_id": 11,
@@ -65,129 +65,129 @@
             ],
             "top_position": 1,
             "lowest_position": 1,
-            "average_rating": 11.67,
+            "average_rating": 11.92,
             "win_rate": 0.67,
             "change_position": 0,
             "games_info": [
                 {
                     "game_id": 0,
+                    "game_number": 1,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 45,
-                    "nation_id": 41,
-                    "is_played_by_teams": true
+                    "nation_id": 41
                 },
                 {
                     "game_id": 1,
+                    "game_number": 2,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 18,
                     "place": 1,
                     "leader_id": 30,
-                    "nation_id": 28,
-                    "is_played_by_teams": false
+                    "nation_id": 28
                 },
                 {
                     "game_id": 2,
+                    "game_number": 3,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 18,
                     "place": 1,
                     "leader_id": 39,
-                    "nation_id": 35,
-                    "is_played_by_teams": false
+                    "nation_id": 35
                 },
                 {
                     "game_id": 3,
+                    "game_number": 4,
                     "player_id": 1,
                     "is_win": false,
                     "score_change": -1,
                     "place": 6,
                     "leader_id": 14,
-                    "nation_id": 2,
-                    "is_played_by_teams": false
+                    "nation_id": 2
                 },
                 {
                     "game_id": 4,
+                    "game_number": 5,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 56,
-                    "nation_id": 49,
-                    "is_played_by_teams": true
+                    "nation_id": 49
                 },
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 1,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 43,
-                    "nation_id": 39,
-                    "is_played_by_teams": true
+                    "nation_id": 39
                 },
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 18,
                     "place": 1,
                     "leader_id": 46,
-                    "nation_id": 42,
-                    "is_played_by_teams": false
+                    "nation_id": 42
                 },
                 {
                     "game_id": 7,
+                    "game_number": 8,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 17,
                     "place": 1,
                     "leader_id": 51,
-                    "nation_id": 46,
-                    "is_played_by_teams": false
+                    "nation_id": 46
                 },
                 {
                     "game_id": 8,
+                    "game_number": 9,
                     "player_id": 1,
                     "is_win": false,
                     "score_change": 9,
                     "place": 2,
                     "leader_id": 20,
-                    "nation_id": 18,
-                    "is_played_by_teams": false
+                    "nation_id": 18
                 },
                 {
                     "game_id": 9,
+                    "game_number": 10,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 17,
-                    "nation_id": 15,
-                    "is_played_by_teams": false
+                    "nation_id": 15
                 },
                 {
                     "game_id": 10,
+                    "game_number": 11,
                     "player_id": 1,
                     "is_win": false,
-                    "score_change": -2,
+                    "score_change": 1,
                     "place": 5,
                     "leader_id": 36,
-                    "nation_id": 33,
-                    "is_played_by_teams": false
+                    "nation_id": 33
                 },
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 59,
-                    "nation_id": 44,
-                    "is_played_by_teams": true
+                    "nation_id": 44
                 }
             ],
             "current_win_streak": 1,
@@ -196,7 +196,7 @@
         "2": {
             "id": 2,
             "name": "Leodroid",
-            "rating": 318,
+            "rating": 322,
             "games_amount": 12,
             "solo_wins_amount": 1,
             "team_wins_amount": 1,
@@ -205,7 +205,7 @@
             "highest_rating_take_game": 8,
             "lowest_rating_take": 3,
             "lowest_rating_take_game": 4,
-            "peak_rating": 318,
+            "peak_rating": 322,
             "rating_changes": [
                 {
                     "game_id": 0,
@@ -237,7 +237,7 @@
                 },
                 {
                     "game_id": 7,
-                    "rating_change": 10
+                    "rating_change": 12
                 },
                 {
                     "game_id": 8,
@@ -249,7 +249,7 @@
                 },
                 {
                     "game_id": 10,
-                    "rating_change": 4
+                    "rating_change": 6
                 },
                 {
                     "game_id": 11,
@@ -258,129 +258,129 @@
             ],
             "top_position": 2,
             "lowest_position": 3,
-            "average_rating": 7.5,
+            "average_rating": 7.83,
             "win_rate": 0.17,
             "change_position": 0,
             "games_info": [
                 {
                     "game_id": 0,
+                    "game_number": 1,
                     "player_id": 2,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 41,
-                    "nation_id": 37,
-                    "is_played_by_teams": true
+                    "nation_id": 37
                 },
                 {
                     "game_id": 1,
+                    "game_number": 2,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 5,
                     "place": 3,
                     "leader_id": 52,
-                    "nation_id": 47,
-                    "is_played_by_teams": false
+                    "nation_id": 47
                 },
                 {
                     "game_id": 2,
+                    "game_number": 3,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 13,
                     "place": 2,
                     "leader_id": 18,
-                    "nation_id": 16,
-                    "is_played_by_teams": false
+                    "nation_id": 16
                 },
                 {
                     "game_id": 3,
+                    "game_number": 4,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 9,
                     "place": 3,
                     "leader_id": 54,
-                    "nation_id": 45,
-                    "is_played_by_teams": false
+                    "nation_id": 45
                 },
                 {
                     "game_id": 4,
+                    "game_number": 5,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 4,
-                    "nation_id": 4,
-                    "is_played_by_teams": true
+                    "nation_id": 4
                 },
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 48,
-                    "nation_id": 44,
-                    "is_played_by_teams": true
+                    "nation_id": 44
                 },
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 5,
                     "place": 5,
                     "leader_id": 37,
-                    "nation_id": 34,
-                    "is_played_by_teams": false
+                    "nation_id": 34
                 },
                 {
                     "game_id": 7,
+                    "game_number": 8,
                     "player_id": 2,
                     "is_win": false,
-                    "score_change": 10,
+                    "score_change": 12,
                     "place": 2,
                     "leader_id": 55,
-                    "nation_id": 48,
-                    "is_played_by_teams": false
+                    "nation_id": 48
                 },
                 {
                     "game_id": 8,
+                    "game_number": 9,
                     "player_id": 2,
                     "is_win": true,
                     "score_change": 17,
                     "place": 1,
                     "leader_id": 11,
-                    "nation_id": 10,
-                    "is_played_by_teams": false
+                    "nation_id": 10
                 },
                 {
                     "game_id": 9,
+                    "game_number": 10,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 25,
-                    "nation_id": 23,
-                    "is_played_by_teams": false
+                    "nation_id": 23
                 },
                 {
                     "game_id": 10,
+                    "game_number": 11,
                     "player_id": 2,
                     "is_win": false,
-                    "score_change": 4,
+                    "score_change": 6,
                     "place": 4,
                     "leader_id": 40,
-                    "nation_id": 36,
-                    "is_played_by_teams": false
+                    "nation_id": 36
                 },
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 57,
-                    "nation_id": 2,
-                    "is_played_by_teams": true
+                    "nation_id": 2
                 }
             ],
             "current_win_streak": 0,
@@ -389,7 +389,7 @@
         "0": {
             "id": 0,
             "name": "Neodim",
-            "rating": 312,
+            "rating": 313,
             "games_amount": 9,
             "solo_wins_amount": 0,
             "team_wins_amount": 2,
@@ -398,7 +398,7 @@
             "highest_rating_take_game": 4,
             "lowest_rating_take": 3,
             "lowest_rating_take_game": 0,
-            "peak_rating": 312,
+            "peak_rating": 313,
             "rating_changes": [
                 {
                     "game_id": 0,
@@ -430,7 +430,7 @@
                 },
                 {
                     "game_id": 10,
-                    "rating_change": 8
+                    "rating_change": 9
                 },
                 {
                     "game_id": 11,
@@ -439,99 +439,99 @@
             ],
             "top_position": 2,
             "lowest_position": 4,
-            "average_rating": 9.33,
+            "average_rating": 9.44,
             "win_rate": 0.22,
             "change_position": 0,
             "games_info": [
                 {
                     "game_id": 0,
+                    "game_number": 1,
                     "player_id": 0,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 22,
-                    "nation_id": 20,
-                    "is_played_by_teams": true
+                    "nation_id": 20
                 },
                 {
                     "game_id": 1,
+                    "game_number": 2,
                     "player_id": 0,
                     "is_win": false,
                     "score_change": 11,
                     "place": 2,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": false
+                    "nation_id": 25
                 },
                 {
                     "game_id": 2,
+                    "game_number": 3,
                     "player_id": 0,
                     "is_win": false,
                     "score_change": 3,
                     "place": 5,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": false
+                    "nation_id": 25
                 },
                 {
                     "game_id": 3,
+                    "game_number": 4,
                     "player_id": 0,
                     "is_win": false,
                     "score_change": 13,
                     "place": 2,
                     "leader_id": 5,
-                    "nation_id": 5,
-                    "is_played_by_teams": false
+                    "nation_id": 5
                 },
                 {
                     "game_id": 4,
+                    "game_number": 5,
                     "player_id": 0,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": true
+                    "nation_id": 25
                 },
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 0,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": true
+                    "nation_id": 25
                 },
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 0,
                     "is_win": false,
                     "score_change": 13,
                     "place": 2,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": false
+                    "nation_id": 25
                 },
                 {
                     "game_id": 10,
+                    "game_number": 11,
                     "player_id": 0,
                     "is_win": false,
-                    "score_change": 8,
+                    "score_change": 9,
                     "place": 3,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": false
+                    "nation_id": 25
                 },
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 0,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": true
+                    "nation_id": 25
                 }
             ],
             "current_win_streak": 0,
@@ -547,7 +547,7 @@
             "total_wins_amount": 1,
             "highest_rating_take": 15,
             "highest_rating_take_game": 11,
-            "lowest_rating_take": 1,
+            "lowest_rating_take": 0,
             "lowest_rating_take_game": 7,
             "peak_rating": 290,
             "rating_changes": [
@@ -573,7 +573,7 @@
                 },
                 {
                     "game_id": 7,
-                    "rating_change": 1
+                    "rating_change": 0
                 },
                 {
                     "game_id": 8,
@@ -581,7 +581,7 @@
                 },
                 {
                     "game_id": 10,
-                    "rating_change": 13
+                    "rating_change": 14
                 },
                 {
                     "game_id": 11,
@@ -596,93 +596,93 @@
             "games_info": [
                 {
                     "game_id": 2,
+                    "game_number": 3,
                     "player_id": 5,
                     "is_win": false,
                     "score_change": 7,
                     "place": 4,
                     "leader_id": 1,
-                    "nation_id": 1,
-                    "is_played_by_teams": false
+                    "nation_id": 1
                 },
                 {
                     "game_id": 3,
+                    "game_number": 4,
                     "player_id": 5,
                     "is_win": false,
                     "score_change": 3,
                     "place": 5,
                     "leader_id": 33,
-                    "nation_id": 30,
-                    "is_played_by_teams": false
+                    "nation_id": 30
                 },
                 {
                     "game_id": 4,
+                    "game_number": 5,
                     "player_id": 5,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 49,
-                    "nation_id": 45,
-                    "is_played_by_teams": true
+                    "nation_id": 45
                 },
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 5,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 6,
-                    "nation_id": 1,
-                    "is_played_by_teams": true
+                    "nation_id": 1
                 },
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 5,
                     "is_win": false,
                     "score_change": 11,
                     "place": 3,
                     "leader_id": 23,
-                    "nation_id": 21,
-                    "is_played_by_teams": false
+                    "nation_id": 21
                 },
                 {
                     "game_id": 7,
+                    "game_number": 8,
                     "player_id": 5,
                     "is_win": false,
-                    "score_change": 1,
-                    "place": 4,
+                    "score_change": 0,
+                    "place": 6,
                     "leader_id": 15,
-                    "nation_id": 13,
-                    "is_played_by_teams": false
+                    "nation_id": 13
                 },
                 {
                     "game_id": 8,
+                    "game_number": 9,
                     "player_id": 5,
                     "is_win": false,
                     "score_change": 6,
                     "place": 3,
                     "leader_id": 28,
-                    "nation_id": 26,
-                    "is_played_by_teams": false
+                    "nation_id": 26
                 },
                 {
                     "game_id": 10,
+                    "game_number": 11,
                     "player_id": 5,
                     "is_win": false,
-                    "score_change": 13,
+                    "score_change": 14,
                     "place": 2,
                     "leader_id": 21,
-                    "nation_id": 19,
-                    "is_played_by_teams": false
+                    "nation_id": 19
                 },
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 5,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 58,
-                    "nation_id": 46,
-                    "is_played_by_teams": true
+                    "nation_id": 46
                 }
             ],
             "current_win_streak": 1,
@@ -731,53 +731,53 @@
             "games_info": [
                 {
                     "game_id": 1,
+                    "game_number": 2,
                     "player_id": 7,
                     "is_win": false,
                     "score_change": 1,
                     "place": 4,
                     "leader_id": 56,
-                    "nation_id": 49,
-                    "is_played_by_teams": false
+                    "nation_id": 49
                 },
                 {
                     "game_id": 4,
+                    "game_number": 5,
                     "player_id": 7,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 32,
-                    "nation_id": 29,
-                    "is_played_by_teams": true
+                    "nation_id": 29
                 },
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 7,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 34,
-                    "nation_id": 31,
-                    "is_played_by_teams": true
+                    "nation_id": 31
                 },
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 7,
                     "is_win": false,
                     "score_change": 8,
                     "place": 4,
                     "leader_id": 19,
-                    "nation_id": 17,
-                    "is_played_by_teams": false
+                    "nation_id": 17
                 },
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 7,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 44,
-                    "nation_id": 40,
-                    "is_played_by_teams": true
+                    "nation_id": 40
                 }
             ],
             "current_win_streak": 1,
@@ -822,43 +822,43 @@
             "games_info": [
                 {
                     "game_id": 0,
+                    "game_number": 1,
                     "player_id": 4,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 38,
-                    "nation_id": 35,
-                    "is_played_by_teams": true
+                    "nation_id": 35
                 },
                 {
                     "game_id": 2,
+                    "game_number": 3,
                     "player_id": 4,
                     "is_win": false,
                     "score_change": 0,
                     "place": 6,
                     "leader_id": 9,
-                    "nation_id": 8,
-                    "is_played_by_teams": false
+                    "nation_id": 8
                 },
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 4,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 16,
-                    "nation_id": 14,
-                    "is_played_by_teams": true
+                    "nation_id": 14
                 },
                 {
                     "game_id": 10,
+                    "game_number": 11,
                     "player_id": 4,
                     "is_win": true,
                     "score_change": 20,
                     "place": 1,
                     "leader_id": 45,
-                    "nation_id": 41,
-                    "is_played_by_teams": false
+                    "nation_id": 41
                 }
             ],
             "current_win_streak": 2,
@@ -895,23 +895,23 @@
             "games_info": [
                 {
                     "game_id": 3,
+                    "game_number": 4,
                     "player_id": 3,
                     "is_win": true,
                     "score_change": 19,
                     "place": 1,
                     "leader_id": 29,
-                    "nation_id": 27,
-                    "is_played_by_teams": false
+                    "nation_id": 27
                 },
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 3,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 26,
-                    "nation_id": 24,
-                    "is_played_by_teams": true
+                    "nation_id": 24
                 }
             ],
             "current_win_streak": 2,
@@ -952,33 +952,33 @@
             "games_info": [
                 {
                     "game_id": 3,
+                    "game_number": 4,
                     "player_id": 9,
                     "is_win": false,
                     "score_change": 7,
                     "place": 4,
                     "leader_id": 31,
-                    "nation_id": 9,
-                    "is_played_by_teams": false
+                    "nation_id": 9
                 },
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 9,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 7,
-                    "nation_id": 6,
-                    "is_played_by_teams": true
+                    "nation_id": 6
                 },
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 9,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 45,
-                    "nation_id": 41,
-                    "is_played_by_teams": true
+                    "nation_id": 41
                 }
             ],
             "current_win_streak": 1,
@@ -1015,23 +1015,23 @@
             "games_info": [
                 {
                     "game_id": 0,
+                    "game_number": 1,
                     "player_id": 6,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 48,
-                    "nation_id": 44,
-                    "is_played_by_teams": true
+                    "nation_id": 44
                 },
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 6,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 45,
-                    "nation_id": 41,
-                    "is_played_by_teams": true
+                    "nation_id": 41
                 }
             ],
             "current_win_streak": 1,
@@ -1064,13 +1064,13 @@
             "games_info": [
                 {
                     "game_id": 0,
+                    "game_number": 1,
                     "player_id": 10,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": true
+                    "nation_id": 25
                 }
             ],
             "current_win_streak": 1,
@@ -1096,24 +1096,119 @@
                 }
             ],
             "top_position": 10,
-            "lowest_position": 12,
+            "lowest_position": 13,
             "average_rating": 15.0,
             "win_rate": 1.0,
             "change_position": -1,
             "games_info": [
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 8,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 13,
-                    "nation_id": 12,
-                    "is_played_by_teams": true
+                    "nation_id": 12
                 }
             ],
             "current_win_streak": 1,
             "max_win_streak": 1
+        },
+        "15": {
+            "id": 15,
+            "name": "Бот (князь) CIV VI",
+            "rating": 241,
+            "games_amount": 5,
+            "solo_wins_amount": 0,
+            "team_wins_amount": 0,
+            "total_wins_amount": 0,
+            "highest_rating_take": 10,
+            "highest_rating_take_game": 7,
+            "lowest_rating_take": -4,
+            "lowest_rating_take_game": 7,
+            "peak_rating": 241,
+            "rating_changes": [
+                {
+                    "game_id": 4,
+                    "rating_change": 3
+                },
+                {
+                    "game_id": 7,
+                    "rating_change": 10
+                },
+                {
+                    "game_id": 7,
+                    "rating_change": -4
+                },
+                {
+                    "game_id": 10,
+                    "rating_change": 1
+                },
+                {
+                    "game_id": 11,
+                    "rating_change": 3
+                }
+            ],
+            "top_position": 12,
+            "lowest_position": 16,
+            "average_rating": 2.6,
+            "win_rate": 0.0,
+            "change_position": 1,
+            "games_info": [
+                {
+                    "game_id": 4,
+                    "game_number": 5,
+                    "player_id": 15,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2,
+                    "leader_id": 0,
+                    "nation_id": 0
+                },
+                {
+                    "game_id": 7,
+                    "game_number": 8,
+                    "player_id": 15,
+                    "is_win": false,
+                    "score_change": 10,
+                    "place": 3,
+                    "leader_id": 41,
+                    "nation_id": 37
+                },
+                {
+                    "game_id": 7,
+                    "game_number": 8,
+                    "player_id": 15,
+                    "is_win": false,
+                    "score_change": -4,
+                    "place": 5,
+                    "leader_id": 27,
+                    "nation_id": 25
+                },
+                {
+                    "game_id": 10,
+                    "game_number": 11,
+                    "player_id": 15,
+                    "is_win": false,
+                    "score_change": 1,
+                    "place": 6,
+                    "leader_id": 41,
+                    "nation_id": 37
+                },
+                {
+                    "game_id": 11,
+                    "game_number": 12,
+                    "player_id": 15,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2,
+                    "leader_id": 10,
+                    "nation_id": 9
+                }
+            ],
+            "current_win_streak": 0,
+            "max_win_streak": 0
         },
         "11": {
             "id": 11,
@@ -1135,20 +1230,20 @@
                 }
             ],
             "top_position": 5,
-            "lowest_position": 12,
+            "lowest_position": 13,
             "average_rating": 10.0,
             "win_rate": 0.0,
-            "change_position": -1,
+            "change_position": -2,
             "games_info": [
                 {
                     "game_id": 2,
+                    "game_number": 3,
                     "player_id": 11,
                     "is_win": false,
                     "score_change": 10,
                     "place": 3,
                     "leader_id": 3,
-                    "nation_id": 3,
-                    "is_played_by_teams": false
+                    "nation_id": 3
                 }
             ],
             "current_win_streak": 0,
@@ -1177,31 +1272,31 @@
                     "rating_change": 7
                 }
             ],
-            "top_position": 13,
-            "lowest_position": 14,
+            "top_position": 14,
+            "lowest_position": 15,
             "average_rating": 3.5,
             "win_rate": 0.0,
             "change_position": 0,
             "games_info": [
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 13,
                     "is_win": false,
                     "score_change": 0,
                     "place": 7,
                     "leader_id": 16,
-                    "nation_id": 14,
-                    "is_played_by_teams": false
+                    "nation_id": 14
                 },
                 {
                     "game_id": 7,
+                    "game_number": 8,
                     "player_id": 13,
                     "is_win": false,
                     "score_change": 7,
-                    "place": 3,
+                    "place": 4,
                     "leader_id": 48,
-                    "nation_id": 44,
-                    "is_played_by_teams": false
+                    "nation_id": 44
                 }
             ],
             "current_win_streak": 0,
@@ -1231,30 +1326,30 @@
                 }
             ],
             "top_position": 13,
-            "lowest_position": 14,
+            "lowest_position": 15,
             "average_rating": 2.5,
             "win_rate": 0.0,
             "change_position": 0,
             "games_info": [
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 12,
                     "is_win": false,
                     "score_change": 3,
                     "place": 6,
                     "leader_id": 45,
-                    "nation_id": 41,
-                    "is_played_by_teams": false
+                    "nation_id": 41
                 },
                 {
                     "game_id": 8,
+                    "game_number": 9,
                     "player_id": 12,
                     "is_win": false,
                     "score_change": 2,
                     "place": 4,
                     "leader_id": 48,
-                    "nation_id": 44,
-                    "is_played_by_teams": false
+                    "nation_id": 44
                 }
             ],
             "current_win_streak": 0,
@@ -1280,20 +1375,20 @@
                 }
             ],
             "top_position": 15,
-            "lowest_position": 15,
+            "lowest_position": 16,
             "average_rating": 3.0,
             "win_rate": 0.0,
             "change_position": 0,
             "games_info": [
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 14,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 41,
-                    "nation_id": 37,
-                    "is_played_by_teams": true
+                    "nation_id": 37
                 }
             ],
             "current_win_streak": 0,
@@ -1495,6 +1590,10 @@
                     {
                         "player_id": 5,
                         "leader_id": 49
+                    },
+                    {
+                        "player_id": 15,
+                        "leader_id": 0
                     }
                 ]
             ],
@@ -1630,8 +1729,20 @@
                 ],
                 [
                     {
+                        "player_id": 15,
+                        "leader_id": 41
+                    }
+                ],
+                [
+                    {
                         "player_id": 13,
                         "leader_id": 48
+                    }
+                ],
+                [
+                    {
+                        "player_id": 15,
+                        "leader_id": 27
                     }
                 ],
                 [
@@ -1738,6 +1849,12 @@
                         "player_id": 1,
                         "leader_id": 36
                     }
+                ],
+                [
+                    {
+                        "player_id": 15,
+                        "leader_id": 41
+                    }
                 ]
             ],
             "turns": 232,
@@ -1780,6 +1897,10 @@
                     {
                         "player_id": 2,
                         "leader_id": 57
+                    },
+                    {
+                        "player_id": 15,
+                        "leader_id": 10
                     }
                 ]
             ],
@@ -1796,13 +1917,24 @@
             "name": "Александр",
             "nation_name": "Македония",
             "nation_id": 0,
-            "games_info": [],
-            "games_amount": 0,
+            "games_info": [
+                {
+                    "game_id": 4,
+                    "game_number": 5,
+                    "player_id": 15,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2,
+                    "leader_id": 0,
+                    "nation_id": 0
+                }
+            ],
+            "games_amount": 1,
             "total_wins_amount": 0,
             "solo_wins_amount": 0,
             "team_wins_amount": 0,
-            "win_rate": 0,
-            "is_played": false,
+            "win_rate": 0.0,
+            "is_played": true,
             "is_banned": true
         },
         "1": {
@@ -1813,13 +1945,13 @@
             "games_info": [
                 {
                     "game_id": 2,
+                    "game_number": 3,
                     "player_id": 5,
                     "is_win": false,
                     "score_change": 7,
                     "place": 4,
                     "leader_id": 1,
-                    "nation_id": 1,
-                    "is_played_by_teams": false
+                    "nation_id": 1
                 }
             ],
             "games_amount": 1,
@@ -1852,13 +1984,13 @@
             "games_info": [
                 {
                     "game_id": 2,
+                    "game_number": 3,
                     "player_id": 11,
                     "is_win": false,
                     "score_change": 10,
                     "place": 3,
                     "leader_id": 3,
-                    "nation_id": 3,
-                    "is_played_by_teams": false
+                    "nation_id": 3
                 }
             ],
             "games_amount": 1,
@@ -1877,13 +2009,13 @@
             "games_info": [
                 {
                     "game_id": 4,
+                    "game_number": 5,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 4,
-                    "nation_id": 4,
-                    "is_played_by_teams": true
+                    "nation_id": 4
                 }
             ],
             "games_amount": 1,
@@ -1902,13 +2034,13 @@
             "games_info": [
                 {
                     "game_id": 3,
+                    "game_number": 4,
                     "player_id": 0,
                     "is_win": false,
                     "score_change": 13,
                     "place": 2,
                     "leader_id": 5,
-                    "nation_id": 5,
-                    "is_played_by_teams": false
+                    "nation_id": 5
                 }
             ],
             "games_amount": 1,
@@ -1927,13 +2059,13 @@
             "games_info": [
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 5,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 6,
-                    "nation_id": 1,
-                    "is_played_by_teams": true
+                    "nation_id": 1
                 }
             ],
             "games_amount": 1,
@@ -1952,13 +2084,13 @@
             "games_info": [
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 9,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 7,
-                    "nation_id": 6,
-                    "is_played_by_teams": true
+                    "nation_id": 6
                 }
             ],
             "games_amount": 1,
@@ -1991,13 +2123,13 @@
             "games_info": [
                 {
                     "game_id": 2,
+                    "game_number": 3,
                     "player_id": 4,
                     "is_win": false,
                     "score_change": 0,
                     "place": 6,
                     "leader_id": 9,
-                    "nation_id": 8,
-                    "is_played_by_teams": false
+                    "nation_id": 8
                 }
             ],
             "games_amount": 1,
@@ -2013,13 +2145,24 @@
             "name": "Горго",
             "nation_name": "Греция",
             "nation_id": 9,
-            "games_info": [],
-            "games_amount": 0,
+            "games_info": [
+                {
+                    "game_id": 11,
+                    "game_number": 12,
+                    "player_id": 15,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2,
+                    "leader_id": 10,
+                    "nation_id": 9
+                }
+            ],
+            "games_amount": 1,
             "total_wins_amount": 0,
             "solo_wins_amount": 0,
             "team_wins_amount": 0,
-            "win_rate": 0,
-            "is_played": false,
+            "win_rate": 0.0,
+            "is_played": true,
             "is_banned": false
         },
         "11": {
@@ -2030,13 +2173,13 @@
             "games_info": [
                 {
                     "game_id": 8,
+                    "game_number": 9,
                     "player_id": 2,
                     "is_win": true,
                     "score_change": 17,
                     "place": 1,
                     "leader_id": 11,
-                    "nation_id": 10,
-                    "is_played_by_teams": false
+                    "nation_id": 10
                 }
             ],
             "games_amount": 1,
@@ -2069,13 +2212,13 @@
             "games_info": [
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 8,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 13,
-                    "nation_id": 12,
-                    "is_played_by_teams": true
+                    "nation_id": 12
                 }
             ],
             "games_amount": 1,
@@ -2094,13 +2237,13 @@
             "games_info": [
                 {
                     "game_id": 3,
+                    "game_number": 4,
                     "player_id": 1,
                     "is_win": false,
                     "score_change": -1,
                     "place": 6,
                     "leader_id": 14,
-                    "nation_id": 2,
-                    "is_played_by_teams": false
+                    "nation_id": 2
                 }
             ],
             "games_amount": 1,
@@ -2119,13 +2262,13 @@
             "games_info": [
                 {
                     "game_id": 7,
+                    "game_number": 8,
                     "player_id": 5,
                     "is_win": false,
-                    "score_change": 1,
-                    "place": 4,
+                    "score_change": 0,
+                    "place": 6,
                     "leader_id": 15,
-                    "nation_id": 13,
-                    "is_played_by_teams": false
+                    "nation_id": 13
                 }
             ],
             "games_amount": 1,
@@ -2144,23 +2287,23 @@
             "games_info": [
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 4,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 16,
-                    "nation_id": 14,
-                    "is_played_by_teams": true
+                    "nation_id": 14
                 },
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 13,
                     "is_win": false,
                     "score_change": 0,
                     "place": 7,
                     "leader_id": 16,
-                    "nation_id": 14,
-                    "is_played_by_teams": false
+                    "nation_id": 14
                 }
             ],
             "games_amount": 2,
@@ -2179,13 +2322,13 @@
             "games_info": [
                 {
                     "game_id": 9,
+                    "game_number": 10,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 17,
-                    "nation_id": 15,
-                    "is_played_by_teams": false
+                    "nation_id": 15
                 }
             ],
             "games_amount": 1,
@@ -2204,13 +2347,13 @@
             "games_info": [
                 {
                     "game_id": 2,
+                    "game_number": 3,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 13,
                     "place": 2,
                     "leader_id": 18,
-                    "nation_id": 16,
-                    "is_played_by_teams": false
+                    "nation_id": 16
                 }
             ],
             "games_amount": 1,
@@ -2229,13 +2372,13 @@
             "games_info": [
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 7,
                     "is_win": false,
                     "score_change": 8,
                     "place": 4,
                     "leader_id": 19,
-                    "nation_id": 17,
-                    "is_played_by_teams": false
+                    "nation_id": 17
                 }
             ],
             "games_amount": 1,
@@ -2254,13 +2397,13 @@
             "games_info": [
                 {
                     "game_id": 8,
+                    "game_number": 9,
                     "player_id": 1,
                     "is_win": false,
                     "score_change": 9,
                     "place": 2,
                     "leader_id": 20,
-                    "nation_id": 18,
-                    "is_played_by_teams": false
+                    "nation_id": 18
                 }
             ],
             "games_amount": 1,
@@ -2279,13 +2422,13 @@
             "games_info": [
                 {
                     "game_id": 10,
+                    "game_number": 11,
                     "player_id": 5,
                     "is_win": false,
-                    "score_change": 13,
+                    "score_change": 14,
                     "place": 2,
                     "leader_id": 21,
-                    "nation_id": 19,
-                    "is_played_by_teams": false
+                    "nation_id": 19
                 }
             ],
             "games_amount": 1,
@@ -2304,13 +2447,13 @@
             "games_info": [
                 {
                     "game_id": 0,
+                    "game_number": 1,
                     "player_id": 0,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 22,
-                    "nation_id": 20,
-                    "is_played_by_teams": true
+                    "nation_id": 20
                 }
             ],
             "games_amount": 1,
@@ -2329,13 +2472,13 @@
             "games_info": [
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 5,
                     "is_win": false,
                     "score_change": 11,
                     "place": 3,
                     "leader_id": 23,
-                    "nation_id": 21,
-                    "is_played_by_teams": false
+                    "nation_id": 21
                 }
             ],
             "games_amount": 1,
@@ -2368,13 +2511,13 @@
             "games_info": [
                 {
                     "game_id": 9,
+                    "game_number": 10,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 25,
-                    "nation_id": 23,
-                    "is_played_by_teams": false
+                    "nation_id": 23
                 }
             ],
             "games_amount": 1,
@@ -2393,13 +2536,13 @@
             "games_info": [
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 3,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 26,
-                    "nation_id": 24,
-                    "is_played_by_teams": true
+                    "nation_id": 24
                 }
             ],
             "games_amount": 1,
@@ -2418,90 +2561,100 @@
             "games_info": [
                 {
                     "game_id": 0,
+                    "game_number": 1,
                     "player_id": 10,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": true
+                    "nation_id": 25
                 },
                 {
                     "game_id": 1,
+                    "game_number": 2,
                     "player_id": 0,
                     "is_win": false,
                     "score_change": 11,
                     "place": 2,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": false
+                    "nation_id": 25
                 },
                 {
                     "game_id": 2,
+                    "game_number": 3,
                     "player_id": 0,
                     "is_win": false,
                     "score_change": 3,
                     "place": 5,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": false
+                    "nation_id": 25
                 },
                 {
                     "game_id": 4,
+                    "game_number": 5,
                     "player_id": 0,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": true
+                    "nation_id": 25
                 },
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 0,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": true
+                    "nation_id": 25
                 },
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 0,
                     "is_win": false,
                     "score_change": 13,
                     "place": 2,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": false
+                    "nation_id": 25
+                },
+                {
+                    "game_id": 7,
+                    "game_number": 8,
+                    "player_id": 15,
+                    "is_win": false,
+                    "score_change": -4,
+                    "place": 5,
+                    "leader_id": 27,
+                    "nation_id": 25
                 },
                 {
                     "game_id": 10,
+                    "game_number": 11,
                     "player_id": 0,
                     "is_win": false,
-                    "score_change": 8,
+                    "score_change": 9,
                     "place": 3,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": false
+                    "nation_id": 25
                 },
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 0,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": true
+                    "nation_id": 25
                 }
             ],
-            "games_amount": 8,
+            "games_amount": 9,
             "total_wins_amount": 3,
             "solo_wins_amount": 0,
             "team_wins_amount": 3,
-            "win_rate": 0.38,
+            "win_rate": 0.33,
             "is_played": true,
             "is_banned": false
         },
@@ -2513,13 +2666,13 @@
             "games_info": [
                 {
                     "game_id": 8,
+                    "game_number": 9,
                     "player_id": 5,
                     "is_win": false,
                     "score_change": 6,
                     "place": 3,
                     "leader_id": 28,
-                    "nation_id": 26,
-                    "is_played_by_teams": false
+                    "nation_id": 26
                 }
             ],
             "games_amount": 1,
@@ -2538,13 +2691,13 @@
             "games_info": [
                 {
                     "game_id": 3,
+                    "game_number": 4,
                     "player_id": 3,
                     "is_win": true,
                     "score_change": 19,
                     "place": 1,
                     "leader_id": 29,
-                    "nation_id": 27,
-                    "is_played_by_teams": false
+                    "nation_id": 27
                 }
             ],
             "games_amount": 1,
@@ -2563,13 +2716,13 @@
             "games_info": [
                 {
                     "game_id": 1,
+                    "game_number": 2,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 18,
                     "place": 1,
                     "leader_id": 30,
-                    "nation_id": 28,
-                    "is_played_by_teams": false
+                    "nation_id": 28
                 }
             ],
             "games_amount": 1,
@@ -2588,13 +2741,13 @@
             "games_info": [
                 {
                     "game_id": 3,
+                    "game_number": 4,
                     "player_id": 9,
                     "is_win": false,
                     "score_change": 7,
                     "place": 4,
                     "leader_id": 31,
-                    "nation_id": 9,
-                    "is_played_by_teams": false
+                    "nation_id": 9
                 }
             ],
             "games_amount": 1,
@@ -2613,13 +2766,13 @@
             "games_info": [
                 {
                     "game_id": 4,
+                    "game_number": 5,
                     "player_id": 7,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 32,
-                    "nation_id": 29,
-                    "is_played_by_teams": true
+                    "nation_id": 29
                 }
             ],
             "games_amount": 1,
@@ -2638,13 +2791,13 @@
             "games_info": [
                 {
                     "game_id": 3,
+                    "game_number": 4,
                     "player_id": 5,
                     "is_win": false,
                     "score_change": 3,
                     "place": 5,
                     "leader_id": 33,
-                    "nation_id": 30,
-                    "is_played_by_teams": false
+                    "nation_id": 30
                 }
             ],
             "games_amount": 1,
@@ -2663,13 +2816,13 @@
             "games_info": [
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 7,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 34,
-                    "nation_id": 31,
-                    "is_played_by_teams": true
+                    "nation_id": 31
                 }
             ],
             "games_amount": 1,
@@ -2702,13 +2855,13 @@
             "games_info": [
                 {
                     "game_id": 10,
+                    "game_number": 11,
                     "player_id": 1,
                     "is_win": false,
-                    "score_change": -2,
+                    "score_change": 1,
                     "place": 5,
                     "leader_id": 36,
-                    "nation_id": 33,
-                    "is_played_by_teams": false
+                    "nation_id": 33
                 }
             ],
             "games_amount": 1,
@@ -2727,13 +2880,13 @@
             "games_info": [
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 5,
                     "place": 5,
                     "leader_id": 37,
-                    "nation_id": 34,
-                    "is_played_by_teams": false
+                    "nation_id": 34
                 }
             ],
             "games_amount": 1,
@@ -2752,13 +2905,13 @@
             "games_info": [
                 {
                     "game_id": 0,
+                    "game_number": 1,
                     "player_id": 4,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 38,
-                    "nation_id": 35,
-                    "is_played_by_teams": true
+                    "nation_id": 35
                 }
             ],
             "games_amount": 1,
@@ -2777,13 +2930,13 @@
             "games_info": [
                 {
                     "game_id": 2,
+                    "game_number": 3,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 18,
                     "place": 1,
                     "leader_id": 39,
-                    "nation_id": 35,
-                    "is_played_by_teams": false
+                    "nation_id": 35
                 }
             ],
             "games_amount": 1,
@@ -2802,13 +2955,13 @@
             "games_info": [
                 {
                     "game_id": 10,
+                    "game_number": 11,
                     "player_id": 2,
                     "is_win": false,
-                    "score_change": 4,
+                    "score_change": 6,
                     "place": 4,
                     "leader_id": 40,
-                    "nation_id": 36,
-                    "is_played_by_teams": false
+                    "nation_id": 36
                 }
             ],
             "games_amount": 1,
@@ -2827,30 +2980,50 @@
             "games_info": [
                 {
                     "game_id": 0,
+                    "game_number": 1,
                     "player_id": 2,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 41,
-                    "nation_id": 37,
-                    "is_played_by_teams": true
+                    "nation_id": 37
+                },
+                {
+                    "game_id": 7,
+                    "game_number": 8,
+                    "player_id": 15,
+                    "is_win": false,
+                    "score_change": 10,
+                    "place": 3,
+                    "leader_id": 41,
+                    "nation_id": 37
+                },
+                {
+                    "game_id": 10,
+                    "game_number": 11,
+                    "player_id": 15,
+                    "is_win": false,
+                    "score_change": 1,
+                    "place": 6,
+                    "leader_id": 41,
+                    "nation_id": 37
                 },
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 14,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 41,
-                    "nation_id": 37,
-                    "is_played_by_teams": true
+                    "nation_id": 37
                 }
             ],
-            "games_amount": 2,
+            "games_amount": 4,
             "total_wins_amount": 1,
             "solo_wins_amount": 0,
             "team_wins_amount": 1,
-            "win_rate": 0.5,
+            "win_rate": 0.25,
             "is_played": true,
             "is_banned": false
         },
@@ -2876,13 +3049,13 @@
             "games_info": [
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 1,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 43,
-                    "nation_id": 39,
-                    "is_played_by_teams": true
+                    "nation_id": 39
                 }
             ],
             "games_amount": 1,
@@ -2901,13 +3074,13 @@
             "games_info": [
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 7,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 44,
-                    "nation_id": 40,
-                    "is_played_by_teams": true
+                    "nation_id": 40
                 }
             ],
             "games_amount": 1,
@@ -2926,53 +3099,53 @@
             "games_info": [
                 {
                     "game_id": 0,
+                    "game_number": 1,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 45,
-                    "nation_id": 41,
-                    "is_played_by_teams": true
+                    "nation_id": 41
                 },
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 6,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 45,
-                    "nation_id": 41,
-                    "is_played_by_teams": true
+                    "nation_id": 41
                 },
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 12,
                     "is_win": false,
                     "score_change": 3,
                     "place": 6,
                     "leader_id": 45,
-                    "nation_id": 41,
-                    "is_played_by_teams": false
+                    "nation_id": 41
                 },
                 {
                     "game_id": 10,
+                    "game_number": 11,
                     "player_id": 4,
                     "is_win": true,
                     "score_change": 20,
                     "place": 1,
                     "leader_id": 45,
-                    "nation_id": 41,
-                    "is_played_by_teams": false
+                    "nation_id": 41
                 },
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 9,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 45,
-                    "nation_id": 41,
-                    "is_played_by_teams": true
+                    "nation_id": 41
                 }
             ],
             "games_amount": 5,
@@ -2991,13 +3164,13 @@
             "games_info": [
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 18,
                     "place": 1,
                     "leader_id": 46,
-                    "nation_id": 42,
-                    "is_played_by_teams": false
+                    "nation_id": 42
                 }
             ],
             "games_amount": 1,
@@ -3030,43 +3203,43 @@
             "games_info": [
                 {
                     "game_id": 0,
+                    "game_number": 1,
                     "player_id": 6,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 48,
-                    "nation_id": 44,
-                    "is_played_by_teams": true
+                    "nation_id": 44
                 },
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 48,
-                    "nation_id": 44,
-                    "is_played_by_teams": true
+                    "nation_id": 44
                 },
                 {
                     "game_id": 7,
+                    "game_number": 8,
                     "player_id": 13,
                     "is_win": false,
                     "score_change": 7,
-                    "place": 3,
+                    "place": 4,
                     "leader_id": 48,
-                    "nation_id": 44,
-                    "is_played_by_teams": false
+                    "nation_id": 44
                 },
                 {
                     "game_id": 8,
+                    "game_number": 9,
                     "player_id": 12,
                     "is_win": false,
                     "score_change": 2,
                     "place": 4,
                     "leader_id": 48,
-                    "nation_id": 44,
-                    "is_played_by_teams": false
+                    "nation_id": 44
                 }
             ],
             "games_amount": 4,
@@ -3085,13 +3258,13 @@
             "games_info": [
                 {
                     "game_id": 4,
+                    "game_number": 5,
                     "player_id": 5,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 49,
-                    "nation_id": 45,
-                    "is_played_by_teams": true
+                    "nation_id": 45
                 }
             ],
             "games_amount": 1,
@@ -3124,13 +3297,13 @@
             "games_info": [
                 {
                     "game_id": 7,
+                    "game_number": 8,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 17,
                     "place": 1,
                     "leader_id": 51,
-                    "nation_id": 46,
-                    "is_played_by_teams": false
+                    "nation_id": 46
                 }
             ],
             "games_amount": 1,
@@ -3149,13 +3322,13 @@
             "games_info": [
                 {
                     "game_id": 1,
+                    "game_number": 2,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 5,
                     "place": 3,
                     "leader_id": 52,
-                    "nation_id": 47,
-                    "is_played_by_teams": false
+                    "nation_id": 47
                 }
             ],
             "games_amount": 1,
@@ -3188,13 +3361,13 @@
             "games_info": [
                 {
                     "game_id": 3,
+                    "game_number": 4,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 9,
                     "place": 3,
                     "leader_id": 54,
-                    "nation_id": 45,
-                    "is_played_by_teams": false
+                    "nation_id": 45
                 }
             ],
             "games_amount": 1,
@@ -3213,13 +3386,13 @@
             "games_info": [
                 {
                     "game_id": 7,
+                    "game_number": 8,
                     "player_id": 2,
                     "is_win": false,
-                    "score_change": 10,
+                    "score_change": 12,
                     "place": 2,
                     "leader_id": 55,
-                    "nation_id": 48,
-                    "is_played_by_teams": false
+                    "nation_id": 48
                 }
             ],
             "games_amount": 1,
@@ -3238,23 +3411,23 @@
             "games_info": [
                 {
                     "game_id": 1,
+                    "game_number": 2,
                     "player_id": 7,
                     "is_win": false,
                     "score_change": 1,
                     "place": 4,
                     "leader_id": 56,
-                    "nation_id": 49,
-                    "is_played_by_teams": false
+                    "nation_id": 49
                 },
                 {
                     "game_id": 4,
+                    "game_number": 5,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 56,
-                    "nation_id": 49,
-                    "is_played_by_teams": true
+                    "nation_id": 49
                 }
             ],
             "games_amount": 2,
@@ -3273,13 +3446,13 @@
             "games_info": [
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 57,
-                    "nation_id": 2,
-                    "is_played_by_teams": true
+                    "nation_id": 2
                 }
             ],
             "games_amount": 1,
@@ -3298,13 +3471,13 @@
             "games_info": [
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 5,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 58,
-                    "nation_id": 46,
-                    "is_played_by_teams": true
+                    "nation_id": 46
                 }
             ],
             "games_amount": 1,
@@ -3323,13 +3496,13 @@
             "games_info": [
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 59,
-                    "nation_id": 44,
-                    "is_played_by_teams": true
+                    "nation_id": 44
                 }
             ],
             "games_amount": 1,
@@ -3457,7 +3630,18 @@
         "0": {
             "id": 0,
             "name": "Македония",
-            "games_info": []
+            "games_info": [
+                {
+                    "game_id": 4,
+                    "game_number": 5,
+                    "player_id": 15,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2,
+                    "leader_id": 0,
+                    "nation_id": 0
+                }
+            ]
         },
         "1": {
             "id": 1,
@@ -3465,23 +3649,23 @@
             "games_info": [
                 {
                     "game_id": 2,
+                    "game_number": 3,
                     "player_id": 5,
                     "is_win": false,
                     "score_change": 7,
                     "place": 4,
                     "leader_id": 1,
-                    "nation_id": 1,
-                    "is_played_by_teams": false
+                    "nation_id": 1
                 },
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 5,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 6,
-                    "nation_id": 1,
-                    "is_played_by_teams": true
+                    "nation_id": 1
                 }
             ]
         },
@@ -3491,23 +3675,23 @@
             "games_info": [
                 {
                     "game_id": 3,
+                    "game_number": 4,
                     "player_id": 1,
                     "is_win": false,
                     "score_change": -1,
                     "place": 6,
                     "leader_id": 14,
-                    "nation_id": 2,
-                    "is_played_by_teams": false
+                    "nation_id": 2
                 },
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 57,
-                    "nation_id": 2,
-                    "is_played_by_teams": true
+                    "nation_id": 2
                 }
             ]
         },
@@ -3517,13 +3701,13 @@
             "games_info": [
                 {
                     "game_id": 2,
+                    "game_number": 3,
                     "player_id": 11,
                     "is_win": false,
                     "score_change": 10,
                     "place": 3,
                     "leader_id": 3,
-                    "nation_id": 3,
-                    "is_played_by_teams": false
+                    "nation_id": 3
                 }
             ]
         },
@@ -3533,13 +3717,13 @@
             "games_info": [
                 {
                     "game_id": 4,
+                    "game_number": 5,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 4,
-                    "nation_id": 4,
-                    "is_played_by_teams": true
+                    "nation_id": 4
                 }
             ]
         },
@@ -3549,13 +3733,13 @@
             "games_info": [
                 {
                     "game_id": 3,
+                    "game_number": 4,
                     "player_id": 0,
                     "is_win": false,
                     "score_change": 13,
                     "place": 2,
                     "leader_id": 5,
-                    "nation_id": 5,
-                    "is_played_by_teams": false
+                    "nation_id": 5
                 }
             ]
         },
@@ -3565,13 +3749,13 @@
             "games_info": [
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 9,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 7,
-                    "nation_id": 6,
-                    "is_played_by_teams": true
+                    "nation_id": 6
                 }
             ]
         },
@@ -3586,13 +3770,13 @@
             "games_info": [
                 {
                     "game_id": 2,
+                    "game_number": 3,
                     "player_id": 4,
                     "is_win": false,
                     "score_change": 0,
                     "place": 6,
                     "leader_id": 9,
-                    "nation_id": 8,
-                    "is_played_by_teams": false
+                    "nation_id": 8
                 }
             ]
         },
@@ -3602,13 +3786,23 @@
             "games_info": [
                 {
                     "game_id": 3,
+                    "game_number": 4,
                     "player_id": 9,
                     "is_win": false,
                     "score_change": 7,
                     "place": 4,
                     "leader_id": 31,
-                    "nation_id": 9,
-                    "is_played_by_teams": false
+                    "nation_id": 9
+                },
+                {
+                    "game_id": 11,
+                    "game_number": 12,
+                    "player_id": 15,
+                    "is_win": false,
+                    "score_change": 3,
+                    "place": 2,
+                    "leader_id": 10,
+                    "nation_id": 9
                 }
             ]
         },
@@ -3618,13 +3812,13 @@
             "games_info": [
                 {
                     "game_id": 8,
+                    "game_number": 9,
                     "player_id": 2,
                     "is_win": true,
                     "score_change": 17,
                     "place": 1,
                     "leader_id": 11,
-                    "nation_id": 10,
-                    "is_played_by_teams": false
+                    "nation_id": 10
                 }
             ]
         },
@@ -3639,13 +3833,13 @@
             "games_info": [
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 8,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 13,
-                    "nation_id": 12,
-                    "is_played_by_teams": true
+                    "nation_id": 12
                 }
             ]
         },
@@ -3655,13 +3849,13 @@
             "games_info": [
                 {
                     "game_id": 7,
+                    "game_number": 8,
                     "player_id": 5,
                     "is_win": false,
-                    "score_change": 1,
-                    "place": 4,
+                    "score_change": 0,
+                    "place": 6,
                     "leader_id": 15,
-                    "nation_id": 13,
-                    "is_played_by_teams": false
+                    "nation_id": 13
                 }
             ]
         },
@@ -3671,23 +3865,23 @@
             "games_info": [
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 4,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 16,
-                    "nation_id": 14,
-                    "is_played_by_teams": true
+                    "nation_id": 14
                 },
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 13,
                     "is_win": false,
                     "score_change": 0,
                     "place": 7,
                     "leader_id": 16,
-                    "nation_id": 14,
-                    "is_played_by_teams": false
+                    "nation_id": 14
                 }
             ]
         },
@@ -3697,13 +3891,13 @@
             "games_info": [
                 {
                     "game_id": 9,
+                    "game_number": 10,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 17,
-                    "nation_id": 15,
-                    "is_played_by_teams": false
+                    "nation_id": 15
                 }
             ]
         },
@@ -3713,13 +3907,13 @@
             "games_info": [
                 {
                     "game_id": 2,
+                    "game_number": 3,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 13,
                     "place": 2,
                     "leader_id": 18,
-                    "nation_id": 16,
-                    "is_played_by_teams": false
+                    "nation_id": 16
                 }
             ]
         },
@@ -3729,13 +3923,13 @@
             "games_info": [
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 7,
                     "is_win": false,
                     "score_change": 8,
                     "place": 4,
                     "leader_id": 19,
-                    "nation_id": 17,
-                    "is_played_by_teams": false
+                    "nation_id": 17
                 }
             ]
         },
@@ -3745,13 +3939,13 @@
             "games_info": [
                 {
                     "game_id": 8,
+                    "game_number": 9,
                     "player_id": 1,
                     "is_win": false,
                     "score_change": 9,
                     "place": 2,
                     "leader_id": 20,
-                    "nation_id": 18,
-                    "is_played_by_teams": false
+                    "nation_id": 18
                 }
             ]
         },
@@ -3761,13 +3955,13 @@
             "games_info": [
                 {
                     "game_id": 10,
+                    "game_number": 11,
                     "player_id": 5,
                     "is_win": false,
-                    "score_change": 13,
+                    "score_change": 14,
                     "place": 2,
                     "leader_id": 21,
-                    "nation_id": 19,
-                    "is_played_by_teams": false
+                    "nation_id": 19
                 }
             ]
         },
@@ -3777,13 +3971,13 @@
             "games_info": [
                 {
                     "game_id": 0,
+                    "game_number": 1,
                     "player_id": 0,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 22,
-                    "nation_id": 20,
-                    "is_played_by_teams": true
+                    "nation_id": 20
                 }
             ]
         },
@@ -3793,13 +3987,13 @@
             "games_info": [
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 5,
                     "is_win": false,
                     "score_change": 11,
                     "place": 3,
                     "leader_id": 23,
-                    "nation_id": 21,
-                    "is_played_by_teams": false
+                    "nation_id": 21
                 }
             ]
         },
@@ -3814,13 +4008,13 @@
             "games_info": [
                 {
                     "game_id": 9,
+                    "game_number": 10,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 25,
-                    "nation_id": 23,
-                    "is_played_by_teams": false
+                    "nation_id": 23
                 }
             ]
         },
@@ -3830,13 +4024,13 @@
             "games_info": [
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 3,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 26,
-                    "nation_id": 24,
-                    "is_played_by_teams": true
+                    "nation_id": 24
                 }
             ]
         },
@@ -3846,83 +4040,93 @@
             "games_info": [
                 {
                     "game_id": 0,
+                    "game_number": 1,
                     "player_id": 10,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": true
+                    "nation_id": 25
                 },
                 {
                     "game_id": 1,
+                    "game_number": 2,
                     "player_id": 0,
                     "is_win": false,
                     "score_change": 11,
                     "place": 2,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": false
+                    "nation_id": 25
                 },
                 {
                     "game_id": 2,
+                    "game_number": 3,
                     "player_id": 0,
                     "is_win": false,
                     "score_change": 3,
                     "place": 5,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": false
+                    "nation_id": 25
                 },
                 {
                     "game_id": 4,
+                    "game_number": 5,
                     "player_id": 0,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": true
+                    "nation_id": 25
                 },
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 0,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": true
+                    "nation_id": 25
                 },
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 0,
                     "is_win": false,
                     "score_change": 13,
                     "place": 2,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": false
+                    "nation_id": 25
+                },
+                {
+                    "game_id": 7,
+                    "game_number": 8,
+                    "player_id": 15,
+                    "is_win": false,
+                    "score_change": -4,
+                    "place": 5,
+                    "leader_id": 27,
+                    "nation_id": 25
                 },
                 {
                     "game_id": 10,
+                    "game_number": 11,
                     "player_id": 0,
                     "is_win": false,
-                    "score_change": 8,
+                    "score_change": 9,
                     "place": 3,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": false
+                    "nation_id": 25
                 },
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 0,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 27,
-                    "nation_id": 25,
-                    "is_played_by_teams": true
+                    "nation_id": 25
                 }
             ]
         },
@@ -3932,13 +4136,13 @@
             "games_info": [
                 {
                     "game_id": 8,
+                    "game_number": 9,
                     "player_id": 5,
                     "is_win": false,
                     "score_change": 6,
                     "place": 3,
                     "leader_id": 28,
-                    "nation_id": 26,
-                    "is_played_by_teams": false
+                    "nation_id": 26
                 }
             ]
         },
@@ -3948,13 +4152,13 @@
             "games_info": [
                 {
                     "game_id": 3,
+                    "game_number": 4,
                     "player_id": 3,
                     "is_win": true,
                     "score_change": 19,
                     "place": 1,
                     "leader_id": 29,
-                    "nation_id": 27,
-                    "is_played_by_teams": false
+                    "nation_id": 27
                 }
             ]
         },
@@ -3964,13 +4168,13 @@
             "games_info": [
                 {
                     "game_id": 1,
+                    "game_number": 2,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 18,
                     "place": 1,
                     "leader_id": 30,
-                    "nation_id": 28,
-                    "is_played_by_teams": false
+                    "nation_id": 28
                 }
             ]
         },
@@ -3980,13 +4184,13 @@
             "games_info": [
                 {
                     "game_id": 4,
+                    "game_number": 5,
                     "player_id": 7,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 32,
-                    "nation_id": 29,
-                    "is_played_by_teams": true
+                    "nation_id": 29
                 }
             ]
         },
@@ -3996,13 +4200,13 @@
             "games_info": [
                 {
                     "game_id": 3,
+                    "game_number": 4,
                     "player_id": 5,
                     "is_win": false,
                     "score_change": 3,
                     "place": 5,
                     "leader_id": 33,
-                    "nation_id": 30,
-                    "is_played_by_teams": false
+                    "nation_id": 30
                 }
             ]
         },
@@ -4012,13 +4216,13 @@
             "games_info": [
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 7,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 34,
-                    "nation_id": 31,
-                    "is_played_by_teams": true
+                    "nation_id": 31
                 }
             ]
         },
@@ -4033,13 +4237,13 @@
             "games_info": [
                 {
                     "game_id": 10,
+                    "game_number": 11,
                     "player_id": 1,
                     "is_win": false,
-                    "score_change": -2,
+                    "score_change": 1,
                     "place": 5,
                     "leader_id": 36,
-                    "nation_id": 33,
-                    "is_played_by_teams": false
+                    "nation_id": 33
                 }
             ]
         },
@@ -4049,13 +4253,13 @@
             "games_info": [
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 5,
                     "place": 5,
                     "leader_id": 37,
-                    "nation_id": 34,
-                    "is_played_by_teams": false
+                    "nation_id": 34
                 }
             ]
         },
@@ -4065,23 +4269,23 @@
             "games_info": [
                 {
                     "game_id": 0,
+                    "game_number": 1,
                     "player_id": 4,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 38,
-                    "nation_id": 35,
-                    "is_played_by_teams": true
+                    "nation_id": 35
                 },
                 {
                     "game_id": 2,
+                    "game_number": 3,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 18,
                     "place": 1,
                     "leader_id": 39,
-                    "nation_id": 35,
-                    "is_played_by_teams": false
+                    "nation_id": 35
                 }
             ]
         },
@@ -4091,13 +4295,13 @@
             "games_info": [
                 {
                     "game_id": 10,
+                    "game_number": 11,
                     "player_id": 2,
                     "is_win": false,
-                    "score_change": 4,
+                    "score_change": 6,
                     "place": 4,
                     "leader_id": 40,
-                    "nation_id": 36,
-                    "is_played_by_teams": false
+                    "nation_id": 36
                 }
             ]
         },
@@ -4107,23 +4311,43 @@
             "games_info": [
                 {
                     "game_id": 0,
+                    "game_number": 1,
                     "player_id": 2,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 41,
-                    "nation_id": 37,
-                    "is_played_by_teams": true
+                    "nation_id": 37
+                },
+                {
+                    "game_id": 7,
+                    "game_number": 8,
+                    "player_id": 15,
+                    "is_win": false,
+                    "score_change": 10,
+                    "place": 3,
+                    "leader_id": 41,
+                    "nation_id": 37
+                },
+                {
+                    "game_id": 10,
+                    "game_number": 11,
+                    "player_id": 15,
+                    "is_win": false,
+                    "score_change": 1,
+                    "place": 6,
+                    "leader_id": 41,
+                    "nation_id": 37
                 },
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 14,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 41,
-                    "nation_id": 37,
-                    "is_played_by_teams": true
+                    "nation_id": 37
                 }
             ]
         },
@@ -4138,13 +4362,13 @@
             "games_info": [
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 1,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 43,
-                    "nation_id": 39,
-                    "is_played_by_teams": true
+                    "nation_id": 39
                 }
             ]
         },
@@ -4154,13 +4378,13 @@
             "games_info": [
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 7,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 44,
-                    "nation_id": 40,
-                    "is_played_by_teams": true
+                    "nation_id": 40
                 }
             ]
         },
@@ -4170,53 +4394,53 @@
             "games_info": [
                 {
                     "game_id": 0,
+                    "game_number": 1,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 45,
-                    "nation_id": 41,
-                    "is_played_by_teams": true
+                    "nation_id": 41
                 },
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 6,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 45,
-                    "nation_id": 41,
-                    "is_played_by_teams": true
+                    "nation_id": 41
                 },
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 12,
                     "is_win": false,
                     "score_change": 3,
                     "place": 6,
                     "leader_id": 45,
-                    "nation_id": 41,
-                    "is_played_by_teams": false
+                    "nation_id": 41
                 },
                 {
                     "game_id": 10,
+                    "game_number": 11,
                     "player_id": 4,
                     "is_win": true,
                     "score_change": 20,
                     "place": 1,
                     "leader_id": 45,
-                    "nation_id": 41,
-                    "is_played_by_teams": false
+                    "nation_id": 41
                 },
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 9,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 45,
-                    "nation_id": 41,
-                    "is_played_by_teams": true
+                    "nation_id": 41
                 }
             ]
         },
@@ -4226,13 +4450,13 @@
             "games_info": [
                 {
                     "game_id": 6,
+                    "game_number": 7,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 18,
                     "place": 1,
                     "leader_id": 46,
-                    "nation_id": 42,
-                    "is_played_by_teams": false
+                    "nation_id": 42
                 }
             ]
         },
@@ -4247,53 +4471,53 @@
             "games_info": [
                 {
                     "game_id": 0,
+                    "game_number": 1,
                     "player_id": 6,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 48,
-                    "nation_id": 44,
-                    "is_played_by_teams": true
+                    "nation_id": 44
                 },
                 {
                     "game_id": 5,
+                    "game_number": 6,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 48,
-                    "nation_id": 44,
-                    "is_played_by_teams": true
+                    "nation_id": 44
                 },
                 {
                     "game_id": 7,
+                    "game_number": 8,
                     "player_id": 13,
                     "is_win": false,
                     "score_change": 7,
-                    "place": 3,
+                    "place": 4,
                     "leader_id": 48,
-                    "nation_id": 44,
-                    "is_played_by_teams": false
+                    "nation_id": 44
                 },
                 {
                     "game_id": 8,
+                    "game_number": 9,
                     "player_id": 12,
                     "is_win": false,
                     "score_change": 2,
                     "place": 4,
                     "leader_id": 48,
-                    "nation_id": 44,
-                    "is_played_by_teams": false
+                    "nation_id": 44
                 },
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 59,
-                    "nation_id": 44,
-                    "is_played_by_teams": true
+                    "nation_id": 44
                 }
             ]
         },
@@ -4303,23 +4527,23 @@
             "games_info": [
                 {
                     "game_id": 3,
+                    "game_number": 4,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 9,
                     "place": 3,
                     "leader_id": 54,
-                    "nation_id": 45,
-                    "is_played_by_teams": false
+                    "nation_id": 45
                 },
                 {
                     "game_id": 4,
+                    "game_number": 5,
                     "player_id": 5,
                     "is_win": false,
                     "score_change": 3,
                     "place": 2,
                     "leader_id": 49,
-                    "nation_id": 45,
-                    "is_played_by_teams": true
+                    "nation_id": 45
                 }
             ]
         },
@@ -4329,23 +4553,23 @@
             "games_info": [
                 {
                     "game_id": 7,
+                    "game_number": 8,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 17,
                     "place": 1,
                     "leader_id": 51,
-                    "nation_id": 46,
-                    "is_played_by_teams": false
+                    "nation_id": 46
                 },
                 {
                     "game_id": 11,
+                    "game_number": 12,
                     "player_id": 5,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 58,
-                    "nation_id": 46,
-                    "is_played_by_teams": true
+                    "nation_id": 46
                 }
             ]
         },
@@ -4355,13 +4579,13 @@
             "games_info": [
                 {
                     "game_id": 1,
+                    "game_number": 2,
                     "player_id": 2,
                     "is_win": false,
                     "score_change": 5,
                     "place": 3,
                     "leader_id": 52,
-                    "nation_id": 47,
-                    "is_played_by_teams": false
+                    "nation_id": 47
                 }
             ]
         },
@@ -4371,13 +4595,13 @@
             "games_info": [
                 {
                     "game_id": 7,
+                    "game_number": 8,
                     "player_id": 2,
                     "is_win": false,
-                    "score_change": 10,
+                    "score_change": 12,
                     "place": 2,
                     "leader_id": 55,
-                    "nation_id": 48,
-                    "is_played_by_teams": false
+                    "nation_id": 48
                 }
             ]
         },
@@ -4387,29 +4611,29 @@
             "games_info": [
                 {
                     "game_id": 1,
+                    "game_number": 2,
                     "player_id": 7,
                     "is_win": false,
                     "score_change": 1,
                     "place": 4,
                     "leader_id": 56,
-                    "nation_id": 49,
-                    "is_played_by_teams": false
+                    "nation_id": 49
                 },
                 {
                     "game_id": 4,
+                    "game_number": 5,
                     "player_id": 1,
                     "is_win": true,
                     "score_change": 15,
                     "place": 1,
                     "leader_id": 56,
-                    "nation_id": 49,
-                    "is_played_by_teams": true
+                    "nation_id": 49
                 }
             ]
         }
     },
     "meta": {
         "last_game": 11,
-        "last_update": 1677152771.7098405
+        "last_update": 1677315842.4660792
     }
 }

@@ -47,3 +47,14 @@ class Game:
                 if meta_player.player.name == name:
                     return True
         return False
+
+    def is_played_by_teams(self) -> bool:
+        """
+        Если хотя бы в одной команде более 1 игрока,
+        значит партия игралась по командам
+        """
+        res = False
+        for team in self.teams:
+            if len(team.players) > 1:
+                res = True
+        return res
