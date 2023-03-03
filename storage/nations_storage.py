@@ -9,7 +9,7 @@ from data.nation import Nation
 # Хранилище наций
 class NationsStorage:
     def __init__(self, nations: List[Nation]):
-        self.nations: List[Nation] = []
+        self.nations: List[Nation] = nations
 
     # получить нацию по названию
     def nation(self, nation_name: str) -> Nation | None :
