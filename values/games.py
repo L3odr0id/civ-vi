@@ -224,12 +224,12 @@ def get_game_13():
     team2.add_player(players._MaxBelol, leaders._Suleiman_muhtesem)
 
     team3 = Team()
-    team3.add_player(players._George_Best_7, leaders._Tribuhvana)
+    team3.add_player(players._Bot_5_civ6, leaders._Peter_the_Great)
 
     team4 = Team()
-    team4.add_player(players._Bot_5_civ6, leaders._Peter_the_Great)
+    team4.add_player(players._George_Best_7, leaders._Tribuhvana)
 
-    game.teams = [team0, team1, team2, team3]
+    game.teams = [team0, team1, team2, team3, team4]
     return game
 
 

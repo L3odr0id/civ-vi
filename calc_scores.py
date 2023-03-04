@@ -36,11 +36,11 @@ def calc_scores(game: Game):
                 # мы выигрываем у этой команды
                 their_rating = game.teams[j].get_average_rating()
                 sum += get_elo_change(int(our_rating), int(their_rating), WIN)
-        avg = sum / len(game.teams)
+        avg = sum / (len(game.teams)-1)
         avgs.append(avg)
 
     # Применим изменения
-    for i in range(len(avgs)):
+    for i in range(len(game.teams)):
         for meta in game.teams[i].get_players():
             player = meta.player
             leader = meta.leader
@@ -53,13 +53,16 @@ def calc_scores(game: Game):
                     player.solo_wins_amount += 1
                 else:
                     player.team_wins_amount += 1
+
             win_award = WIN_AWARD if i == 0 else 0 # Надбавка за победу
-            change = round(avgs[i] + Guaranteed_score + win_award)  # Изменение рейтинга
+            game_bonus = Guaranteed_score # Безусловный бонус за участие в партии
+
+            change = round(avgs[i] + game_bonus + win_award)  # Изменение рейтинга
 
             if player.games_info and player.games_info[-1].game.id == game.id:
                 # Если player - это бот и таких ботов участвовало несколько в партии,
                 # тогда не нужно лишний раз начислять ему баллы за участие
-                change -= Guaranteed_score
+                change -= game_bonus
 
             if player.highest_rating_take[0] < change:
                 player.highest_rating_take = (change, game.id)
