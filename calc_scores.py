@@ -56,7 +56,7 @@ def calc_scores(game: Game):
             win_award = WIN_AWARD if i == 0 else 0 # Надбавка за победу
             change = round(avgs[i] + Guaranteed_score + win_award)  # Изменение рейтинга
 
-            if player.games_info and player.games_info[-1].game.id == game.id:
+            if player.is_bot and player.games_info and player.games_info[-1].game.id == game.id:
                 # Если player - это бот и таких ботов участвовало несколько в партии,
                 # тогда не нужно лишний раз начислять ему баллы за участие
                 change -= Guaranteed_score

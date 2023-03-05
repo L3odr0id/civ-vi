@@ -22,9 +22,10 @@ class Player:
 
     id_iter = itertools.count()
 
-    def __init__(self, name: str):
+    def __init__(self, name: str, is_bot = False):
         self.id: int = next(self.id_iter) # ID игрока
         self.name: str = name    # Никнейм
+        self.is_bot: bool = is_bot
         self.rating: int = INITIAL_RATING  # Рейтинг
         self.games_amount: int = 0    # Кол-во игр
         self.solo_wins_amount: int = 0  # Личных побед
@@ -48,6 +49,7 @@ class Player:
         d = dict()
         d['id'] = self.id
         d['name'] = self.name
+        d['is_bot'] = self.is_bot
         d['rating'] = self.rating
         d['games_amount'] = self.games_amount
         d['solo_wins_amount'] = self.solo_wins_amount

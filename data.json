@@ -3,6 +3,7 @@
         "1": {
             "id": 1,
             "name": "George_Best_7",
+            "is_bot": false,
             "rating": 370,
             "games_amount": 13,
             "solo_wins_amount": 5,
@@ -210,6 +211,7 @@
         "2": {
             "id": 2,
             "name": "Leodroid",
+            "is_bot": false,
             "rating": 340,
             "games_amount": 13,
             "solo_wins_amount": 2,
@@ -417,6 +419,7 @@
         "0": {
             "id": 0,
             "name": "Neodim",
+            "is_bot": false,
             "rating": 313,
             "games_amount": 9,
             "solo_wins_amount": 0,
@@ -568,6 +571,7 @@
         "5": {
             "id": 5,
             "name": "TinyClayMan",
+            "is_bot": false,
             "rating": 301,
             "games_amount": 10,
             "solo_wins_amount": 0,
@@ -733,6 +737,7 @@
         "7": {
             "id": 7,
             "name": "MaxBelol",
+            "is_bot": false,
             "rating": 277,
             "games_amount": 6,
             "solo_wins_amount": 0,
@@ -842,6 +847,7 @@
         "4": {
             "id": 4,
             "name": "The_Losst",
+            "is_bot": false,
             "rating": 266,
             "games_amount": 4,
             "solo_wins_amount": 1,
@@ -923,6 +929,7 @@
         "3": {
             "id": 3,
             "name": "Ortreke",
+            "is_bot": false,
             "rating": 262,
             "games_amount": 2,
             "solo_wins_amount": 1,
@@ -976,6 +983,7 @@
         "9": {
             "id": 9,
             "name": "Cvytik",
+            "is_bot": false,
             "rating": 253,
             "games_amount": 3,
             "solo_wins_amount": 0,
@@ -1043,6 +1051,7 @@
         "6": {
             "id": 6,
             "name": "SaltySoup",
+            "is_bot": false,
             "rating": 246,
             "games_amount": 2,
             "solo_wins_amount": 0,
@@ -1096,6 +1105,7 @@
         "10": {
             "id": 10,
             "name": "Veldy",
+            "is_bot": false,
             "rating": 243,
             "games_amount": 1,
             "solo_wins_amount": 0,
@@ -1135,6 +1145,7 @@
         "8": {
             "id": 8,
             "name": "StillWiseOut",
+            "is_bot": false,
             "rating": 243,
             "games_amount": 1,
             "solo_wins_amount": 0,
@@ -1174,6 +1185,7 @@
         "15": {
             "id": 15,
             "name": "Бот (князь) CIV VI",
+            "is_bot": true,
             "rating": 241,
             "games_amount": 5,
             "solo_wins_amount": 0,
@@ -1269,6 +1281,7 @@
         "11": {
             "id": 11,
             "name": "TheDavidGame",
+            "is_bot": false,
             "rating": 238,
             "games_amount": 1,
             "solo_wins_amount": 0,
@@ -1308,6 +1321,7 @@
         "13": {
             "id": 13,
             "name": "Losyashboi",
+            "is_bot": false,
             "rating": 235,
             "games_amount": 2,
             "solo_wins_amount": 0,
@@ -1361,6 +1375,7 @@
         "12": {
             "id": 12,
             "name": "Kris",
+            "is_bot": false,
             "rating": 233,
             "games_amount": 2,
             "solo_wins_amount": 0,
@@ -1414,6 +1429,7 @@
         "14": {
             "id": 14,
             "name": "MixKage",
+            "is_bot": false,
             "rating": 231,
             "games_amount": 1,
             "solo_wins_amount": 0,
@@ -1453,6 +1469,7 @@
         "16": {
             "id": 16,
             "name": "Бот (король) CIV VI",
+            "is_bot": true,
             "rating": 228,
             "games_amount": 0,
             "solo_wins_amount": 0,
@@ -4766,6 +4783,6 @@
     },
     "meta": {
         "last_game": 12,
-        "last_update": 1677881643.8351743
+        "last_update": 1678033125.944569
     }
 }
