@@ -29,3 +29,12 @@ class Nation:
             games_info.append(game_info.get_serializable())
         d['games_info'] = games_info
         return d
+    
+    def get_team_wins(self):
+        return sum(map(lambda x : x.isWin and x.is_played_by_teams(), self.games_info))
+    
+    def get_solo_wins(self):
+        return sum(map(lambda x : x.isWin and not x.is_played_by_teams(), self.games_info))
+    
+    def get_wins_count(self):
+        return self.get_team_wins() + self.get_solo_wins()

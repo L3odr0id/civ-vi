@@ -224,10 +224,27 @@ def get_game_13():
     team2.add_player(players._MaxBelol, leaders._Suleiman_muhtesem)
 
     team3 = Team()
-    team3.add_player(players._George_Best_7, leaders._Tribuhvana)
+    team3.add_player(players._Bot_5_civ6, leaders._Peter_the_Great)
 
     team4 = Team()
-    team4.add_player(players._Bot_5_civ6, leaders._Peter_the_Great)
+    team4.add_player(players._George_Best_7, leaders._Tribuhvana)
+
+    game.teams = [team0, team1, team2, team3, team4]
+    return game
+
+def get_game_14():
+    game = Game(14, 175, 'Дипломатическая', start_date='2023-03-04', finish_date='2023-03-04', seconds_per_move=148)
+    team0 = Team()
+    team0.add_player(players._TinyClayMan, leaders._Saladin_sultan)
+
+    team1 = Team()
+    team1.add_player(players._Leodroid, leaders._Tin_Huan_unifier)
+
+    team2 = Team()
+    team2.add_player(players._George_Best_7, leaders._Nader_shah)
+
+    team3 = Team()
+    team3.add_player(players._Bot_5_civ6, leaders._Alieanora_France)
 
     game.teams = [team0, team1, team2, team3]
     return game
@@ -246,5 +263,6 @@ games_storage = GamesStorage([
     get_game_10(),
     get_game_11(),
     get_game_12(),
-    get_game_13()
+    get_game_13(),
+    get_game_14()
 ])
