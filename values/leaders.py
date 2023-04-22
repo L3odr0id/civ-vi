@@ -10,7 +10,7 @@ _Alieanora_England = Leader('Алиенора Аквитанская (Англи
 _Alieanora_France = Leader('Алиенора Аквитанская (Франция)', nation._France)
 _Amanitore = Leader('Аманиторе', nation._Nubia)
 _Ambiotriks = Leader('Амбиорикс', nation._Gallia)
-_Vasilii_II = Leader('Василий II', nation._Vizantia)
+_Vasilii_II = Leader('Василий II', nation._Byzantium)
 _viktoria = Leader('Виктория', nation._England)
 _Vilgelmina = Leader('Вильгельмина', nation._Niderlands)
 _Gandi = Leader('Ганди', nation._India)
@@ -52,7 +52,7 @@ _Wilfried_Lorie = Leader('Уилфрид Лорье', nation._Canada)
 _Filipp_2 = Leader('Филипп II', nation._Spain)
 _Friedrich_Barbarossa = Leader('Фридрих Барбаросса', nation._German)
 _Hammurapi = Leader('Хаммурапи', nation._Babylon, is_banned=True)
-_Harald = Leader('Харальд Суровый', nation._Norwegia)
+_Harald = Leader('Харальд Суровый (Конунг)', nation._Norway)
 _Hojo_Tokimune = Leader('Ходзё Токимунэ', nation._Japan)
 _Hubilai_Mongol = Leader('Хубилай (Монголия)', nation._Mongolia)
 _Hubilau_China = Leader('Хубилай (Китай)', nation._China)
@@ -73,6 +73,15 @@ _Cesar = Leader('Юлий Цезарь', nation._Rome, is_banned=True)
 _Tin_Huan_unifier = Leader('Цинь Шихуанди (Освободитель)', nation._China)
 _Saladin_sultan = Leader('Саладин (Султан)', nation._Aravia)
 _Yongle = Leader('Юнлэ', nation._China)
+_Ramses = Leader('Рамзес II', nation._Egypt)
+_Cleopatra_Ptolematic = Leader('Клеопатра (династия Птолемеев)', nation._Egypt)
+_Sundiata_Keita = Leader('Сундиата Кейта', nation._Mali)
+_Teodora = Leader('Феодора', nation._Byzantium)
+_Sejong = Leader('Sejong', nation._Korea, is_banned=True)
+_Ludwig = Leader('Людвиг II', nation._German)
+_Elizabeth = Leader('Елизавета I', nation._England)
+_Victoria = Leader('Виктория (Эпоха пара)', nation._England)
+_Harald_Varangian = Leader('Харальд Суровый (Варяг)', nation._Norway)
 
 
 leadersStorage = LeadersStorage([
@@ -143,5 +152,14 @@ leadersStorage = LeadersStorage([
     _Cesar,
     _Tin_Huan_unifier,
     _Saladin_sultan,
-    _Yongle
+    _Yongle,
+    _Ramses,
+    _Cleopatra_Ptolematic,
+    _Sundiata_Keita,
+    _Teodora,
+    _Sejong,
+    _Ludwig,
+    _Elizabeth,
+    _Victoria,
+    _Harald_Varangian
 ])

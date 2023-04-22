@@ -7,7 +7,7 @@ _England = Nation('Англия')
 _France = Nation('Франция')
 _Nubia = Nation('Нубия')
 _Gallia = Nation('Галлия')
-_Vizantia = Nation('Византия (Россия 2)')
+_Byzantium = Nation('Византия (Россия 2)')
 _Niderlands = Nation('Нидерланды')
 _India = Nation('Индия')
 _Shumer = Nation('Шумер')
@@ -45,7 +45,7 @@ _Canada = Nation('Канада')
 _Spain = Nation('Испания')
 _German = Nation('Германия')
 _Babylon = Nation('Вавилон')
-_Norwegia = Nation('Норвегия')
+_Norway = Nation('Норвегия')
 _Japan = Nation('Япония')
 _Mongolia = Nation('Монголия')
 _China = Nation('Китай')
@@ -60,7 +60,7 @@ nations_storage = NationsStorage([
     _France,
     _Nubia,
     _Gallia,
-    _Vizantia,
+    _Byzantium,
     _Niderlands,
     _India,
     _Shumer,
@@ -98,7 +98,7 @@ nations_storage = NationsStorage([
     _Spain,
     _German,
     _Babylon,
-    _Norwegia,
+    _Norway,
     _Japan,
     _Mongolia,
     _China,
