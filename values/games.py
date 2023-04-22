@@ -249,6 +249,19 @@ def get_game_14():
     game.teams = [team0, team1, team2, team3]
     return game
 
+def get_game_15():
+    game = Game(15, 125, 'Военная', start_date='2023-04-22', finish_date='2023-04-22', seconds_per_move=148)
+    team0 = Team()
+    team0.add_player(players._TinyClayMan, leaders._Victoria)
+    team0.add_player(players._Leodroid, leaders._Chandaragupta)
+
+    team1 = Team()
+    team1.add_player(players._Neodim, leaders._Peter_the_Great)
+    team1.add_player(players._George_Best_7, leaders._Yongle)
+
+    game.teams = [team0, team1]
+    return game
+
 
 games_storage = GamesStorage([
     get_game_1(),
@@ -264,5 +277,6 @@ games_storage = GamesStorage([
     get_game_11(),
     get_game_12(),
     get_game_13(),
-    get_game_14()
+    get_game_14(),
+    get_game_15()
 ])

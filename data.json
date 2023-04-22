@@ -4,8 +4,8 @@
             "id": 1,
             "name": "George_Best_7",
             "is_bot": false,
-            "rating": 382,
-            "games_amount": 14,
+            "rating": 379,
+            "games_amount": 15,
             "solo_wins_amount": 5,
             "team_wins_amount": 3,
             "total_wins_amount": 8,
@@ -70,12 +70,16 @@
                 {
                     "game_id": 13,
                     "rating_change": 2
+                },
+                {
+                    "game_id": 14,
+                    "rating_change": -3
                 }
             ],
             "top_position": 1,
             "lowest_position": 1,
-            "average_rating": 11.0,
-            "win_rate": 0.57,
+            "average_rating": 10.07,
+            "win_rate": 0.53,
             "change_position": 0,
             "games_info": [
                 {
@@ -217,6 +221,16 @@
                     "place": 3,
                     "leader_id": 62,
                     "nation_id": 15
+                },
+                {
+                    "game_id": 14,
+                    "game_number": 15,
+                    "player_id": 1,
+                    "is_win": false,
+                    "score_change": -3,
+                    "place": 2,
+                    "leader_id": 67,
+                    "nation_id": 46
                 }
             ],
             "current_win_streak": 0,
@@ -226,16 +240,16 @@
             "id": 2,
             "name": "Leodroid",
             "is_bot": false,
-            "rating": 340,
-            "games_amount": 14,
+            "rating": 361,
+            "games_amount": 15,
             "solo_wins_amount": 2,
-            "team_wins_amount": 1,
-            "total_wins_amount": 3,
-            "highest_rating_take": 20,
-            "highest_rating_take_game": 0,
+            "team_wins_amount": 2,
+            "total_wins_amount": 4,
+            "highest_rating_take": 21,
+            "highest_rating_take_game": 14,
             "lowest_rating_take": -3,
             "lowest_rating_take_game": 5,
-            "peak_rating": 340,
+            "peak_rating": 361,
             "rating_changes": [
                 {
                     "game_id": 0,
@@ -292,12 +306,16 @@
                 {
                     "game_id": 13,
                     "rating_change": 11
+                },
+                {
+                    "game_id": 14,
+                    "rating_change": 21
                 }
             ],
             "top_position": 2,
             "lowest_position": 3,
-            "average_rating": 8.0,
-            "win_rate": 0.21,
+            "average_rating": 8.87,
+            "win_rate": 0.27,
             "change_position": 0,
             "games_info": [
                 {
@@ -439,25 +457,35 @@
                     "place": 2,
                     "leader_id": 65,
                     "nation_id": 46
+                },
+                {
+                    "game_id": 14,
+                    "game_number": 15,
+                    "player_id": 2,
+                    "is_win": true,
+                    "score_change": 21,
+                    "place": 1,
+                    "leader_id": 53,
+                    "nation_id": 7
                 }
             ],
-            "current_win_streak": 0,
+            "current_win_streak": 1,
             "max_win_streak": 1
         },
         "5": {
             "id": 5,
             "name": "TinyClayMan",
             "is_bot": false,
-            "rating": 316,
-            "games_amount": 11,
+            "rating": 337,
+            "games_amount": 12,
             "solo_wins_amount": 1,
-            "team_wins_amount": 1,
-            "total_wins_amount": 2,
+            "team_wins_amount": 2,
+            "total_wins_amount": 3,
             "highest_rating_take": 21,
             "highest_rating_take_game": 13,
             "lowest_rating_take": -3,
             "lowest_rating_take_game": 5,
-            "peak_rating": 316,
+            "peak_rating": 337,
             "rating_changes": [
                 {
                     "game_id": 2,
@@ -502,13 +530,17 @@
                 {
                     "game_id": 13,
                     "rating_change": 21
+                },
+                {
+                    "game_id": 14,
+                    "rating_change": 21
                 }
             ],
             "top_position": 3,
             "lowest_position": 12,
-            "average_rating": 8.0,
-            "win_rate": 0.18,
-            "change_position": 1,
+            "average_rating": 9.08,
+            "win_rate": 0.25,
+            "change_position": 0,
             "games_info": [
                 {
                     "game_id": 2,
@@ -619,24 +651,34 @@
                     "place": 1,
                     "leader_id": 66,
                     "nation_id": 30
+                },
+                {
+                    "game_id": 14,
+                    "game_number": 15,
+                    "player_id": 5,
+                    "is_win": true,
+                    "score_change": 21,
+                    "place": 1,
+                    "leader_id": 75,
+                    "nation_id": 1
                 }
             ],
-            "current_win_streak": 1,
-            "max_win_streak": 1
+            "current_win_streak": 2,
+            "max_win_streak": 2
         },
         "0": {
             "id": 0,
             "name": "Neodim",
             "is_bot": false,
-            "rating": 315,
-            "games_amount": 9,
+            "rating": 312,
+            "games_amount": 10,
             "solo_wins_amount": 0,
             "team_wins_amount": 2,
             "total_wins_amount": 2,
             "highest_rating_take": 21,
             "highest_rating_take_game": 5,
-            "lowest_rating_take": -2,
-            "lowest_rating_take_game": 0,
+            "lowest_rating_take": -3,
+            "lowest_rating_take_game": 14,
             "peak_rating": 317,
             "rating_changes": [
                 {
@@ -674,13 +716,17 @@
                 {
                     "game_id": 11,
                     "rating_change": -2
+                },
+                {
+                    "game_id": 14,
+                    "rating_change": -3
                 }
             ],
             "top_position": 2,
             "lowest_position": 15,
-            "average_rating": 9.67,
-            "win_rate": 0.22,
-            "change_position": -1,
+            "average_rating": 8.4,
+            "win_rate": 0.2,
+            "change_position": 0,
             "games_info": [
                 {
                     "game_id": 0,
@@ -768,6 +814,16 @@
                     "player_id": 0,
                     "is_win": false,
                     "score_change": -2,
+                    "place": 2,
+                    "leader_id": 27,
+                    "nation_id": 25
+                },
+                {
+                    "game_id": 14,
+                    "game_number": 15,
+                    "player_id": 0,
+                    "is_win": false,
+                    "score_change": -3,
                     "place": 2,
                     "leader_id": 27,
                     "nation_id": 25
@@ -2153,6 +2209,37 @@
             "start_date": "2023-03-04",
             "finish_date": "2023-03-04",
             "seconds_per_move": 148
+        },
+        "14": {
+            "id": 14,
+            "game_number": 15,
+            "teams": [
+                [
+                    {
+                        "player_id": 5,
+                        "leader_id": 75
+                    },
+                    {
+                        "player_id": 2,
+                        "leader_id": 53
+                    }
+                ],
+                [
+                    {
+                        "player_id": 0,
+                        "leader_id": 27
+                    },
+                    {
+                        "player_id": 1,
+                        "leader_id": 67
+                    }
+                ]
+            ],
+            "turns": 125,
+            "end_reason": "Военная",
+            "start_date": "2023-04-22",
+            "finish_date": "2023-04-22",
+            "seconds_per_move": 148
         }
     },
     "leaders": {
@@ -2896,13 +2983,23 @@
                     "place": 4,
                     "leader_id": 27,
                     "nation_id": 25
+                },
+                {
+                    "game_id": 14,
+                    "game_number": 15,
+                    "player_id": 0,
+                    "is_win": false,
+                    "score_change": -3,
+                    "place": 2,
+                    "leader_id": 27,
+                    "nation_id": 25
                 }
             ],
-            "games_amount": 10,
+            "games_amount": 11,
             "total_wins_amount": 3,
             "solo_wins_amount": 0,
             "team_wins_amount": 3,
-            "win_rate": 0.3,
+            "win_rate": 0.27,
             "is_played": true,
             "is_banned": false
         },
@@ -3423,7 +3520,7 @@
         },
         "47": {
             "id": 47,
-            "name": "Харальд Суровый",
+            "name": "Харальд Суровый (Конунг)",
             "nation_id": 43,
             "games_info": [],
             "games_amount": 0,
@@ -3588,13 +3685,24 @@
             "id": 53,
             "name": "Чандрагупта",
             "nation_id": 7,
-            "games_info": [],
-            "games_amount": 0,
-            "total_wins_amount": 0,
+            "games_info": [
+                {
+                    "game_id": 14,
+                    "game_number": 15,
+                    "player_id": 2,
+                    "is_win": true,
+                    "score_change": 21,
+                    "place": 1,
+                    "leader_id": 53,
+                    "nation_id": 7
+                }
+            ],
+            "games_amount": 1,
+            "total_wins_amount": 1,
             "solo_wins_amount": 0,
-            "team_wins_amount": 0,
-            "win_rate": 0,
-            "is_played": false,
+            "team_wins_amount": 1,
+            "win_rate": 1.0,
+            "is_played": true,
             "is_banned": false
         },
         "54": {
@@ -3890,6 +3998,145 @@
             "id": 67,
             "name": "Юнлэ",
             "nation_id": 46,
+            "games_info": [
+                {
+                    "game_id": 14,
+                    "game_number": 15,
+                    "player_id": 1,
+                    "is_win": false,
+                    "score_change": -3,
+                    "place": 2,
+                    "leader_id": 67,
+                    "nation_id": 46
+                }
+            ],
+            "games_amount": 1,
+            "total_wins_amount": 0,
+            "solo_wins_amount": 0,
+            "team_wins_amount": 0,
+            "win_rate": 0.0,
+            "is_played": true,
+            "is_banned": false
+        },
+        "68": {
+            "id": 68,
+            "name": "Рамзес II",
+            "nation_id": 16,
+            "games_info": [],
+            "games_amount": 0,
+            "total_wins_amount": 0,
+            "solo_wins_amount": 0,
+            "team_wins_amount": 0,
+            "win_rate": 0,
+            "is_played": false,
+            "is_banned": false
+        },
+        "69": {
+            "id": 69,
+            "name": "Клеопатра (династия Птолемеев)",
+            "nation_id": 16,
+            "games_info": [],
+            "games_amount": 0,
+            "total_wins_amount": 0,
+            "solo_wins_amount": 0,
+            "team_wins_amount": 0,
+            "win_rate": 0,
+            "is_played": false,
+            "is_banned": false
+        },
+        "70": {
+            "id": 70,
+            "name": "Сундиата Кейта",
+            "nation_id": 20,
+            "games_info": [],
+            "games_amount": 0,
+            "total_wins_amount": 0,
+            "solo_wins_amount": 0,
+            "team_wins_amount": 0,
+            "win_rate": 0,
+            "is_played": false,
+            "is_banned": false
+        },
+        "71": {
+            "id": 71,
+            "name": "Феодора",
+            "nation_id": 5,
+            "games_info": [],
+            "games_amount": 0,
+            "total_wins_amount": 0,
+            "solo_wins_amount": 0,
+            "team_wins_amount": 0,
+            "win_rate": 0,
+            "is_played": false,
+            "is_banned": false
+        },
+        "72": {
+            "id": 72,
+            "name": "Sejong",
+            "nation_id": 32,
+            "games_info": [],
+            "games_amount": 0,
+            "total_wins_amount": 0,
+            "solo_wins_amount": 0,
+            "team_wins_amount": 0,
+            "win_rate": 0,
+            "is_played": false,
+            "is_banned": true
+        },
+        "73": {
+            "id": 73,
+            "name": "Людвиг II",
+            "nation_id": 41,
+            "games_info": [],
+            "games_amount": 0,
+            "total_wins_amount": 0,
+            "solo_wins_amount": 0,
+            "team_wins_amount": 0,
+            "win_rate": 0,
+            "is_played": false,
+            "is_banned": false
+        },
+        "74": {
+            "id": 74,
+            "name": "Елизавета I",
+            "nation_id": 1,
+            "games_info": [],
+            "games_amount": 0,
+            "total_wins_amount": 0,
+            "solo_wins_amount": 0,
+            "team_wins_amount": 0,
+            "win_rate": 0,
+            "is_played": false,
+            "is_banned": false
+        },
+        "75": {
+            "id": 75,
+            "name": "Виктория (Эпоха пара)",
+            "nation_id": 1,
+            "games_info": [
+                {
+                    "game_id": 14,
+                    "game_number": 15,
+                    "player_id": 5,
+                    "is_win": true,
+                    "score_change": 21,
+                    "place": 1,
+                    "leader_id": 75,
+                    "nation_id": 1
+                }
+            ],
+            "games_amount": 1,
+            "total_wins_amount": 1,
+            "solo_wins_amount": 0,
+            "team_wins_amount": 1,
+            "win_rate": 1.0,
+            "is_played": true,
+            "is_banned": false
+        },
+        "76": {
+            "id": 76,
+            "name": "Харальд Суровый (Варяг)",
+            "nation_id": 43,
             "games_info": [],
             "games_amount": 0,
             "total_wins_amount": 0,
@@ -3939,6 +4186,16 @@
                     "score_change": -3,
                     "place": 2,
                     "leader_id": 6,
+                    "nation_id": 1
+                },
+                {
+                    "game_id": 14,
+                    "game_number": 15,
+                    "player_id": 5,
+                    "is_win": true,
+                    "score_change": 21,
+                    "place": 1,
+                    "leader_id": 75,
                     "nation_id": 1
                 }
             ]
@@ -4055,6 +4312,16 @@
                     "score_change": 13,
                     "place": 2,
                     "leader_id": 8,
+                    "nation_id": 7
+                },
+                {
+                    "game_id": 14,
+                    "game_number": 15,
+                    "player_id": 2,
+                    "is_win": true,
+                    "score_change": 21,
+                    "place": 1,
+                    "leader_id": 53,
                     "nation_id": 7
                 }
             ]
@@ -4440,6 +4707,16 @@
                     "is_win": false,
                     "score_change": 5,
                     "place": 4,
+                    "leader_id": 27,
+                    "nation_id": 25
+                },
+                {
+                    "game_id": 14,
+                    "game_number": 15,
+                    "player_id": 0,
+                    "is_win": false,
+                    "score_change": -3,
+                    "place": 2,
                     "leader_id": 27,
                     "nation_id": 25
                 }
@@ -4936,6 +5213,16 @@
                     "place": 2,
                     "leader_id": 65,
                     "nation_id": 46
+                },
+                {
+                    "game_id": 14,
+                    "game_number": 15,
+                    "player_id": 1,
+                    "is_win": false,
+                    "score_change": -3,
+                    "place": 2,
+                    "leader_id": 67,
+                    "nation_id": 46
                 }
             ]
         },
@@ -4999,7 +5286,7 @@
         }
     },
     "meta": {
-        "last_game": 13,
-        "last_update": 1678034186.284169
+        "last_game": 14,
+        "last_update": 1682186424.8746576
     }
 }
