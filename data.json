@@ -4,7 +4,7 @@
             "id": 1,
             "name": "George_Best_7",
             "is_bot": false,
-            "rating": 336,
+            "rating": 337,
             "games_amount": 16,
             "solo_wins_amount": 5,
             "team_wins_amount": 3,
@@ -77,12 +77,12 @@
                 },
                 {
                     "game_id": 15,
-                    "rating_change": 3
+                    "rating_change": 4
                 }
             ],
             "top_position": 1,
             "lowest_position": 1,
-            "average_rating": 6.75,
+            "average_rating": 6.81,
             "win_rate": 0.5,
             "change_position": 0,
             "games_info": [
@@ -241,7 +241,7 @@
                     "game_number": 16,
                     "player_id": 1,
                     "is_win": false,
-                    "score_change": 3,
+                    "score_change": 4,
                     "place": 3,
                     "leader_id": 24,
                     "nation_id": 22
@@ -3015,7 +3015,7 @@
                     "game_number": 16,
                     "player_id": 1,
                     "is_win": false,
-                    "score_change": 3,
+                    "score_change": 4,
                     "place": 3,
                     "leader_id": 24,
                     "nation_id": 22
@@ -4859,7 +4859,7 @@
                     "game_number": 16,
                     "player_id": 1,
                     "is_win": false,
-                    "score_change": 3,
+                    "score_change": 4,
                     "place": 3,
                     "leader_id": 24,
                     "nation_id": 22
@@ -5610,6 +5610,6 @@
     },
     "meta": {
         "last_game": 15,
-        "last_update": 1697382441.9851456
+        "last_update": 1697382912.9796891
     }
 }

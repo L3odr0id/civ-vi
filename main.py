@@ -2,6 +2,7 @@ import json
 import time
 
 from calc_scores import calc_scores
+# from calculations.draw_graph import DrawGraph
 from calculations.winstreak import Winstreak
 from firebase import pushToFirebase
 
@@ -51,9 +52,11 @@ def main():
     #     game.print()
 
     # Debug. Увидеть изменения в таблице
-    # player_storage.sort()
-    # player_storage.debug_print_just_ratings()
+    player_storage.sort()
+    player_storage.debug_print_just_ratings()
 
+    # DrawGraph().draw()
+    
 
 if __name__ == "__main__":
     main()
