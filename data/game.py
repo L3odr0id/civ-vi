@@ -10,7 +10,7 @@ class Game:
 
     id_iter = itertools.count()
 
-    def __init__(self, game_number: int, turns: int, end_reason: str, start_date: str, finish_date: str, seconds_per_move: int | None = None):
+    def __init__(self, game_number: int, turns: int, end_reason: str, start_date: str, finish_date: str, seconds_per_move: str | None = None):
         self.id = next(self.id_iter) # ID игры
         self.game_number: int = game_number  # Номер игры
         self.teams: List[Team] = []  # Команды
@@ -18,7 +18,7 @@ class Game:
         self.end_reason: str = end_reason  # Причина окончания игры
         self.start_date: str = start_date    # Дата начала игры в формате YYYY-MM-DD
         self.finish_date: str = finish_date  # Дата окончания игры в формате YYYY-MM-DD
-        self.seconds_per_move: int | None = seconds_per_move    # Время на ход в секундах
+        self.seconds_per_move: str | None = seconds_per_move    # Время на ход в секундах
 
     def print(self):
         print('A game with ' + str(len(self.teams)) + ' teams')

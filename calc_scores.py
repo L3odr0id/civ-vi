@@ -3,11 +3,11 @@ from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
     from data.game import Game
+from constants import K, WIN_AWARD, Guaranteed_score
 
 from data.game_info import GameInfo
 from data.player import RatingChange
-
-from constants import K, Guaranteed_score, WIN_AWARD
+from calculations.game_bonus import GameBonus
 
 
 def get_elo_change(rating1: int, rating2: int, win: bool):
@@ -55,7 +55,8 @@ def calc_scores(game: Game):
                     player.team_wins_amount += 1
 
             win_award = WIN_AWARD if i == 0 else 0 # Надбавка за победу
-            game_bonus = Guaranteed_score # Безусловный бонус за участие в партии
+            # game_bonus = Guaranteed_score # Безусловный бонус за участие в партии
+            game_bonus = GameBonus(p=player).get_value()
 
             change = round(avgs[i] + game_bonus + win_award)  # Изменение рейтинга
 
