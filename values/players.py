@@ -20,6 +20,8 @@ _Kris = Player('Kris')
 _Losyashboi = Player('Losyashboi')
 _MixKage = Player('MixKage')
 _Debil = Player('Debil') # penechek20
+_Przemyslaw_Wojciechowski = Player('Przemyslaw Wojciechowski') # spaceaccordeonist
+_V4kodin = Player('V4kodin')
 
 # Боты
 _Bot_4_civ6 = Player('Бот (князь) CIV VI', is_bot=True)
@@ -44,5 +46,7 @@ player_storage = PlayersStorage([
     _MixKage,
     _Bot_4_civ6,
     _Bot_5_civ6,
-    _Debil
+    _Debil,
+    _Przemyslaw_Wojciechowski,
+    _V4kodin
 ])

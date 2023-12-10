@@ -288,6 +288,25 @@ def get_game_16():
     game.teams = [team0, team1, team2, team3, team4, team5, team6]
     return game
 
+def get_game_17():
+    game = Game(17, 214, 'Религиозная', start_date='2023-11-12', finish_date='2023-12-10', seconds_per_move='115')
+    team0 = Team()
+    team0.add_player(players._Leodroid, leaders._Nzinga_Mbandi)
+
+    team1 = Team()
+    team1.add_player(players._TinyClayMan, leaders._Ramses)
+
+    team2 = Team()
+    team2.add_player(players._MaxBelol, leaders._Ludwig)
+
+    team3 = Team()
+    team3.add_player(players._Przemyslaw_Wojciechowski, leaders._Harald_Varangian)
+
+    team4 = Team()
+    team4.add_player(players._V4kodin, leaders._Rusvelt_Vsadnik)
+
+    game.teams = [team0, team1, team2, team3, team4]
+    return game
 
 games_storage = GamesStorage([
     get_game_1(),
@@ -305,5 +324,6 @@ games_storage = GamesStorage([
     get_game_13(),
     get_game_14(),
     get_game_15(),
-    get_game_16()
+    get_game_16(),
+    get_game_17()
 ])

@@ -3,7 +3,7 @@ from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
     from data.game import Game
-from constants import K, WIN_AWARD, Guaranteed_score
+from constants import K, WIN_AWARD
 
 from data.game_info import GameInfo
 from data.player import RatingChange
