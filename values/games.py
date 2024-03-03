@@ -308,6 +308,24 @@ def get_game_17():
     game.teams = [team0, team1, team2, team3, team4]
     return game
 
+def get_game_18():
+    game = Game(18, 171, 'Религиозная', start_date='2024-02-25', finish_date='2024-03-03', seconds_per_move='https://github.com/L3odr0id/civ_vi_timer_mod/commit/98ec76e60fd0ac5f19843891242b95847bec02e4')
+    
+    team0 = Team()
+    team0.add_player(players._TinyClayMan, leaders._Sundiata_Keita)
+
+    team1 = Team()
+    team1.add_player(players._MaxBelol, leaders._Montesuma)
+
+    team2 = Team()
+    team2.add_player(players._Leodroid, leaders._Ramses)
+
+    team3 = Team()
+    team3.add_player(players._George_Best_7, leaders._Rusvelt_Progressive)
+
+    game.teams = [team0, team1, team2, team3]
+    return game
+
 games_storage = GamesStorage([
     get_game_1(),
     get_game_2(),
@@ -325,5 +343,6 @@ games_storage = GamesStorage([
     get_game_14(),
     get_game_15(),
     get_game_16(),
-    get_game_17()
+    get_game_17(),
+    get_game_18()
 ])
