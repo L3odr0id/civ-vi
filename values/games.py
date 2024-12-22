@@ -362,6 +362,24 @@ def get_game_20():
     game.teams = [team0, team1, team2]
     return game
 
+def get_game_21():
+    game = Game(21, 155, 'Культурная', start_date='2024-12-15', finish_date='2024-12-22', seconds_per_move='дефолтный дин. таймер')
+    
+    team0 = Team()
+    team0.add_player(players._MaxBelol, leaders._Vilgelmina)
+
+    team1 = Team()
+    team1.add_player(players._Leodroid, leaders._Wilfried_Lorie)
+
+    team2 = Team()
+    team2.add_player(players._TinyClayMan, leaders._Kupe)
+
+    team3 = Team()
+    team3.add_player(players._George_Best_7, leaders._Matiash_I)
+
+    game.teams = [team0, team1, team2, team3]
+    return game
+
 games_storage = GamesStorage([
     get_game_1(),
     get_game_2(),
@@ -382,5 +400,6 @@ games_storage = GamesStorage([
     get_game_17(),
     get_game_18(),
     get_game_19(),
-    get_game_20()
+    get_game_20(),
+    get_game_21()
 ])
